@@ -20,6 +20,19 @@
 # even if they are in subdirectories
 !*/
 
+# unnecessary files
+web/wp-content/plugins/admin-menu-editor/includes/.htaccess
+web/wp-content/plugins/bp-custom.php
+web/wp-content/plugins/buddypress-media/app/assets/sass/bower_components/jquery/.gitignore
+web/wp-content/plugins/updraftplus/oc/psr/log/.gitignore
+web/wp-content/plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/.gitignore
+web/wp-content/plugins/wordfence/lib/.htaccess
+web/wp-content/plugins/wordfence/tmp/.htaccess
+web/wp-content/plugins/wp-spamshield/.htaccess
+web/wp-content/plugins/wp-spamshield/js/.htaccess
+web/wp-content/plugins/wp-spamshield/lib/sec/.htaccess
+web/wp-content/updraft/.htaccess
+
 # PhpStorm
 .idea/*
 
