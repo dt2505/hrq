@@ -1,0 +1,31 @@
+/*
+Theme Name:     Kleo Child
+Theme URI:
+Description:    Child theme for Kleo
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       kleo
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*
+* Please add your custom styles below
+*/
+
+/* Profiles: FOLLOWING icon */
+#buddypress div#item-nav ul #members-following-personal-li a:before { content: "\E83F"; }
+
+/* Profiles: FOLLOWER icon */
+#buddypress div#item-nav ul #members-followers-personal-li a:before { content: "\E98F"; }
+
+/* Profiles: FRIENDS icon */
+#buddypress div#item-nav ul #friends-personal-li a:before { content: "\E82B"; }
+
+/* Profiles: MEDIA icon */
+#buddypress div#item-nav ul #media-personal-li a:before { content: "\E81B"; }
+
+#whats-new {
+	resize: none;
+}

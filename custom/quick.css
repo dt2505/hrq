@@ -1,0 +1,7 @@
+/* fix the issue where comment box overlaps the tooltip of button in lightbox */
+.mfp-content #buddypress .rtm-lightbox-container .rtmedia-single-meta .rtm-single-meta-contents { padding: 0 0 20px 0 !important; }
+
+/* make "post in" to be aligned with others on activity stream page */
+#buddypress #whats-new-options > div {
+    padding-top: 0;
+}
