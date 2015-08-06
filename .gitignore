@@ -1,0 +1,29 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.htaccess
+!wp-config.php
+
+!web/wp-content/plugins/bp-custom.php
+!web/wp-content/themes/kleo/lib/metaboxes.php
+!web/wp-content/themes/kleo-child/functions.php
+!web/wp-content/themes/kleo-child/style.css
+!web/wp-content/themes/kleo/languages/zh_CN.po
+!web/wp-content/themes/kleo/languages/zh_CN.mo
+
+!custom/*
+!custom/pages/*
+!custom/revolution_slider/*
+
+# even if they are in subdirectories
+!*/
+
+# PhpStorm
+.idea/*
+
+# Windows
+
+# Windows image file caches
+Thumbs.db
