@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Kleo v3.0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-08-08 00:58+1000\n"
+"PO-Revision-Date: 2015-08-08 20:18+1000\n"
 "Last-Translator: admin user <abe@seventhqueen.com>\n"
 "Language-Team: \n"
 "Language: English\n"
@@ -1696,12 +1696,12 @@ msgstr "选择您的群页面布局。在1、2 或3列式布局中选择"
 
 #: lib/options.php:1655
 msgid "Activity Layout"
-msgstr "状态布局"
+msgstr "动态布局"
 
 #: lib/options.php:1656
 msgid ""
 "Select your Activity pages layout. Choose between 1, 2 or 3 column layout."
-msgstr "选择您的状态页面布局。在1、2 或3列式布局中选择"
+msgstr "选择您的动态页面布局。在1、2 或3列式布局中选择"
 
 #: lib/options.php:1672
 msgid "Register page Layout"
@@ -2481,11 +2481,11 @@ msgstr "访问群"
 
 #: lib/plugin-pmpro/config.php:35
 msgid "Site activity restriction"
-msgstr "站点状态限制"
+msgstr "站点动态限制"
 
 #: lib/plugin-pmpro/config.php:36
 msgid "View site activity"
-msgstr "显示站点状态"
+msgstr "显示站点动态"
 
 #: lib/plugin-pmpro/config.php:40
 msgid "Sending private messages restriction"
