@@ -21,6 +21,10 @@
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-component.php
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-group-class.php
 
+# rtMedia plugin translation
+!web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
+!web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
+
 # even if they are in subdirectories
 !*/
 
