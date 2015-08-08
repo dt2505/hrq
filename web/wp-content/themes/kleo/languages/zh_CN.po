@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Kleo v3.0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-08-05 23:36+1000\n"
+"PO-Revision-Date: 2015-08-08 00:58+1000\n"
 "Last-Translator: admin user <abe@seventhqueen.com>\n"
 "Language-Team: \n"
 "Language: English\n"
@@ -2489,240 +2489,240 @@ msgstr "显示站点状态"
 
 #: lib/plugin-pmpro/config.php:40
 msgid "Sending private messages restriction"
-msgstr ""
+msgstr "私信发送限制"
 
 #: lib/plugin-pmpro/config.php:41
 msgid "Send Private messages"
-msgstr ""
+msgstr "发送私信"
 
 #: lib/plugin-pmpro/config.php:45
 msgid "Restrict users from adding media to their profile using rtMedia"
-msgstr ""
+msgstr "限制用户使用rtMedia在他们的资料中添加媒体文件"
 
 #: lib/plugin-pmpro/config.php:46
 msgid "Add media to your profile"
-msgstr ""
+msgstr "增加媒体文件到您的个人资料中"
 
 #: lib/plugin-pmpro/config.php:278
 msgid "Upgrade account"
-msgstr ""
+msgstr "升级帐号"
 
 #: lib/plugin-pmpro/config.php:397
 msgid "Not logged in"
-msgstr ""
+msgstr "没有登录"
 
 #: lib/plugin-pmpro/config.php:398
 msgid "Not members"
-msgstr ""
+msgstr "非会员"
 
 #: lib/plugin-pmpro/config.php:419
 msgid "Show field in memberships table"
-msgstr ""
+msgstr "在会员表中显示项目"
 
 #: lib/plugin-pmpro/config.php:456
 msgid "Popular level"
-msgstr ""
+msgstr "人气会员等级"
 
 #: lib/plugin-pmpro/config.php:476
 msgid "Order in Membership table"
-msgstr ""
+msgstr "会员表中的顺序"
 
 #: lib/plugin-woocommerce/config.php:292
 msgid "Shop"
-msgstr ""
+msgstr "店铺"
 
 #: lib/plugin-woocommerce/config.php:513
 msgid "SAVE NOW"
-msgstr ""
+msgstr "立即保存"
 
 #: lib/plugin-woocommerce/config.php:541
 msgid "New"
-msgstr ""
+msgstr "新"
 
 #: lib/plugin-woocommerce/config.php:666 lib/plugin-woocommerce/config.php:740
 msgid "Social share"
-msgstr ""
+msgstr "分享"
 
 #: lib/plugin-woocommerce/config.php:707 lib/plugin-woocommerce/config.php:712
 msgid "Quick View"
-msgstr ""
+msgstr "快速预览"
 
 #: lib/plugin-woocommerce/config.php:815
 msgid "<span id=\"older-nav\">Go back</span>"
-msgstr ""
+msgstr "<span id=\"older-nav\">返回</span>"
 
 #: lib/plugin-woocommerce/config.php:917
 msgid "in the shopping cart"
-msgstr ""
+msgstr "在购物车中"
 
 #: lib/plugin-woocommerce/config.php:943
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "购物车小计"
 
 #: lib/plugin-woocommerce/config.php:966
 msgid "Your shopping bag is empty."
-msgstr ""
+msgstr "您的购物车是空的"
 
 #: lib/plugin-woocommerce/config.php:977
 msgid "Go to the shop"
-msgstr ""
+msgstr "去商店"
 
 #: lib/plugin-woocommerce/config.php:1002
 msgid "% items"
-msgstr ""
+msgstr "% 件商品"
 
 #: lib/plugin-woocommerce/config.php:1004
 msgid "0 items"
-msgstr ""
+msgstr "0 件商品"
 
 #: lib/plugin-woocommerce/config.php:1006
 msgid "1 item"
-msgstr ""
+msgstr "1 件商品"
 
 #: lib/plugin-woocommerce/config.php:1085
 msgid "Shopping Cart"
-msgstr ""
+msgstr "购物车"
 
 #: lib/plugin-woocommerce/config.php:1087
 msgid "Checkout details"
-msgstr ""
+msgstr "账单明细"
 
 #: lib/plugin-woocommerce/config.php:1089
 msgid "Order Complete"
-msgstr ""
+msgstr "完成订购"
 
 #: lib/plugin-woocommerce/config.php:1454
 msgid "My Orders"
-msgstr ""
+msgstr "我的订单"
 
 #: lib/plugin-woocommerce/config.php:1465
 msgid "My Downloads"
-msgstr ""
+msgstr "我的下载"
 
 #: lib/plugin-woocommerce/config.php:1601
 #: lib/plugin-woocommerce/config.php:1611
 msgid "View All Orders"
-msgstr ""
+msgstr "显示所有订单"
 
 #: lib/widgets/recent_posts.php:14
 msgid "Recent posts with thumbnails widget."
-msgstr ""
+msgstr "最近发表的文章，有缩略图"
 
 #: lib/widgets/recent_posts.php:16
 msgid "(Kleo) Recent posts"
-msgstr ""
+msgstr "(Kleo) 最近发表的文章"
 
 #: lib/widgets/recent_posts.php:164
 msgid "Limit:"
-msgstr ""
+msgstr "限制："
 
 #: lib/widgets/recent_posts.php:172
 msgid "Display excerpt?"
-msgstr ""
+msgstr "显示摘要？"
 
 #: lib/widgets/recent_posts.php:179
 msgid "Excerpt length(characters):"
-msgstr ""
+msgstr "摘要长度（字数）："
 
 #: lib/widgets/recent_posts.php:184
 msgid "Display Thumbnail?"
-msgstr ""
+msgstr "显示缩略图？"
 
 #: lib/widgets/recent_posts.php:193
 msgid "Show from category: "
-msgstr ""
+msgstr "从分类中显示："
 
 #: lib/widgets/recent_posts.php:194
 msgid "All categories"
-msgstr ""
+msgstr "所有分类"
 
 #: lib/widgets/recent_posts.php:197
 msgid "Choose the Post Type: "
-msgstr ""
+msgstr "选择文章类型："
 
 #: page-parts/general-header-section.php:99
 msgid "Toggle navigation"
-msgstr ""
+msgstr "切换导航"
 
 #: page-parts/general-popups.php:9
 msgid "Log in with your credentials"
-msgstr ""
+msgstr "请登录"
 
 #: page-parts/general-popups.php:14
 msgid "Create an account"
-msgstr ""
+msgstr "建立帐号"
 
 #: page-parts/general-popups.php:25
 msgid "Sign in"
-msgstr ""
+msgstr "登录"
 
 #: page-parts/general-popups.php:27
 msgid "Remember me"
-msgstr ""
+msgstr "记住我"
 
 #: page-parts/general-popups.php:47
 msgid "Forgot your details?"
-msgstr ""
+msgstr "忘记密码？"
 
 #: page-parts/general-popups.php:56
 msgid "Reset Password"
-msgstr ""
+msgstr "重置密码"
 
 #: page-parts/general-popups.php:57
 msgid "I remember my details"
-msgstr ""
+msgstr "我记得我的资料"
 
 #: page-parts/post-content-masonry.php:197
 #: page-parts/post-content-small.php:198
 msgid "Read more"
-msgstr ""
+msgstr "更多"
 
 #: page-parts/posts-related.php:14
 msgid "Related Articles"
-msgstr ""
+msgstr "相关文章"
 
 #: page-parts/posts-related.php:31
 msgid "Related"
-msgstr ""
+msgstr "相关的"
 
 #: page-parts/posts-social-share.php:52
 msgid "Share this"
-msgstr ""
+msgstr "分享这个"
 
 #: paid-memberships-pro/pages/levels.php:108
 #, php-format
 msgctxt "Recurring payment in cost text generation. E.g. $5 after 2 months."
 msgid "%s after %d %s."
-msgstr ""
+msgstr "%s 在%d %s之后."
 
 #: paid-memberships-pro/pages/levels.php:114
 #, php-format
 msgctxt "Recurring payment in cost text generation. E.g. $5 every month."
 msgid "%s per %s."
-msgstr ""
+msgstr "%s 每%s."
 
 #: paid-memberships-pro/pages/levels.php:118
 #, php-format
 msgctxt "Recurring payment in cost text generation. E.g., $5 every 2 months."
 msgid "%s every %d %s."
-msgstr ""
+msgstr "%s 每%d %s."
 
 #: paid-memberships-pro/pages/levels.php:202
 #: paid-memberships-pro/pages/levels.php:204
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 #: vc_templates/vc_tabs.php:82
 msgid "Previous section"
-msgstr ""
+msgstr "上部分"
 
 #: vc_templates/vc_tabs.php:82
 msgid "Next section"
-msgstr ""
+msgstr "下部分"
 
 #: kleo-framework/lib/function-facebook-login.php:183
 msgid "Authentication required."
-msgstr ""
+msgstr "需要认证"
 
 #: lib/options.php:1054
 msgid ""
@@ -2730,6 +2730,9 @@ msgid ""
 "after post/page content<br>NOTE: Woocommerce Wishlist share options are "
 "configured from plugin page: WP admin - Woocommerce - Settings - Wishlist</p>"
 msgstr ""
+"<p class=\"description\">分享到社交网络的相关设置，这会出现在文章/页面的下方"
+"<br>注意：Woocommerce的愿望清单分享选项可以在该插件的页面中配置：WP 管理员 - "
+"Woocommerce - 设置 - 愿望清单</p>"
 
 #: lib/options.php:2101
 msgid ""
@@ -2737,10 +2740,13 @@ msgid ""
 "login.<br> For more complex redirect logic please set Login redirect to "
 "Default WordPress and use Peter's redirect plugin or a similar plugin."
 msgstr ""
+"为登录用户设置跳转链接，如http://yoursite.com/homepage。<br>要用更复杂的登录"
+"跳转逻辑？请把登录跳转设置成Wordpress默认的跳转方式，并使用 Peter's redirect"
+"插件或类似的插件。"
 
 #: lib/theme-functions.php:1116
 msgid "Unknown error occurred. Please try again!"
-msgstr ""
+msgstr "出现不知名错误。请再试一次！"
 
 #: paid-memberships-pro/pages/levels.php:99
 #, php-format
@@ -2748,4 +2754,4 @@ msgctxt ""
 "Recurring payment in cost text generation. E.g. $5 every month for 2 more "
 "payments."
 msgid "%s per %s for %d more %s."
-msgstr ""
+msgstr "%s每%s 再给%d次%s."
