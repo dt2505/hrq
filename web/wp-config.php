@@ -69,11 +69,12 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
-
 define('FS_METHOD', 'direct');
 
 /* block external requests for local install -- use it for dev mode only */
 define('WP_HTTP_BLOCK_EXTERNAL', true);
+
+define('WP_LANG', "zh_CN");
 
 /**
  * For developers: WordPress debugging mode.
