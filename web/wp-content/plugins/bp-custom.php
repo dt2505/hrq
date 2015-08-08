@@ -16,7 +16,7 @@
 //add_action( 'bp_loaded', 'my_disable_bp_registration' );
 //
 //function firmasite_redirect_bp_signup_page($page ){
-//    return bp_get_root_domain() . '/wp-signup.php';
+//    return bp_get_root_domain() . '/wp_signup.php';
 //}
 //add_filter( 'bp_get_signup_page', "firmasite_redirect_bp_signup_page");
 /** END - falls back to wordpress standard registration process **/
