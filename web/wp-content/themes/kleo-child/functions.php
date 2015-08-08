@@ -12,6 +12,9 @@
 */
 const FOLLOWER_ZH_CN = "粉丝";
 const FOLLOWING_ZH_CN = "关注";
+const MEDIA_NAME_ZH_CH = "媒体";
+const MEDIA_NAME_REPLACEMENT_ZH_CH = "照片";
+
 // this will restrict how many characters should be shown on member profile header
 const MAX_CHAR_TO_SHOW_THE_LATEST_UPDATE = 50;
 
@@ -65,6 +68,8 @@ function new_media_tab_position(){
     global $bp;
     if( isset ($bp->bp_nav['media'])){
         $bp->bp_nav['media']['position'] = 70;
+        $name = $bp->bp_nav['media']['name'];
+        $bp->bp_nav['media']['name'] = str_replace(MEDIA_NAME_ZH_CH, MEDIA_NAME_REPLACEMENT_ZH_CH, $name);
     }
 }
 add_action('bp_init','new_media_tab_position', 12);
