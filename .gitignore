@@ -20,6 +20,8 @@
 # bp-checkin plugin - fix the compatible issue with the latest version(2.3.2) of buddypress
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-component.php
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-group-class.php
+!web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-class.php
+!web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-widget.php
 
 # rtMedia plugin translation
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
