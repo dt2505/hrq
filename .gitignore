@@ -10,8 +10,7 @@
 !web/wp-content/themes/kleo/lib/metaboxes.php
 !web/wp-content/themes/kleo-child/functions.php
 !web/wp-content/themes/kleo-child/style.css
-!web/wp-content/themes/kleo/languages/zh_CN.po
-!web/wp-content/themes/kleo/languages/zh_CN.mo
+!web/wp-content/themes/kleo/languages/kleo_framework-zh_CN.po
 
 !custom/*
 !custom/pages/*

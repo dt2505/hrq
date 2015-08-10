@@ -223,6 +223,44 @@ function kleo_metaboxes( array $meta_boxes ) {
                 'id'   => $prefix . 'slider',
                 'type' => 'file_repeat',
                 'allow' => 'url'
+            ),
+            array(
+                'name' => 'Video oEmbed URL',
+                'desc' => 'Used when you select Video format. Enter a Youtube, Vimeo, Soundcloud, etc URL. See supported services at <a target="_blank" href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.',
+                'id'   => $prefix . 'embed',
+                'type' => 'oembed',
+            ),
+
+            array(
+                'name' => 'Video Self hosted(mp4)',
+                'desc' => 'Used when you select Video format. Upload your MP4 video file. Setting a self hosted video will ignore Video oEmbed above.',
+                'id'   => $prefix . 'video_mp4',
+                'type' => 'file',
+            ),
+            array(
+                'name' => 'Video Self hosted(ogv)',
+                'desc' => 'Used when you select Video format. Upload your OGV video file.',
+                'id'   => $prefix . 'video_ogv',
+                'type' => 'file',
+            ),
+            array(
+                'name' => 'Video Self hosted(webm)',
+                'desc' => 'Used when you select Video format. Upload your WEBM video file.',
+                'id'   => $prefix . 'video_webm',
+                'type' => 'file',
+            ),
+            array(
+                'name' => 'Video Self hosted Poster',
+                'desc' => 'Used to show before the video loads',
+                'id'   => $prefix . 'video_poster',
+                'type' => 'file',
+            ),
+
+            array(
+                'name' => 'Audio',
+                'desc' => 'Used when you select Audio format. Upload your audio file',
+                'id'   => $prefix . 'audio',
+                'type' => 'file',
             )
 		)
 	);
