@@ -2688,7 +2688,7 @@ msgstr "请登录"
 
 #: page-parts/general-popups.php:14
 msgid "Create an account"
-msgstr "建立帐号"
+msgstr "创建帐号"
 
 #: page-parts/general-popups.php:25
 msgid "Sign in"
