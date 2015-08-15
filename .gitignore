@@ -10,7 +10,6 @@
 !web/wp-content/themes/kleo/lib/metaboxes.php
 !web/wp-content/themes/kleo-child/functions.php
 !web/wp-content/themes/kleo-child/style.css
-!web/wp-content/themes/kleo/languages/kleo_framework-zh_CN.po
 
 !custom/*
 !custom/pages/*
@@ -31,14 +30,19 @@
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
 # bp-follow
-!web/wp-content/languages/plugins/bp-follow-zh_CN.mo
-!web/wp-content/languages/plugins/bp-follow-zh_CN.po
+!web/wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.mo
+!web/wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.po
 # bp cover photo
 !web/wp-content/languages/plugins/bpcp-zh_CN.mo
 !web/wp-content/languages/plugins/bpcp-zh_CN.po
 #bp profile search
 !web/wp-content/languages/plugins/bps-zh_CN.mo
 !web/wp-content/languages/plugins/bps-zh_CN.po
+#buddypress
+!web/wp-content/languages/plugins/buddypress-zh_CN.mo
+!web/wp-content/languages/plugins/buddypress-zh_CN.po
+# fix the translation issue in group pagination
+!web/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php
 
 # even if they are in subdirectories
 !*/
