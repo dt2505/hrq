@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: rtMedia for WordPress, BuddyPress and bbPress 3.8.12\n"
 "Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
 "POT-Creation-Date: 2015-08-05 15:05+0530\n"
-"PO-Revision-Date: 2015-08-09 17:34+1000\n"
+"PO-Revision-Date: 2015-08-15 17:17+1000\n"
 "Last-Translator: rtMedia <rtmedia@rtcamp.com>\n"
 "Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
 "Language: en\n"
@@ -31,7 +31,7 @@ msgstr "单媒体"
 #: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:341
 #, php-format
 msgid "%s added %d %s"
-msgstr "%s添加了%d %s"
+msgstr "%s添加了%d个%s"
 
 #: ../app/main/controllers/upload/RTMediaUploadView.php:67
 msgid "Privacy: "
@@ -252,12 +252,12 @@ msgstr "新建附件错误，请再尝试"
 #: ../app/main/controllers/media/RTMediaMedia.php:585
 #, php-format
 msgid "%1$s added a %2$s"
-msgstr "%1$s 添加了一个 %2$s"
+msgstr "%1$s添加了一个%2$s"
 
 #: ../app/main/controllers/media/RTMediaMedia.php:585
 #, php-format
 msgid "%1$s added %4$d %3$s"
-msgstr "%1$s 添加了 %4$d %3$s"
+msgstr "%1$s添加了%4$d个%3$s"
 
 #: ../app/main/controllers/media/RTMediaLike.php:18
 msgid "Like"
@@ -270,7 +270,7 @@ msgstr "赞"
 
 #: ../app/main/controllers/media/RTMediaLike.php:20
 msgid "Unlike"
-msgstr "贬"
+msgstr "取消赞"
 
 #: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:180
 msgid "Media Files"
@@ -284,7 +284,7 @@ msgstr "媒体"
 #: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:333
 #, php-format
 msgid "%s added a %s"
-msgstr "%s 增加了一个 %s"
+msgstr "%s增加了一个%s"
 
 #: ../app/main/controllers/template/RTMediaTemplate.php:97
 #: ../app/main/controllers/template/RTMediaTemplate.php:149
@@ -342,11 +342,11 @@ msgstr "视频缩略图："
 
 #: ../app/main/controllers/template/rt-template-functions.php:1337
 msgid "Image"
-msgstr "图片"
+msgstr "图像"
 
 #: ../app/main/controllers/template/rt-template-functions.php:1354
 msgid "Modify Image"
-msgstr "修改图片"
+msgstr "修改图像"
 
 #: ../app/main/controllers/template/rt-template-functions.php:1429
 msgid "Type Comment..."
@@ -406,7 +406,7 @@ msgstr "隐私："
 
 #: ../app/main/controllers/template/rt-template-functions.php:2143
 msgid "people like this"
-msgstr "人民群众都喜欢这个"
+msgstr "人喜欢"
 
 #: ../app/main/controllers/template/rt-template-functions.php:2216
 msgid "Empowering your community with "
@@ -443,7 +443,7 @@ msgstr "暂时屏蔽"
 #: ../app/main/controllers/template/rt-template-functions.php:2300
 #, php-format
 msgid "%s ago "
-msgstr "%s 前"
+msgstr "%s前"
 
 #: ../app/main/controllers/template/rt-template-functions.php:2313
 #, php-format
@@ -1218,7 +1218,7 @@ msgstr "提交"
 
 #: ../app/helper/RTMediaSupport.php:195
 msgid "by"
-msgstr "by"
+msgstr "由"
 
 #: ../app/helper/RTMediaSupport.php:195
 msgid "version"
@@ -1548,7 +1548,7 @@ msgstr "相册艺术封面"
 
 #: ../app/helper/RTMediaAddon.php:312
 msgid "User can easily set any of the image of the album as album cover photo"
-msgstr "用户可以轻松的把相册中的任意图片设成相册封面"
+msgstr "用户可以轻松的把相册中的任意图像设成相册封面"
 
 #: ../app/helper/RTMediaAddon.php:320
 msgid "Direct Download Link"
@@ -1710,7 +1710,7 @@ msgstr "照片水印"
 msgid ""
 "rtMedia Photo Watermark let you add watermark on your images uploaded using "
 "rtMedia."
-msgstr "rtMedia照片水印让您可以在您的图片文件上加如水印。"
+msgstr "rtMedia照片水印让您可以在您的图像文件上加如水印。"
 
 #: ../app/helper/RTMediaAddon.php:474
 msgid "Photo Tagging"
@@ -1891,7 +1891,7 @@ msgid ""
 "href=\"%s\">Regenerate Thumbnail Plugin</a>\" to regenerate old images.\""
 msgstr ""
 "如果您改变了宽度、高度或裁剪设置，您必须要使用“<a href=\"%s\">缩略图再生插件"
-"（Regenerate Thumbnail Plugin）</a>”重新生成旧图片的缩略图。"
+"（Regenerate Thumbnail Plugin）</a>”重新生成旧图像的缩略图。"
 
 #: ../app/helper/RTMediaSettings.php:384
 msgid "BuddyPress Media 2.6 requires a database upgrade. "
@@ -2299,7 +2299,7 @@ msgid ""
 "                        <p><code>%s</code></p>\n"
 "                        <p>You can <a href=\"%s\">retry the download</a>.</p>"
 msgstr ""
-"<p><a href=\"%s\">媒体文件</a>编码成功，但下载时出现错误：</p>\n"
+"<p><a href=\"%s\">多媒体文件</a>编码成功，但下载时出现错误：</p>\n"
 "                        <p><code>%s</code></p>\n"
 "                        <p>您可以 <a href=\"%s\">重新尝试下载</a>.</p>"
 
@@ -2395,7 +2395,7 @@ msgstr "部分媒体导入失败。文件可能损毁或已被删除。"
 #: ../app/importers/BPMediaAlbumimporter.php:140
 #, php-format
 msgid "The following %d BP Album Media id's could not be imported"
-msgstr "以下%d BP Album插件的媒体id 无法被导入"
+msgstr "以下%d个BP Album插件的多媒体ID无法被导入"
 
 #: ../app/importers/BPMediaAlbumimporter.php:149
 #, php-format
@@ -2408,7 +2408,7 @@ msgstr "恭喜！"
 
 #: ../app/importers/BPMediaAlbumimporter.php:150
 msgid "All media from BP Album has been imported."
-msgstr "所有BP Album的媒体都被成功导入。"
+msgstr "所有BP Album的多媒体文件都被成功导入。"
 
 # there is no such word in chinse,so it has to be praphrased.
 #: ../app/importers/BPMediaAlbumimporter.php:151
@@ -2433,15 +2433,15 @@ msgstr "稍候清除"
 
 #: ../app/importers/BPMediaAlbumimporter.php:166
 msgid "Why don't you try adding some instagram like effects to your images?"
-msgstr "为何不给您的图片增加一些类似instagram那样的图片效果呢？"
+msgstr "为何不给您的图像增加一些类似instagram那样的图像效果呢？"
 
 #: ../app/importers/BPMediaAlbumimporter.php:173
 msgid ""
 "BuddyPress Media Instagram adds Instagram like filters to images uploaded "
 "with BuddyPress Media."
 msgstr ""
-"BuddyPress Media Instagram扩展插件把Instagram的媒体像媒体上传筛选器一样的加进"
-"来。"
+"BuddyPress Media Instagram扩展插件从Instagram导入多媒体文件，就像筛选通过"
+"BuddyPress Media上传的图像一样。"
 
 #: ../app/importers/BPMediaAlbumimporter.php:174
 msgid "Important"
@@ -2465,11 +2465,11 @@ msgstr "在GitHub上<a href=\"%s\">提交个一样的问题</a>。"
 
 #: ../app/importers/RTMediaMediaSizeImporter.php:25
 msgid "Media Size Import"
-msgstr "媒体导入大小"
+msgstr "多媒体文件导入大小"
 
 #: ../app/importers/RTMediaActivityUpgrade.php:20
 msgid "Media activity upgrade"
-msgstr "媒体动态更新"
+msgstr "媒体动态升级"
 
 #: ../app/importers/RTMediaMigration.php:64
 msgid "Please Migrate your Database"
@@ -2542,7 +2542,7 @@ msgstr "对不起！！没有找到所需的媒体文件！！"
 #: ../templates/media/media-gallery.php:9
 #: ../templates/media/media-gallery.php:25
 msgid "Media Gallery"
-msgstr "媒体集"
+msgstr "媒体库"
 
 #: ../templates/media/media-gallery.php:73
 msgid "Oops !! There's no media found for the request !!"
@@ -2550,7 +2550,7 @@ msgstr "抱歉！！没找到所需的媒体文件"
 
 #: ../templates/media/media-single-edit.php:8 ../app/main/RTMedia.php:915
 msgid "Edit Media"
-msgstr "编辑媒体文件"
+msgstr "编辑媒体"
 
 #: ../templates/media/media-single-edit.php:16
 #: ../templates/media/album-single-edit.php:16
@@ -2578,7 +2578,7 @@ msgstr "返回"
 
 #: ../templates/media/media-single-edit.php:54
 msgid "Sorry !! You do not have rights to edit this media"
-msgstr "对不起！！您没有权限编辑该媒体文件"
+msgstr "对不起！！您没有权限编辑该媒体"
 
 #: ../templates/media/media-single.php:35
 msgid "under"
@@ -2596,7 +2596,7 @@ msgstr "编辑相册："
 
 #: ../templates/media/album-single-edit.php:18
 msgid "Manage Media"
-msgstr "管理媒体文件"
+msgstr "管理媒体"
 
 #: ../templates/media/album-single-edit.php:50
 #: ../app/main/controllers/privacy/RTMediaPrivacy.php:277
@@ -2610,7 +2610,7 @@ msgstr "选择所有可见文件"
 
 #: ../templates/media/album-single-edit.php:65
 msgid "Move Selected media to another album."
-msgstr "移动选择的媒体文件到另一个相册。"
+msgstr "移动选择的媒体到另一个相册。"
 
 #: ../templates/media/album-single-edit.php:65
 msgid "Move"
@@ -2618,7 +2618,7 @@ msgstr "移动"
 
 #: ../templates/media/album-single-edit.php:67
 msgid "Delete Selected media from the album."
-msgstr "从相册中删除选择的媒体文件"
+msgstr "从相册中删除选择的媒体"
 
 #: ../templates/media/album-single-edit.php:67 ../app/main/RTMedia.php:914
 #: ../app/main/controllers/media/RTMediaGalleryItemAction.php:59
@@ -2630,7 +2630,7 @@ msgstr "删除"
 
 #: ../templates/media/album-single-edit.php:72
 msgid "Move selected media to the album : "
-msgstr "移动选择的媒体文件到该相册："
+msgstr "移动选择的媒体到该相册："
 
 #: ../templates/media/album-single-edit.php:74
 msgid "Move Selected"
@@ -2690,7 +2690,7 @@ msgstr "公开 - 所有人可见"
 
 #: ../app/main/RTMedia.php:562 ../app/importers/BPMediaAlbumimporter.php:90
 msgid "Media"
-msgstr "媒体"
+msgstr "多媒体"
 
 #: ../app/main/RTMedia.php:568
 #: ../app/main/controllers/template/RTMediaNav.php:175
@@ -2746,7 +2746,7 @@ msgstr "评论不能为空"
 
 #: ../app/main/RTMedia.php:894
 msgid "Are you sure you want to delete this media?"
-msgstr "您确定要删除这个媒体文件吗？"
+msgstr "您确定要删除这个媒体吗？"
 
 #: ../app/main/RTMedia.php:895
 msgid "Are you sure you want to delete this comment?"
@@ -2786,15 +2786,15 @@ msgstr "取消所有可见文件的选择"
 
 #: ../app/main/RTMedia.php:905
 msgid "Please select some media."
-msgstr "请选择些媒体文件"
+msgstr "请选择些媒体"
 
 #: ../app/main/RTMedia.php:906
 msgid "Are you sure you want to delete the selected media?"
-msgstr "您确定要删除选择的媒体文件吗？"
+msgstr "您确定要删除选择的媒体吗？"
 
 #: ../app/main/RTMedia.php:907
 msgid "Are you sure you want to move the selected media?"
-msgstr "您确定要移动选择的媒体文件吗？"
+msgstr "您确定要移动选择的媒体吗？"
 
 #: ../app/main/RTMedia.php:908
 msgid "Waiting"
@@ -2846,7 +2846,7 @@ msgstr "更少"
 
 #: ../app/main/RTMedia.php:921
 msgid "This media is uploaded. Are you sure you want to delete this media?"
-msgstr "媒体文件已经上传。您确定要删除这个文件吗？"
+msgstr "媒体已经上传。您确定要删除这个媒体吗？"
 
 #: ../app/main/RTMedia.php:965
 msgid "There are some uploads in progress. Do you want to cancel them?"
@@ -2943,11 +2943,11 @@ msgstr "评论已发"
 
 #: ../app/main/controllers/api/RTMediaJsonApi.php:439
 msgid "unliked media"
-msgstr "非赞媒体"
+msgstr "取消赞的媒体"
 
 #: ../app/main/controllers/api/RTMediaJsonApi.php:442
 msgid "liked media"
-msgstr "点赞媒体"
+msgstr "点赞的媒体"
 
 #: ../app/main/controllers/api/RTMediaJsonApi.php:526
 msgid "no comments"
@@ -3068,7 +3068,8 @@ msgid ""
 "To set gallery for fixed width, set image height to 0 and width as per your "
 "requirement and vice-versa."
 msgstr ""
-"把媒体集设成固定宽度，设置图片高度为0以及按您的要求设置图片宽度， 反之亦然。"
+"要设成固定宽度的媒体库，请把图像高度设为0并按您的需求设置图像宽度， 反之亦"
+"然。"
 
 #: ../app/admin/RTMediaFormHandler.php:353
 msgid "Enable Direct Upload"
@@ -3076,7 +3077,7 @@ msgstr "启用直接上传"
 
 #: ../app/admin/RTMediaFormHandler.php:358
 msgid "Uploading media directly as soon as it gets selected."
-msgstr "图片一经选择就立即上传"
+msgstr "图像一经选择就立即上传"
 
 #: ../app/admin/RTMediaFormHandler.php:384
 msgid "Single Media View"
