@@ -14,6 +14,11 @@ License URI: license.txt
 * Please add your custom styles below
 */
 
+#group-desc,
+#whats-new {
+	resize: vertical;
+}
+
 /* Profiles: FOLLOWING icon */
 #buddypress div#item-nav ul #members-following-personal-li a:before { content: "\E83F"; }
 
@@ -23,9 +28,8 @@ License URI: license.txt
 /* Profiles: FRIENDS icon */
 #buddypress div#item-nav ul #friends-personal-li a:before { content: "\E82B"; }
 
-/* Profiles: MEDIA icon */
+/** MEDIA ICON */
+/* Profiles */
 #buddypress div#item-nav ul #media-personal-li a:before { content: "\E81B"; }
-
-#whats-new {
-	resize: none;
-}
+/* Group */
+#buddypress div#item-nav ul #rtmedia-media-nav-groups-li a:before { content: "\E81B"; }
