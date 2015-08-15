@@ -72,7 +72,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 define('FS_METHOD', 'direct');
 
 /* block external requests for local install -- use it for dev mode only */
-define('WP_HTTP_BLOCK_EXTERNAL', true);
+define('WP_HTTP_BLOCK_EXTERNAL', false);
 
 define('WP_LANG', "zh_CN");
 
@@ -83,7 +83,7 @@ define('WP_LANG', "zh_CN");
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 

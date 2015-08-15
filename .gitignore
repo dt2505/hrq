@@ -22,9 +22,23 @@
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-class.php
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-widget.php
 
-# rtMedia plugin translation
+### them translation
+!web/wp-content/languages/themes/kleo_framework-zh_CN.mo
+!web/wp-content/languages/themes/kleo_framework-zh_CN.po
+
+### plugin translation
+# rtMedia
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
+# bp-follow
+!web/wp-content/languages/plugins/bp-follow-zh_CN.mo
+!web/wp-content/languages/plugins/bp-follow-zh_CN.po
+# bp cover photo
+!web/wp-content/languages/plugins/bpcp-zh_CN.mo
+!web/wp-content/languages/plugins/bpcp-zh_CN.po
+#bp profile search
+!web/wp-content/languages/plugins/bps-zh_CN.mo
+!web/wp-content/languages/plugins/bps-zh_CN.po
 
 # even if they are in subdirectories
 !*/
