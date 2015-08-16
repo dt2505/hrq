@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bp-follow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-17 11:52-0700\n"
-"PO-Revision-Date: 2015-08-15 21:12+1000\n"
+"PO-Revision-Date: 2015-08-16 01:27+1000\n"
 "Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: Chinese (China)\n"
@@ -169,7 +169,7 @@ msgstr "否"
 
 #: _inc/bp-follow-notifications.php:262
 msgid "A member starts following your activity"
-msgstr "一个会员开始关注您的动态"
+msgstr "有会员开始关注您的动态"
 
 #: _inc/bp-follow-notifications.php:319
 #, php-format
