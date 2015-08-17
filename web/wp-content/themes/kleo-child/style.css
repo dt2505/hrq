@@ -14,9 +14,15 @@ License URI: license.txt
 * Please add your custom styles below
 */
 
+#message_content,
 #group-desc,
 #whats-new {
 	resize: vertical;
+}
+
+/* fix the layout issue with long message */
+#buddypress div#message-thread div.message-content p {
+	word-wrap: break-word;
 }
 
 /* Profiles: FOLLOWING icon */
@@ -33,3 +39,17 @@ License URI: license.txt
 #buddypress div#item-nav ul #media-personal-li a:before { content: "\E81B"; }
 /* Group */
 #buddypress div#item-nav ul #rtmedia-media-nav-groups-li a:before { content: "\E81B"; }
+
+/*.buddypress div#item-header div#item-meta p {*/
+	/*overflow: visible;*/
+	/*word-wrap: break-word;*/
+/*}*/
+
+/*#main .alternate-color h1 {*/
+	/*max-width: 80% !important;*/
+	/*word-wrap: break-word;*/
+/*}*/
+
+/*.widget.buddypress div.item-title {*/
+	/*word-wrap: break-word;*/
+/*}*/
