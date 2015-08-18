@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress 2.3.0\n"
 "Report-Msgid-Bugs-To: https://buddypress.trac.wordpress.org\n"
 "POT-Creation-Date: 2015-06-05 13:48:17+00:00\n"
-"PO-Revision-Date: 2015-08-16 01:06+1000\n"
+"PO-Revision-Date: 2015-08-18 17:22+1000\n"
 "Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "Language: Chinese (China)\n"
@@ -60,7 +60,7 @@ msgstr "回复已发布！"
 
 #: bp-activity/bp-activity-actions.php:429
 msgid "There was an error posting that reply. Please try again."
-msgstr "发表回复出错。请再试一次。"
+msgstr "发表回复出错。请再尝试一次。"
 
 #: src/bp-activity/bp-activity-actions.php:461
 msgid "Activity marked as favorite."
@@ -69,19 +69,20 @@ msgstr "动态信息已标记为收藏。"
 #: bp-activity/bp-activity-actions.php:463
 msgid ""
 "There was an error marking that activity as a favorite. Please try again."
-msgstr "在将该动态信息加入收藏时出错。请再试一次。"
+msgstr "在将该动态信息加入收藏时出错。请再尝试一次。"
 
 #: src/bp-activity/bp-activity-actions.php:495
 msgid "Activity removed as favorite."
 msgstr "动态信息已从收藏中移除。"
 
 #: bp-activity/bp-activity-actions.php:497
-msgid "There was an error removing that activity as a favorite. Please try again."
-msgstr "将该动态信息移除收藏时出错。请再试一次。"
+msgid ""
+"There was an error removing that activity as a favorite. Please try again."
+msgstr "将该动态信息移除收藏时出错。请再尝试一次。"
 
-#: bp-activity/bp-activity-actions.php:526
 #. translators: Sitewide activity RSS title - "[Site Name] | Site Wide
 #. Activity"
+#: bp-activity/bp-activity-actions.php:526
 msgid "%s | Site-Wide Activity"
 msgstr "%s | 全网动态"
 
@@ -89,12 +90,11 @@ msgstr "%s | 全网动态"
 msgid "Activity feed for the entire site."
 msgstr "全网动态信息"
 
-#: bp-activity/bp-activity-actions.php:556
-#: bp-groups/bp-groups-actions.php:531
 #. translators: Personal activity RSS title - "[Site Name] | [User Display
 #. Name] | Activity"
 #. translators: Group activity RSS title - "[Site Name] | [Group Name] |
 #. Activity"
+#: bp-activity/bp-activity-actions.php:556 bp-groups/bp-groups-actions.php:531
 msgid "%1$s | %2$s | Activity"
 msgstr "%1$s | %2$s | 动态"
 
@@ -102,9 +102,9 @@ msgstr "%1$s | %2$s | 动态"
 msgid "Activity feed for %s."
 msgstr "%s的动态信息"
 
-#: bp-activity/bp-activity-actions.php:589
 #. translators: Friends activity RSS title - "[Site Name] | [User Display Name]
 #. | Friends Activity"
+#: bp-activity/bp-activity-actions.php:589
 msgid "%1$s | %2$s | Friends Activity"
 msgstr "%1$s | %2$s | 好友动态"
 
@@ -112,9 +112,9 @@ msgstr "%1$s | %2$s | 好友动态"
 msgid "Activity feed for %s's friends."
 msgstr "%s好友们的动态信息"
 
-#: bp-activity/bp-activity-actions.php:626
 #. translators: Member groups activity RSS title - "[Site Name] | [User Display
 #. Name] | Groups Activity"
+#: bp-activity/bp-activity-actions.php:626
 msgid "%1$s | %2$s | Group Activity"
 msgstr "%1$s | %2$s | 群动态"
 
@@ -122,9 +122,9 @@ msgstr "%1$s | %2$s | 群动态"
 msgid "Public group activity feed of which %s is a member."
 msgstr "%s所在公共群的动态信息"
 
-#: bp-activity/bp-activity-actions.php:665
 #. translators: User mentions activity RSS title - "[Site Name] | [User Display
 #. Name] | Mentions"
+#: bp-activity/bp-activity-actions.php:665
 msgid "%1$s | %2$s | Mentions"
 msgstr "%1$s | %2$s | 提及"
 
@@ -132,9 +132,9 @@ msgstr "%1$s | %2$s | 提及"
 msgid "Activity feed mentioning %s."
 msgstr "提到 %s的订阅源。"
 
-#: bp-activity/bp-activity-actions.php:702
 #. translators: User activity favorites RSS title - "[Site Name] | [User
 #. Display Name] | Favorites"
+#: bp-activity/bp-activity-actions.php:702
 msgid "%1$s | %2$s | Favorites"
 msgstr "%1$s | %2$s | 收藏"
 
@@ -189,7 +189,8 @@ msgid ""
 "You can also moderate the activity from this screen using the Status box, "
 "where you can also change the timestamp of the activity."
 msgstr ""
-"您也可以使用状态框来审查此页面的动态信息，在这您也可以修改该动态信息的时间戳。"
+"您也可以使用状态框来审查此页面的动态信息，在这您也可以修改该动态信息的时间"
+"戳。"
 
 #: bp-activity/bp-activity-admin.php:237
 msgid "Item, Link, Type"
@@ -222,8 +223,8 @@ msgid ""
 "<code>joined_group</code> is used when a user joins a group."
 msgstr ""
 "<strong>类型</strong> - 每个不同类型动态信息都有其独自的类型。例如："
-"<code>created_group</code>用于当群建立时，而"
-"<code>joined_group</code>用于当用户进群时。"
+"<code>created_group</code>用于当群建立时，而<code>joined_group</code>用于当用"
+"户入群时。"
 
 #: bp-activity/bp-activity-admin.php:242
 msgid ""
@@ -259,7 +260,7 @@ msgstr ""
 #: bp-groups/bp-groups-admin.php:175 bp-members/bp-members-admin.php:726
 #: bp-members/bp-members-admin.php:1454
 msgid "<a href=\"https://buddypress.org/support/\">Support Forums</a>"
-msgstr "<a href=\"http://buddypress.org/support/\">技术支持论坛</a>"
+msgstr "<a href=\"http://buddypress.org/support/\">服务支持论坛</a>"
 
 #: bp-activity/bp-activity-admin.php:277
 msgid ""
@@ -327,7 +328,8 @@ msgid "Content"
 msgstr "内容"
 
 #: bp-activity/bp-activity-admin.php:694
-msgid "No activity found with this ID. <a href=\"%s\">Go back and try again</a>."
+msgid ""
+"No activity found with this ID. <a href=\"%s\">Go back and try again</a>."
 msgstr "没有找到与该ID相关的动态信息。<a href=\"%s\">返回并再尝试一次</a>"
 
 #: src/bp-activity/bp-activity-admin.php:717
@@ -338,16 +340,17 @@ msgstr "显示动态信息"
 msgid "Approved"
 msgstr "已认可"
 
-#: bp-activity/bp-activity-admin.php:726 bp-activity/bp-activity-admin.php:1512
+#: bp-activity/bp-activity-admin.php:726
+#: bp-activity/bp-activity-admin.php:1512
 #: bp-activity/bp-activity-akismet.php:206
 #: bp-activity/bp-activity-akismet.php:235
 #: bp-core/admin/bp-core-admin-functions.php:863
 msgid "Spam"
 msgstr "垃圾信息"
 
+#. translators: Publish box date format, see http:php.net/date
 #: bp-activity/bp-activity-admin.php:732 bp-members/bp-members-admin.php:1001
 #: bp-members/bp-members-admin.php:1063
-#. translators: Publish box date format, see http:php.net/date
 msgid "M j, Y @ G:i"
 msgstr "Y年m月d日 G:i"
 
@@ -355,7 +358,8 @@ msgstr "Y年m月d日 G:i"
 msgid "Submitted on: <strong>%1$s</strong>"
 msgstr "提交于：<strong>%1$s</strong>"
 
-#: bp-activity/bp-activity-admin.php:735 bp-activity/bp-activity-admin.php:1505
+#: bp-activity/bp-activity-admin.php:735
+#: bp-activity/bp-activity-admin.php:1505
 #: bp-forums/bp-forums-template.php:2554 bp-groups/bp-groups-admin.php:1547
 #: bp-xprofile/bp-xprofile-admin.php:544
 msgid "Edit"
@@ -420,8 +424,8 @@ msgstr "尝试更新动态ID#%s时发生错误。"
 msgid "Errors occurred when trying to update these activity items:"
 msgstr "尝试更新这些动态信息时发生错误："
 
-#: bp-activity/bp-activity-admin.php:936
 #. Translators: This is a bulleted list of item IDs
+#: bp-activity/bp-activity-admin.php:936
 msgid "#%s"
 msgstr "#%s"
 
@@ -452,14 +456,13 @@ msgstr "搜索“%s”的结果"
 
 #: src/bp-activity/bp-activity-admin.php:989
 msgid "Search all Activity"
-msgstr "搜索全部动态信息"
+msgstr "搜索所有动态信息"
 
 #: src/bp-activity/bp-activity-admin.php:1000
 msgid "Reply to Activity"
 msgstr "回复动态信息"
 
-#: bp-activity/bp-activity-admin.php:1004
-#: bp-groups/bp-groups-admin.php:678
+#: bp-activity/bp-activity-admin.php:1004 bp-groups/bp-groups-admin.php:678
 #: bp-members/bp-members-admin.php:2002
 #: bp-templates/bp-legacy/buddypress/activity/entry.php:130
 #: bp-templates/bp-legacy/buddypress/forums/index.php:196
@@ -479,8 +482,7 @@ msgstr "回复"
 msgid "No activities found."
 msgstr "没有找到动态信息"
 
-#: bp-activity/bp-activity-admin.php:1282
-#: bp-groups/bp-groups-admin.php:1385
+#: bp-activity/bp-activity-admin.php:1282 bp-groups/bp-groups-admin.php:1385
 msgid "All"
 msgstr "全部"
 
@@ -531,8 +533,8 @@ msgstr "不允许回复"
 msgid "Are you sure?"
 msgstr "确定？"
 
-#: bp-activity/bp-activity-admin.php:1531
 #. translators: 2: activity admin ui date/time
+#: bp-activity/bp-activity-admin.php:1531
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "提交于<a href=\"%1$s\">%2$s %3$s</a>"
 
@@ -541,7 +543,6 @@ msgid "%s related activity"
 msgid_plural "%s related activities"
 msgstr[0] "%s个相关动态"
 msgstr[1] "%s个相关动态"
-
 
 #: bp-activity/bp-activity-admin.php:1598
 msgid "<a href=\"%1$s\">View Activity</a>"
@@ -717,8 +718,8 @@ msgstr ""
 
 #: bp-activity/bp-activity-notifications.php:99
 #: bp-activity/bp-activity-notifications.php:217
-#: bp-activity/bp-activity-notifications.php:305 bp-core/deprecated/1.5.php:364
-#: bp-friends/bp-friends-notifications.php:56
+#: bp-activity/bp-activity-notifications.php:305
+#: bp-core/deprecated/1.5.php:364 bp-friends/bp-friends-notifications.php:56
 #: bp-friends/bp-friends-notifications.php:143
 #: bp-groups/bp-groups-notifications.php:91
 #: bp-groups/bp-groups-notifications.php:230
@@ -848,8 +849,8 @@ msgstr "头像"
 msgid "Group logo"
 msgstr "群徽标（Logo）"
 
-#: bp-activity/bp-activity-template.php:1633 bp-groups/bp-groups-admin.php:1574
-#: bp-groups/bp-groups-template.php:897
+#: bp-activity/bp-activity-template.php:1633
+#: bp-groups/bp-groups-admin.php:1574 bp-groups/bp-groups-template.php:897
 msgid "Group logo of %s"
 msgstr "群%s的徽标（Logo）"
 
@@ -889,8 +890,8 @@ msgstr "删除"
 #: bp-activity/bp-activity-template.php:3270
 #: bp-core/admin/bp-core-admin-functions.php:869
 #: bp-core/admin/bp-core-admin-slugs.php:113
-#: bp-core/admin/bp-core-admin-slugs.php:189 bp-groups/bp-groups-admin.php:1553
-#: bp-members/bp-members-template.php:1141
+#: bp-core/admin/bp-core-admin-slugs.php:189
+#: bp-groups/bp-groups-admin.php:1553 bp-members/bp-members-template.php:1141
 #: bp-templates/bp-legacy/buddypress-functions.php:311
 msgid "View"
 msgstr "查看"
@@ -1022,7 +1023,7 @@ msgstr "站点作者%s的头像"
 #: bp-templates/bp-legacy/buddypress/groups/groups-loop.php:63
 #: bp-templates/bp-legacy/buddypress/groups/single/group-header.php:65
 msgid "active %s"
-msgstr "活跃时间%s"
+msgstr "在线时间 %s"
 
 #: bp-blogs/bp-blogs-template.php:799 bp-members/bp-members-template.php:1080
 msgid "Never active"
@@ -1042,15 +1043,14 @@ msgid ""
 "strong>. There is no limit to the number of sites that you can have, so "
 "create to your heart's content, but blog responsibly!"
 msgstr ""
-"填写下面的表单，您可以<strong>创建一个新站点到您的帐户中</strong>。没有站点"
-"数量限制，您可以尽情的新建并保持更新！"
+"填写下面的表单，您可以<strong>创建一个新站点到您的帐户中</strong>。没有站点数"
+"量限制，您可以尽情的新建并保持更新！"
 
 #: bp-blogs/bp-blogs-template.php:1188
 msgid ""
 "If you&#8217;re not going to use a great domain, leave it for a new user. "
 "Now have at it!"
-msgstr ""
-"如果您不打算使用域名，把它留给其他用户好了。现在开始使用吧！"
+msgstr "如果您不打算使用域名，把它留给其他用户好了。现在开始使用吧！"
 
 #: bp-blogs/bp-blogs-template.php:1204
 msgid "Create Site"
@@ -1080,7 +1080,8 @@ msgstr "域名。"
 msgid ""
 "Must be at least 4 characters, letters and numbers only. It cannot be "
 "changed so choose carefully!)"
-msgstr "至少4个字符，只能使用英文字母和数字。（一旦确认将无法更改！请小心选择）"
+msgstr ""
+"至少4个字符，只能使用英文字母和数字。（一旦确认将无法更改！请小心选择）"
 
 #: bp-blogs/bp-blogs-template.php:1256
 msgid "Site Title:"
@@ -1106,8 +1107,8 @@ msgid ""
 "<a href=\"%1$s\">%2$s</a> is your new site.  <a href=\"%3$s\">Login</a> as "
 "\"%4$s\" using your existing password."
 msgstr ""
-"<a href=\"%1$s\">%2$s</a>是您的新站点。您可以使用现有密码作为“%4$s”<a href=\"%3$s\">"
-"登录</a>。"
+"<a href=\"%1$s\">%2$s</a>是您的新站点。您可以使用现有密码作为“%4$s”<a href="
+"\"%3$s\">登录</a>。"
 
 #: bp-blogs/bp-blogs-template.php:1424
 msgid "%s's Sites"
@@ -1180,7 +1181,7 @@ msgstr "扩展档案"
 msgid ""
 "Customize your community with fully editable profile fields that allow your "
 "users to describe themselves."
-msgstr "使用可编辑的，且能让用户进行自我描述的个人资料字段来自定义您的社区。"
+msgstr "使用可编辑的，且能让用户进行自我描述的档案资料项来自定义您的社区。"
 
 #: bp-core/admin/bp-core-admin-components.php:71
 #: bp-core/admin/bp-core-admin-components.php:378
@@ -1192,7 +1193,7 @@ msgstr "账户设置"
 msgid ""
 "Allow your users to modify their account and notification settings directly "
 "from within their profiles."
-msgstr "允许您的用户在他们的个人资料中直接修改账户和通知设置。"
+msgstr "允许您的用户在他们的个人档案中直接修改账户和通知设置。"
 
 #: bp-core/admin/bp-core-admin-components.php:75
 #: bp-core/admin/bp-core-admin-components.php:394
@@ -1206,7 +1207,9 @@ msgstr "通知"
 msgid ""
 "Notify members of relevant activity with a toolbar bubble and/or via email, "
 "and allow them to customize their notification settings."
-msgstr "用工具栏冒泡提示和/或通过邮件提醒用户与之相关的活动，并且允许他们自定义通知设置。"
+msgstr ""
+"用工具栏冒泡提示和/或通过邮件提醒用户与之相关的活动，并且允许他们自定义通知设"
+"置。"
 
 #: bp-core/admin/bp-core-admin-components.php:153
 msgid "Active <span class=\"count\">(%s)</span>"
@@ -1253,7 +1256,8 @@ msgstr "描述"
 msgid "No components found."
 msgstr "没有找到任何组件。"
 
-#: bp-core/admin/bp-core-admin-components.php:354 bp-core/bp-core-loader.php:27
+#: bp-core/admin/bp-core-admin-components.php:354
+#: bp-core/bp-core-loader.php:27
 msgid "BuddyPress Core"
 msgstr "BuddyPress内核"
 
@@ -1287,7 +1291,8 @@ msgid ""
 "Let your users make connections so they can track the activity of others and "
 "focus on the people they care about the most."
 msgstr ""
-"让您的用户之间保持联系。他们可以跟踪动向或其它内容，并且关注他们最感兴趣的人。"
+"让您的用户之间保持联系。他们可以跟踪动向或其它内容，并且关注他们最感兴趣的"
+"人。"
 
 #: bp-core/admin/bp-core-admin-components.php:386
 msgid "Private Messaging"
@@ -1352,8 +1357,8 @@ msgid ""
 "easier to find locations. You're seeing this page because you are running a "
 "legacy BuddyPress plugin which has not been updated."
 msgstr ""
-"别担心！我们已经把BuddyPress选项移到了更方便且更易于查找的位置。您能看到这个页"
-"面是因为您正在使用旧的，且还未更新的BuddyPress插件。"
+"别担心！我们已经把BuddyPress选项移到了更方便且更易于查找的位置。您能看到这个"
+"页面是因为您正在使用旧的，且还未更新的BuddyPress插件。"
 
 #: bp-core/admin/bp-core-admin-functions.php:108
 msgid ""
@@ -1370,7 +1375,8 @@ msgid ""
 "your permalink structure</a> to something other than the default for it to "
 "work."
 msgstr ""
-"<strong>BuddyPress即将准备完成</strong>。您必须<a href=\"%s\">调整固定链接结构</a>为非默认值，这才可使其正常工作。"
+"<strong>BuddyPress即将准备完成</strong>。您必须<a href=\"%s\">调整固定链接结"
+"构</a>为非默认值，这才可使其正常工作。"
 
 #: bp-core/admin/bp-core-admin-functions.php:270
 #: bp-core/admin/bp-core-admin-slugs.php:148
@@ -1415,7 +1421,8 @@ msgstr "页面"
 #: bp-core/admin/bp-core-admin-functions.php:425
 #: bp-core/admin/bp-core-admin-settings.php:255 bp-core/bp-core-admin.php:436
 #: bp-groups/bp-groups-loader.php:570 bp-settings/bp-settings-loader.php:23
-#: bp-settings/bp-settings-loader.php:73 bp-settings/bp-settings-loader.php:163
+#: bp-settings/bp-settings-loader.php:73
+#: bp-settings/bp-settings-loader.php:163
 msgid "Settings"
 msgstr "设置"
 
@@ -1429,49 +1436,41 @@ msgstr "论坛"
 
 #: bp-core/admin/bp-core-admin-functions.php:479
 msgid ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/\">"
-"Managing Components</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"\">Managing Components</a>"
 msgstr ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/\">"
-"管理组件</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"\">管理组件</a>"
 
 #: bp-core/admin/bp-core-admin-functions.php:497
 msgid ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/#"
-"settings-buddypress-pages\">Managing Pages</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"#settings-buddypress-pages\">Managing Pages</a>"
 msgstr ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/#"
-"settings-buddypress-pages\">管理页面</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"#settings-buddypress-pages\">管理页面</a>"
 
 #: bp-core/admin/bp-core-admin-functions.php:516
 msgid ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/#"
-"settings-buddypress-settings\">Managing Settings</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"#settings-buddypress-settings\">Managing Settings</a>"
 msgstr ""
-"<a "
-"href=\"https://codex.buddypress.org/getting-started/configure-components/#"
-"settings-buddypress-settings\">管理设置</a>"
+"<a href=\"https://codex.buddypress.org/getting-started/configure-components/"
+"#settings-buddypress-settings\">管理设置</a>"
 
 #: bp-core/admin/bp-core-admin-functions.php:535
 msgid ""
-"<a "
-"href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/\""
-">Managing Profile Fields</a>"
+"<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
+"\">Managing Profile Fields</a>"
 msgstr ""
-"<a "
-"href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/\""
-">管理个人资料项</a>"
+"<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
+"\">管理个人档案</a>"
 
 #: bp-core/admin/bp-core-admin-functions.php:553
 msgid ""
 "By default, all but four of the BuddyPress components are enabled. You can "
-"selectively enable or disable any of the components by using the form "
-"below. Your BuddyPress installation will continue to function. However, the "
+"selectively enable or disable any of the components by using the form below. "
+"Your BuddyPress installation will continue to function. However, the "
 "features of the disabled components will no longer be accessible to anyone "
 "using the site."
 msgstr ""
@@ -1490,20 +1489,20 @@ msgstr ""
 
 #: bp-core/admin/bp-core-admin-functions.php:561
 msgid ""
-"Extra configuration settings are provided and activated. You can "
-"selectively enable or disable any setting by using the form on this screen."
+"Extra configuration settings are provided and activated. You can selectively "
+"enable or disable any setting by using the form on this screen."
 msgstr ""
 "提供和激活扩展配置设置。通过该页面的表单，您可以有选择性地启用或禁用任何设置"
 
 #: bp-core/admin/bp-core-admin-functions.php:565
 msgid ""
 "Your users will distinguish themselves through their profile page. Create "
-"relevant profile fields that will show on each users profile.<br /><br "
-"/>Note: Any fields in the first group will appear on the signup page."
+"relevant profile fields that will show on each users profile.<br /><br /"
+">Note: Any fields in the first group will appear on the signup page."
 msgstr ""
 "用用户资料将可以把你的用户区分开来。新增相关的用户资料项，这些项目将会显示在"
-"每一个用户的资料中。<br /><br />注意：出现在第一页中的任何资料项将会显示在注册"
-"页面中。"
+"每一个用户的资料中。<br /><br />注意：出现在第一页中的任何资料项将会显示在注"
+"册页面中。"
 
 #. Plugin Name of the plugin/theme
 msgid "BuddyPress"
@@ -1540,7 +1539,7 @@ msgstr "用户已被标记为垃圾信息发布者。只有站点管理员才可
 
 #: bp-core/admin/bp-core-admin-functions.php:923
 msgid "User removed from spam."
-msgstr "把用户从垃圾邮件发送者中移除。"
+msgstr "把用户从垃圾信息发送者中移除。"
 
 #: bp-core/admin/bp-core-admin-settings.php:31
 msgid "Show the Toolbar for logged out users"
@@ -1617,7 +1616,8 @@ msgid "Registration"
 msgstr "注册"
 
 #: bp-core/admin/bp-core-admin-slugs.php:164
-msgid "Associate WordPress Pages with the following BuddyPress Registration pages."
+msgid ""
+"Associate WordPress Pages with the following BuddyPress Registration pages."
 msgstr "为以下BuddyPress注册页面指定一个WordPress页面。"
 
 #: bp-core/admin/bp-core-admin-tools.php:19
@@ -1642,8 +1642,8 @@ msgstr "使用下面的工具手动重新计算这些关系"
 
 #: bp-core/admin/bp-core-admin-tools.php:25
 msgid ""
-"Some of these tools create substantial database overhead. Avoid running "
-"more than one repair job at a time."
+"Some of these tools create substantial database overhead. Avoid running more "
+"than one repair job at a time."
 msgstr "其中的有些工具会造成大量的数据库开销。避免在同一时间运行多个修复工作。"
 
 #: bp-core/admin/bp-core-admin-tools.php:31
@@ -1660,7 +1660,7 @@ msgstr "统计总用户数"
 
 #: bp-core/admin/bp-core-admin-tools.php:111
 msgid "Repair user \"last activity\" data"
-msgstr "修复用户“最后更新”数据"
+msgstr "修复用户“最后在线”数据"
 
 #: bp-core/admin/bp-core-admin-tools.php:120
 msgid "Count friends for each user"
@@ -1706,7 +1706,7 @@ msgstr "正在计算站点活跃用户数量&hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:314
 msgid "Determining last activity dates for each user&hellip; %s"
-msgstr "正在为每一个用户指定最后更新日期hellip; %s"
+msgstr "正在为每一个用户指定最后在线日期hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:372 bp-core/bp-core-admin.php:268
 #: bp-core/bp-core-admin.php:269
@@ -1836,7 +1836,7 @@ msgstr "管理工具"
 
 #: bp-core/bp-core-admin.php:527
 msgid "Add User Profile Fields"
-msgstr "新增用户资料字段"
+msgstr "新增用户档案资料项"
 
 #: bp-core/bp-core-admin.php:529
 msgid "Manage User Signups"
@@ -1863,8 +1863,8 @@ msgid ""
 "Looking for help? The <a href=\"https://codex.buddypress.org/\">BuddyPress "
 "Codex</a> has you covered."
 msgstr ""
-"需要帮助？<a href=\"http://codex.buddypress.org/\">BuddyPress宝典</a>帮你解"
-"决后顾之忧。"
+"需要帮助？<a href=\"http://codex.buddypress.org/\">BuddyPress宝典</a>帮你解决"
+"后顾之忧。"
 
 #: bp-core/bp-core-admin.php:543
 msgid ""
@@ -1872,7 +1872,7 @@ msgid ""
 "support/\">our support forums</a>, where active BuddyPress users and "
 "developers are waiting to share tips and more."
 msgstr ""
-"无法找到您所要的？来<a href=\"http://buddypress.org/support/\">我们的技术支持"
+"无法找到您所要的？来<a href=\"http://buddypress.org/support/\">我们的服务支持"
 "论坛</a>, 在这里，在线的BuddyPress会员和开发者们都在等着分享他们各自的经验技"
 "巧，还有更多。"
 
@@ -1897,9 +1897,10 @@ msgid ""
 "laptop cameras. This is an example of what can be developed using the new "
 "Attachments API, the long-awaited foundation for media-related BuddyPress "
 "components and features."
-msgstr "您可以拖放任意您选择的照片作为头像上传。该用户界面可用于显示在移动设备中，而且"
-"可以使用手机和笔记本电脑的摄像头。这个一个使用附件应用程序接口（API）开发的实例，"
-"是一个久违的BuddyPress媒体相关组件和功能的基石。"
+msgstr ""
+"您可以拖放任意您选择的照片作为头像上传。该用户界面可用于显示在移动设备中，而"
+"且可以使用手机和笔记本电脑的摄像头。这个一个使用附件应用程序接口（API）开发的"
+"实例，是一个久违的BuddyPress媒体相关组件和功能的基石。"
 
 #: bp-core/bp-core-admin.php:560
 msgid "Learn more &rarr;"
@@ -1914,8 +1915,10 @@ msgid "Member Type Directories"
 msgstr "用户类型目录"
 
 #: bp-core/bp-core-admin.php:573
-msgid "Create directories of member types in your site using the Member Type API."
-msgstr "使用用户类型应用程序接口（Member Type API）在您的站点中建立用户类型目录。"
+msgid ""
+"Create directories of member types in your site using the Member Type API."
+msgstr ""
+"使用用户类型应用程序接口（Member Type API）在您的站点中建立用户类型目录。"
 
 #: bp-core/bp-core-admin.php:578
 msgid "Companion Stylesheets For Themes"
@@ -1925,7 +1928,9 @@ msgstr "主题关联样式表"
 msgid ""
 "Improved styling and integration of BuddyPress components with bundled "
 "WordPress themes, Twenty Fifteen and Twenty Fourteen."
-msgstr "改进了与WordPress绑定主题（Twenty Fifteen and Twenty Fourteen）的集成和主题样式"
+msgstr ""
+"改进了与WordPress绑定主题（Twenty Fifteen and Twenty Fourteen）的集成和主题样"
+"式"
 
 #: bp-core/bp-core-admin.php:584
 msgid "Blog Post Activity"
@@ -1935,7 +1940,9 @@ msgstr "博文动态"
 msgid ""
 "BuddyPress now generates better excerpts in the activity streams for posts "
 "containing images or other embedded media content."
-msgstr "在动态信息流中，BuddyPress现在能为含有图像或其他多媒体内容的文章更好地显示其摘要信息。"
+msgstr ""
+"在动态信息流中，BuddyPress现在能为含有图像或其他多媒体内容的文章更好地显示其"
+"摘要信息。"
 
 #: bp-core/bp-core-admin.php:590
 msgid "Star Private Messages "
@@ -1957,7 +1964,9 @@ msgstr "组件能注册新功能"
 msgid ""
 "Plugin developers can register new features or check if a component feature "
 "is registered using the <code>BP_Component</code> class."
-msgstr "插件开发人员通过<code>BP_Component</code>类可以注册新功能或查看组件功能是否已注册过。"
+msgstr ""
+"插件开发人员通过<code>BP_Component</code>类可以注册新功能或查看组件功能是否已"
+"注册过。"
 
 #: bp-core/bp-core-admin.php:604
 msgid "Cache Improvements"
@@ -1967,7 +1976,7 @@ msgstr "缓存的改进"
 msgid ""
 "Improved caching for the following components: Messages, Profiles, Members "
 "&amp; Member Types, and Friends."
-msgstr "已改进以下组件的缓存：消息、个人资料、会员及会员类型、和好友。"
+msgstr "已改进以下组件的缓存：消息、个人档案、会员及会员类型、和好友。"
 
 #: src/bp-core/bp-core-admin.php:613
 msgid "Developer Reference"
@@ -1990,7 +1999,8 @@ msgid ""
 msgstr "BuddyPress宝典（Codex）经常维护而且常常会有新文章和教程更新。"
 
 #: bp-core/bp-core-admin.php:640
-msgid "BuddyPress is created by a worldwide network of friendly folks like these."
+msgid ""
+"BuddyPress is created by a worldwide network of friendly folks like these."
 msgstr "BuddyPress是由世界各地像这里的开发者一样友善的小伙伴们开发而成的。"
 
 #: bp-core/bp-core-admin.php:642
@@ -2076,32 +2086,36 @@ msgid_plural "Maintenance and Security Releases"
 msgstr[0] "发布维护与安全更新"
 msgstr[1] "发布维护与安全更新"
 
-#: bp-core/bp-core-admin.php:885
 #. translators: 1: WordPress version number.
+#: bp-core/bp-core-admin.php:885
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>版本%1$s</strong>解决了一些安全性问题。"
 msgstr[1] "<strong>版本%1$s</strong>解决了一些安全性问题。"
 
-#: bp-core/bp-core-admin.php:890
 #. translators: 1: WordPress version number, 2: plural number of bugs.
+#: bp-core/bp-core-admin.php:890
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>版本%1$s</strong>修复了%2$s个缺陷。"
 msgstr[1] "<strong>版本%1$s</strong>修复了%2$s个缺陷。"
 
-#: bp-core/bp-core-admin.php:895
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
-msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
+#: bp-core/bp-core-admin.php:895
+msgid ""
+"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
+msgid_plural ""
+"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>版本%1$s</strong>解决了一些安全性问题且修复了%2$s个缺陷。"
 msgstr[1] "<strong>版本%1$s</strong>解决了一些安全性问题且修复了%2$s个缺陷。"
 
-#: bp-core/bp-core-admin.php:900
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
+#: bp-core/bp-core-admin.php:900
+msgid ""
+"<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
+"bug."
 msgid_plural ""
 "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
 "bugs."
@@ -2117,7 +2131,8 @@ msgid "My Account"
 msgstr "我的帐户"
 
 #: bp-core/bp-core-adminbar.php:79
-msgid "The BuddyBar is no longer supported. Please migrate to the WordPress toolbar "
+msgid ""
+"The BuddyBar is no longer supported. Please migrate to the WordPress toolbar "
 "as soon as possible."
 msgstr "BuddyBar已不再被支持。请尽快改用Wordpress的工具栏"
 
@@ -2131,15 +2146,15 @@ msgstr "%s超过了站点允许的最大文件上传大小。"
 
 #: bp-core/bp-core-attachments.php:97
 msgid "This file is empty. Please try another."
-msgstr "该文件为空。请在试一次。"
+msgstr "该文件为空。请再尝试一次。"
 
 #: bp-core/bp-core-attachments.php:98
 msgid "This file type is not allowed. Please try another."
-msgstr "该文件类型不被允许。请再试一次。"
+msgstr "该文件类型不被允许。请再尝试一次。"
 
 #: bp-core/bp-core-attachments.php:99
 msgid "This file is not an image. Please try another."
-msgstr "该文件不是一个图像文件。请再试一次。"
+msgstr "该文件不是一个图像文件。请再尝试一次。"
 
 #: bp-core/bp-core-attachments.php:100
 msgid "Memory exceeded. Please try another smaller file."
@@ -2154,7 +2169,8 @@ msgid "An error occurred. Please try again later."
 msgstr "发生错我。请稍候重试。"
 
 #: bp-core/bp-core-attachments.php:103
-msgid "There was a configuration error. Please contact the server administrator."
+msgid ""
+"There was a configuration error. Please contact the server administrator."
 msgstr "出现配置错误。请联系服务器管理员。"
 
 #: bp-core/bp-core-attachments.php:104
@@ -2218,8 +2234,8 @@ msgid ""
 msgstr "如果您希望删除现有的头像但又不想上传一个新的，请使用删除标签。"
 
 #: bp-core/bp-core-attachments.php:218
-msgid "上传"
-msgstr ""
+msgid "Upload"
+msgstr "上传"
 
 #: bp-core/bp-core-attachments.php:226
 msgid "Take Photo"
@@ -2241,7 +2257,9 @@ msgstr "摄像头已加载。请点击“拍摄”按钮拍摄照片。"
 msgid ""
 "It looks like you do not have a webcam or we were unable to get permission "
 "to use your webcam. Please upload a photo instead."
-msgstr "似乎您没有网络摄像头或者我们无法获取使用您网络摄像头的权限。请使用上传照片替代。"
+msgstr ""
+"似乎您没有网络摄像头或者我们无法获取使用您网络摄像头的权限。请使用上传照片替"
+"代。"
 
 #: bp-core/bp-core-attachments.php:234
 msgid "Your browser is not supported. Please upload a photo instead."
@@ -2252,11 +2270,13 @@ msgid "Video error. Please upload a photo instead."
 msgstr "视频错误。请使用上传照片替代。"
 
 #: bp-core/bp-core-attachments.php:236
-msgid "Your profile photo is ready. Click on the \"Save\" button to use this photo."
+msgid ""
+"Your profile photo is ready. Click on the \"Save\" button to use this photo."
 msgstr "您的头像已准备好了。点击“保存”按钮保存头像"
 
 #: bp-core/bp-core-attachments.php:237
-msgid "No photo was captured. Click on the \"Capture\" button to take your photo."
+msgid ""
+"No photo was captured. Click on the \"Capture\" button to take your photo."
 msgstr "没有拍摄到照片。请点击“拍摄”按钮拍摄照片。"
 
 #: bp-core/bp-core-avatars.php:329
@@ -2293,7 +2313,8 @@ msgstr "您不允许访问该页面。"
 
 #: bp-core/bp-core-caps.php:345 bp-core/bp-core-caps.php:357
 #: bp-core/bp-core-caps.php:371 bp-core/bp-core-caps.php:381
-msgid "Special community roles no longer exist. Use mapped capabilities instead"
+msgid ""
+"Special community roles no longer exist. Use mapped capabilities instead"
 msgstr "特殊社区角色不复存在。请使用影射的权限代替。"
 
 #: bp-core/bp-core-catchuri.php:300
@@ -2389,7 +2410,7 @@ msgstr "有时"
 
 #: bp-core/bp-core-functions.php:1083
 msgid "right now"
-msgstr "立即"
+msgstr "刚刚"
 
 #: bp-core/bp-core-functions.php:1092
 msgid "%s ago"
@@ -2524,22 +2545,22 @@ msgstr[1] "只允许上传这些文件类型：%s。"
 #: bp-core/classes/class-bp-attachment-avatar.php:353
 #: bp-xprofile/bp-xprofile-screens.php:260
 msgid "There was a problem cropping your profile photo."
-msgstr "在剪切您的个人资料照片时发生错误"
+msgstr "在裁剪您的头像时发生错误"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:354
 #: bp-xprofile/bp-xprofile-screens.php:269
 msgid "Your new profile photo was uploaded successfully."
-msgstr "您的新个人资料照片已上传成功。"
+msgstr "您的新头像已上传成功。"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:355
 #: bp-xprofile/bp-xprofile-actions.php:41
 msgid "There was a problem deleting your profile photo. Please try again."
-msgstr "在删除您的个人资料照片时发生错误。请再试一次。"
+msgstr "在删除您的头像时发生错误。请再尝试一次。"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:356
 #: bp-xprofile/bp-xprofile-actions.php:39
 msgid "Your profile photo was deleted successfully!"
-msgstr "您的个人资料照片已成功删除！"
+msgstr "您的头像已成功删除！"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:371
 #: bp-groups/bp-groups-screens.php:966
@@ -2619,7 +2640,7 @@ msgstr[1] "%d个群"
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:54
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:22
 msgid "My Profile"
-msgstr "我的个人资料"
+msgstr "我的档案"
 
 #: bp-core/deprecated/1.5.php:149
 #: bp-members/admin/bp-members-admin-classes.php:136
@@ -2670,7 +2691,7 @@ msgstr "最近更新"
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:84
 #: bp-templates/bp-legacy/buddypress/members/single/blogs.php:22
 msgid "Newest"
-msgstr "最新"
+msgstr "最新的"
 
 #: bp-core/deprecated/1.6.php:130 bp-core/deprecated/1.6.php:155
 #: bp-groups/bp-groups-template.php:4803 bp-groups/bp-groups-template.php:4834
@@ -2692,7 +2713,6 @@ msgstr "管理文章"
 #: bp-core/deprecated/2.1.php:126 bp-core/deprecated/2.1.php:321
 msgid "Manage Comments"
 msgstr "管理评论"
-
 
 #: bp-core/deprecated/2.1.php:139
 msgid "Create a Site!"
@@ -2762,7 +2782,7 @@ msgstr "博客作者"
 
 #: bp-core/deprecated/2.1.php:547
 msgid "Edit %s's Profile"
-msgstr "编辑%s的个人资料"
+msgstr "编辑%s的档案"
 
 #: bp-core/deprecated/2.1.php:551
 msgid "Edit %s's Profile Photo"
@@ -2926,12 +2946,13 @@ msgstr "群论坛"
 msgid ""
 "Give each individual group its own discussion forum. Choose this if you'd "
 "like to keep your members' conversations separated into distinct areas."
-msgstr "每个群拥有它自己的论坛。如果您希望把用户的会话分割在不同的区，请选择此项。"
+msgstr ""
+"每个群拥有它自己的论坛。如果您希望把用户的会话分割在不同的区，请选择此项。"
 
 #: bp-forums/deprecated/1.6.php:72 bp-forums/deprecated/1.6.php:214
 msgid ""
-"Note: This component is retired and will not be receiving any updates in "
-"the future.  Only use this component if your current site relies on it."
+"Note: This component is retired and will not be receiving any updates in the "
+"future.  Only use this component if your current site relies on it."
 msgstr ""
 "注意：这个组件已归隐且以后将不会再接收任何更新。仅在您目前的网站依赖于此组件"
 "时使用。"
@@ -2946,7 +2967,7 @@ msgstr "集成群"
 
 #: bp-forums/deprecated/1.6.php:77 bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
-msgstr "集成会员个人资料"
+msgstr "集成会员个人档案"
 
 #: bp-forums/deprecated/1.6.php:78 bp-forums/deprecated/1.6.php:220
 msgid "Activity Stream Integration"
@@ -2995,7 +3016,7 @@ msgstr "修订"
 
 #: bp-forums/deprecated/1.6.php:98 bp-forums/deprecated/1.6.php:241
 msgid "Spam management"
-msgstr "垃圾邮件管理"
+msgstr "垃圾信息管理"
 
 #: bp-forums/deprecated/1.6.php:99 bp-forums/deprecated/1.6.php:242
 msgid "Subscriptions"
@@ -3014,7 +3035,8 @@ msgstr ""
 "\">参考这篇代码宝典（codex）文章</a>。"
 
 #: bp-forums/deprecated/1.6.php:143
-msgid "The bb-config.php file was not found at that location. Please try again."
+msgid ""
+"The bb-config.php file was not found at that location. Please try again."
 msgstr "在该目录中没有找到bb-config.php文件。请再尝试一次。"
 
 #: bp-forums/deprecated/1.6.php:146
@@ -3027,8 +3049,8 @@ msgid ""
 "your site. If you wish, you can remove your old bbPress installation files, "
 "as long as you keep the bb-config.php file in the same location."
 msgstr ""
-"BuddyPress将在您的站点上使用内置的bbPress作为论坛系统。如果您愿意，您可以移除之前安装"
-"的bbPress程序，仅需要保留bb-config.php文件于原路径即可。"
+"BuddyPress将在您的站点上使用内置的bbPress作为论坛系统。如果您愿意，您可以移除"
+"之前安装的bbPress程序，仅需要保留bb-config.php文件于原路径即可。"
 
 #: bp-forums/deprecated/1.6.php:152
 msgid "Existing bbPress Installation"
@@ -3037,11 +3059,11 @@ msgstr "既存bbPress安装"
 #: bp-forums/deprecated/1.6.php:153
 msgid ""
 "BuddyPress can make use of your existing bbPress install. Just provide the "
-"location of your <code>bb-config.php</code> file, and BuddyPress will do "
-"the rest."
+"location of your <code>bb-config.php</code> file, and BuddyPress will do the "
+"rest."
 msgstr ""
-"BuddyPress可以使用您现有的bbPress安装。只需要提供<code>bb-config.php</"
-"code>文件的路径，其他事则由BuddyPress来完成。"
+"BuddyPress可以使用您现有的bbPress安装。只需要提供<code>bb-config.php</code>文"
+"件的路径，其他事则由BuddyPress来完成。"
 
 #: bp-forums/deprecated/1.6.php:155 bp-forums/deprecated/1.6.php:187
 msgid "Complete Installation"
@@ -3049,21 +3071,21 @@ msgstr "完成安装"
 
 #: bp-forums/deprecated/1.6.php:171
 msgid ""
-"<p>All done! Configuration settings have been saved to the file "
-"<code>bb-config.php</code> in the root of your WordPress install.</p>"
+"<p>All done! Configuration settings have been saved to the file <code>bb-"
+"config.php</code> in the root of your WordPress install.</p>"
 msgstr ""
-"<p>完成！配置信息已被成功保存到WordPress根目录中的<code>bb-config.php</"
-"code>文件里了。</p>"
+"<p>完成！配置信息已被成功保存到WordPress根目录中的<code>bb-config.php</code>"
+"文件里了。</p>"
 
 #: bp-forums/deprecated/1.6.php:175
 msgid ""
 "<p>A configuration file could not be created. No problem, but you will need "
-"to save the text shown below into a file named <code>bb-config.php</code> "
-"in the root directory of your WordPress installation before you can start "
-"using the forum functionality.</p>"
+"to save the text shown below into a file named <code>bb-config.php</code> in "
+"the root directory of your WordPress installation before you can start using "
+"the forum functionality.</p>"
 msgstr ""
-"<p>无法创建配置文件。没关系，在您开始使用论坛之前，您可以将下面的文本保"
-"存为<code>bb-config.php</code>文件并保存在WordPress安装的根目录中。</p>"
+"<p>无法创建配置文件。没关系，在您开始使用论坛之前，您可以将下面的文本保存为"
+"<code>bb-config.php</code>文件并保存在WordPress安装的根目录中。</p>"
 
 #: bp-forums/deprecated/1.6.php:185
 msgid ""
@@ -3071,7 +3093,8 @@ msgid ""
 "in BuddyPress. This is very simple and is usually just a one click\n"
 "\t\t\t\tprocess. When you're ready, hit the link below."
 msgstr ""
-"您已决定在BuddyPress中安装一个新的bbPress用于论坛管理。这非常简单且通常只需一键\n"
+"您已决定在BuddyPress中安装一个新的bbPress用于论坛管理。这非常简单且通常只需一"
+"键\n"
 "\t\t\t\t安装。当您准备好了，就点击下面的链接。"
 
 #: bp-forums/deprecated/1.6.php:197
@@ -3079,7 +3102,8 @@ msgid ""
 "bbPress files were not found. To install the forums component you must "
 "download a copy of bbPress and make sure it is in the folder: \"%s\""
 msgstr ""
-"没有找到bbPress文件。要安装论坛组件，您需要下载bbPress并确保它在这个目录中：“%s”"
+"没有找到bbPress文件。要安装论坛组件，您需要下载bbPress并确保它在这个目录"
+"中：“%s”"
 
 #: bp-forums/deprecated/1.6.php:225
 msgid "Install Group Forums"
@@ -3103,7 +3127,7 @@ msgstr "您已经是该用户的好友"
 
 #: bp-friends/bp-friends-actions.php:46
 msgid "You already have a pending friendship request with this user"
-msgstr "您已经有一个该用户的待审好友请求"
+msgstr "您已经有一个该用户的待处理好友请求"
 
 #: bp-friends/bp-friends-actions.php:76
 #: bp-templates/bp-legacy/buddypress-functions.php:1343
@@ -3120,7 +3144,7 @@ msgstr "您还不是该用户的好友"
 
 #: bp-friends/bp-friends-actions.php:84
 msgid "You have a pending friendship request with this user"
-msgstr "您有该用户的待审好友请求"
+msgstr "您有该用户的待处理好友请求"
 
 #: bp-friends/bp-friends-activity.php:98
 msgid "Friendships accepted"
@@ -3168,7 +3192,7 @@ msgid ""
 msgstr ""
 "%1$s想加您为好友。\n"
 "\n"
-"查看所有待审好友请求：%2$s\n"
+"查看所有待处理好友请求：%2$s\n"
 "\n"
 "查看%3$s的资料：%4$s\n"
 "\n"
@@ -3199,7 +3223,7 @@ msgstr "已接受您好友请求的好友有%d位"
 
 #: bp-friends/bp-friends-notifications.php:235
 msgid "You have %d pending friendship requests"
-msgstr "您有%d条待审好友请求"
+msgstr "您有%d条待处理好友请求"
 
 #: bp-friends/bp-friends-notifications.php:238
 msgid "You have a friendship request from %s"
@@ -3358,7 +3382,7 @@ msgstr "抱歉，您不允许创建群。"
 #: bp-groups/bp-groups-actions.php:132 bp-groups/bp-groups-actions.php:167
 #: bp-groups/bp-groups-actions.php:191
 msgid "There was an error saving group details. Please try again."
-msgstr "保存群详细信息时发生错误。请再试一次。"
+msgstr "保存群详细信息时发生错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-actions.php:147
 msgid "Only the group creator may continue editing this group."
@@ -3366,7 +3390,7 @@ msgstr "只有群建立者才能继续编辑该群。"
 
 #: bp-groups/bp-groups-actions.php:160
 msgid "Please fill in all of the required fields"
-msgstr "请填写所有必填字段"
+msgstr "请填写所有必填资料项"
 
 #: bp-groups/bp-groups-actions.php:308 bp-groups/bp-groups-screens.php:668
 msgid "Invite successfully removed"
@@ -3400,11 +3424,11 @@ msgstr "这个群必须要有一个管理员"
 
 #: bp-groups/bp-groups-actions.php:436
 msgid "There was an error leaving the group."
-msgstr "离开群时发生错误。"
+msgstr "退出群时发生错误。"
 
 #: bp-groups/bp-groups-actions.php:438 bp-groups/bp-groups-functions.php:447
 msgid "You successfully left the group."
-msgstr "您已成功离开该群。"
+msgstr "您已成功退出该群。"
 
 #: bp-groups/bp-groups-actions.php:534
 msgid "Activity feed for the group, %s."
@@ -3472,7 +3496,8 @@ msgid "%1$s changed the name of the group %2$s from \"%3$s\" to \"%4$s\""
 msgstr "%1$s把群%2$s的名称从“%3$s”修改成了“%4$s”"
 
 #: bp-groups/bp-groups-activity.php:201
-msgid "%1$s changed the description of the group %2$s from \"%3$s\" to \"%4$s\""
+msgid ""
+"%1$s changed the description of the group %2$s from \"%3$s\" to \"%4$s\""
 msgstr "%1$s把群%2$s简介从“%3$s”修改为“%4$s”"
 
 #: bp-groups/bp-groups-admin.php:120
@@ -3494,7 +3519,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-admin.php:127
 msgid "Support Forums"
-msgstr "技术支持论坛"
+msgstr "服务支持论坛"
 
 #: bp-groups/bp-groups-admin.php:160
 msgid ""
@@ -3530,10 +3555,10 @@ msgstr ""
 
 #: bp-groups/bp-groups-admin.php:169
 msgid ""
-"If you click \"Delete\" under a specific group, or select a number of "
-"groups and then choose Delete from the Bulk Actions menu, you will be led "
-"to a page where you&#8217;ll be asked to confirm the permanent deletion of "
-"the group(s)."
+"If you click \"Delete\" under a specific group, or select a number of groups "
+"and then choose Delete from the Bulk Actions menu, you will be led to a page "
+"where you&#8217;ll be asked to confirm the permanent deletion of the "
+"group(s)."
 msgstr ""
 "如果你在特定的群下点击“删除”按钮，或者选择多个群然后从批量操作中点选“删除”，"
 "会显示一个永久性删除的确认框，让您确认删除操作。"
@@ -3562,7 +3587,7 @@ msgstr "显示群"
 
 #: bp-groups/bp-groups-admin.php:623
 msgid "No group found with this ID. <a href=\"%s\">Go back and try again</a>."
-msgstr "没有发现使用这个ID的群。<a href=\"%s\">返回并再试一次</a>."
+msgstr "没有发现使用这个ID的群。<a href=\"%s\">返回并再尝试一次</a>."
 
 #: bp-groups/bp-groups-admin.php:666
 msgid "Delete Groups"
@@ -3592,7 +3617,7 @@ msgstr "群"
 
 #: bp-groups/bp-groups-admin.php:745
 msgid "Search all Groups"
-msgstr "搜索所有群"
+msgstr "搜索全部群"
 
 #: bp-groups/bp-groups-admin.php:768
 #: bp-templates/bp-legacy/buddypress/groups/create.php:159
@@ -3734,8 +3759,8 @@ msgid_plural "Viewing %1$s - %2$s of %3$s members"
 msgstr[0] "显示%3$s位成员中的%1$s - %2$s位"
 msgstr[1] "显示%3$s位成员中的%1$s - %2$s位"
 
-#: bp-groups/bp-groups-admin.php:1114
 #. translators: 1: user_login, 2: user_email
+#: bp-groups/bp-groups-admin.php:1114
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -3784,7 +3809,7 @@ msgstr "群管理员"
 
 #: bp-groups/bp-groups-functions.php:438
 msgid "As the only admin, you cannot leave the group."
-msgstr "作为唯一的管理员，您不能离开此群。"
+msgstr "作为唯一的管理员，您不能退出此群。"
 
 #: bp-groups/bp-groups-functions.php:951
 msgid "%1$s posted an update in the group %2$s"
@@ -3858,7 +3883,7 @@ msgstr ""
 "\n"
 "因为您是该群的管理员，所以您必须接受或者拒绝该入群申请。\n"
 "\n"
-"查看所有要加入该群的待审申请，请访问：\n"
+"查看所有要加入该群的待处理申请，请访问：\n"
 "%4$s\n"
 "\n"
 "查看%5$s的资料：%6$s\n"
@@ -3883,7 +3908,7 @@ msgstr ""
 "\n"
 "因为您是该群的管理员，您必须接受或拒绝该入群申请。\n"
 "\n"
-"查看该群所有待审申请，请访问：\n"
+"查看该群所有待处理申请，请访问：\n"
 "%3$s\n"
 "\n"
 "查看%4$s的资料：%5$s\n"
@@ -4152,14 +4177,15 @@ msgid "There was an error accepting the group invitation. Please try again."
 msgstr "接受群邀请时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:718
-msgid "There was an error sending your group membership request. Please try again."
-msgstr "发送您的进群请求时出现错误。请再尝试一次。"
+msgid ""
+"There was an error sending your group membership request. Please try again."
+msgstr "发送您的入群请求时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:720
 msgid ""
 "Your membership request was sent to the group administrator successfully. "
 "You will be notified when the group administrator responds to your request."
-msgstr "您的进群请求已成功发送给群管理员。当群管理员回复时，您将收到通知。"
+msgstr "您的入群请求已成功发送给群管理员。当群管理员回复时，您将收到通知。"
 
 #: bp-groups/bp-groups-screens.php:793
 msgid "There was an error updating group details. Please try again."
@@ -4339,7 +4365,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress-functions.php:1441
 #: bp-templates/bp-legacy/buddypress-functions.php:1454
 msgid "Leave Group"
-msgstr "离开群"
+msgstr "退出群"
 
 #: bp-groups/bp-groups-template.php:3292 bp-groups/bp-groups-template.php:3293
 #: bp-templates/bp-legacy/buddypress-functions.php:1475
@@ -4367,13 +4393,13 @@ msgstr "该群现在还无法访问。"
 msgid ""
 "You must accept your pending invitation before you can access this private "
 "group."
-msgstr "在您能进入该私有群之前，您必须接受邀请。"
+msgstr "在您能加入该私人群之前，您必须接受邀请。"
 
 #: bp-groups/bp-groups-template.php:3501
 msgid ""
 "This is a private group and you must request group membership in order to "
 "join."
-msgstr "这是一个私人群而且您必须要先申请加入才能进群。"
+msgstr "这是一个私人群而且您必须要先申请加入才能入群。"
 
 #: bp-groups/bp-groups-template.php:3504
 msgid ""
@@ -4576,7 +4602,7 @@ msgstr "%s已被从系统中删除。"
 
 #: bp-members/bp-members-actions.php:90
 msgid "There was an error deleting %s from the system. Please try again."
-msgstr "从系统中删除%s时发生错误。请重试。"
+msgstr "从系统中删除%s时发生错误。请再尝试一次。"
 
 #: bp-members/bp-members-activity.php:26
 msgid "New member registered"
@@ -4604,11 +4630,11 @@ msgstr "删除头像时出现错误。请再尝试一次。"
 
 #: bp-members/bp-members-admin.php:322
 msgid "User could not be removed as spammer."
-msgstr "用户无法被作为垃圾邮件发送者删除。"
+msgstr "用户无法被作为垃圾信息发送者删除。"
 
 #: bp-members/bp-members-admin.php:328
 msgid "User could not be marked as spammer."
-msgstr "用户无法被标记为垃圾邮件发送者。"
+msgstr "用户无法被标记为垃圾信息发送者。"
 
 #: bp-members/bp-members-admin.php:334
 msgid "An error occurred while trying to update the profile."
@@ -4616,15 +4642,15 @@ msgstr "尝试更新资料时出现错误。"
 
 #: bp-members/bp-members-admin.php:340 bp-xprofile/bp-xprofile-screens.php:111
 msgid ""
-"Please make sure you fill in all required fields in this profile field "
-"group before saving."
-msgstr "请在保存之前确认您填写了资料中所有的必填字段。"
+"Please make sure you fill in all required fields in this profile field group "
+"before saving."
+msgstr "请在保存之前确认您填写了资料中所有的必填项。"
 
 #: bp-members/bp-members-admin.php:346 bp-xprofile/bp-xprofile-screens.php:177
 msgid ""
 "There was a problem updating some of your profile information. Please try "
 "again."
-msgstr "更新您的资料字段时出现错误。请再尝试一次。"
+msgstr "更新您的资料项时出现错误。请再尝试一次。"
 
 #: bp-members/bp-members-admin.php:371 bp-members/bp-members-admin.php:372
 #: bp-members/bp-members-admin.php:410 bp-members/bp-members-admin.php:411
@@ -4668,13 +4694,11 @@ msgstr "在右边栏，您可以更新用户的状态、删除用户的头像以
 
 #: bp-members/bp-members-admin.php:725
 msgid ""
-"<a "
-"href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/\""
-">Managing Profiles</a>"
+"<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
+"\">Managing Profiles</a>"
 msgstr ""
-"<a "
-"href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/\""
-">管理个人资料</a>"
+"<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
+"\">管理个人档案</a>"
 
 #: bp-members/bp-members-admin.php:858
 msgid "Edit User"
@@ -4694,7 +4718,7 @@ msgstr "用户帐号还未被激活"
 
 #: bp-members/bp-members-admin.php:992
 msgid "Spammer"
-msgstr "垃圾邮件发送者"
+msgstr "垃圾信息发送者"
 
 #: bp-members/bp-members-admin.php:1004
 msgid "Registered on: <strong>%1$s</strong>"
@@ -4702,30 +4726,30 @@ msgstr "注册于：<strong>%1$s</strong>"
 
 #: bp-members/bp-members-admin.php:1014
 msgid "View Profile"
-msgstr "查看个人资料"
+msgstr "查看个人档案"
 
 #: bp-members/bp-members-admin.php:1015
 msgid "Update Profile"
-msgstr "更新个人资料"
+msgstr "更新个人档案"
 
 #: bp-members/bp-members-admin.php:1035 bp-xprofile/bp-xprofile-admin.php:1031
 msgid ""
 "%s has been marked as a spammer. All BuddyPress data associated with the "
 "user has been removed"
 msgstr ""
-"已把%s标记为垃圾邮件发送者。所有和该用户有关的BuddyPress数据已经被删除。"
+"已把%s标记为垃圾信息发送者。所有和该用户有关的BuddyPress数据已经被删除。"
 
 #: bp-members/bp-members-admin.php:1067
 msgid "Last active: %1$s"
-msgstr "最后活跃时间：%1$s"
+msgstr "最后在线时间：%1$s"
 
+#. translators: no option picked in select box
 #: bp-members/bp-members-admin.php:1109
 #: bp-templates/bp-legacy/buddypress/forums/index.php:171
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:184
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:207
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:215
 #: bp-xprofile/classes/class-bp-xprofile-field-type-selectbox.php:101
-#. translators: no option picked in select box
 msgid "----"
 msgstr "----"
 
@@ -4748,14 +4772,15 @@ msgid ""
 "You can reorder the list of your pending accounts by clicking on the "
 "Username, Email or Registered column headers."
 msgstr ""
-"通过点击“用户名”、“电子邮件”或“已注册”的列标题来对您的待激活帐号进行重新排列。"
+"通过点击“用户名”、“电子邮件”或“已注册”的列标题来对您的待激活帐号进行重新排"
+"列。"
 
 #: bp-members/bp-members-admin.php:1437
 msgid ""
 "Using the search form, you can find pending accounts more easily. The "
 "Username and Email fields will be included in the search."
 msgstr ""
-"使用搜索框，您可以更容易地找到待激活帐号。用户名和邮箱地址字段都可以用来搜索。"
+"使用搜索框，您可以更容易地找到待激活帐号。用户名和邮箱地址都可以用来搜索。"
 
 #: bp-members/bp-members-admin.php:1444
 msgid ""
@@ -4768,8 +4793,8 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:1445
 msgid ""
-"\"Email\" takes you to the confirmation screen before being able to send "
-"the activation link to the desired pending account. You can only send the "
+"\"Email\" takes you to the confirmation screen before being able to send the "
+"activation link to the desired pending account. You can only send the "
 "activation email once per day."
 msgstr ""
 "在您发送激活链接给想要激活的帐号之前，您可以在“电子邮箱”的确认页面进行确认。"
@@ -4888,13 +4913,17 @@ msgstr "删除帐号"
 msgid ""
 "User last_activity data is no longer stored in usermeta. Use "
 "bp_get_user_last_activity() instead."
-msgstr "用户的last_activity数据不再存储在usermeta中。请用bp_get_user_last_activity()替代。"
+msgstr ""
+"用户的last_activity数据不再存储在usermeta中。请用bp_get_user_last_activity()"
+"替代。"
 
 #: bp-members/bp-members-functions.php:1223
 msgid ""
 "User last_activity data is no longer stored in usermeta. Use "
 "bp_update_user_last_activity() instead."
-msgstr "用户的last_activity数据不再存储在usermeta中。请用bp_update_user_last_activity()替代。"
+msgstr ""
+"用户的last_activity数据不再存储在usermeta中。请用"
+"bp_update_user_last_activity()替代。"
 
 #: bp-members/bp-members-functions.php:1435
 #: bp-members/bp-members-functions.php:2476
@@ -5063,7 +5092,7 @@ msgstr "您的头像"
 
 #: bp-members/bp-members-template.php:2348
 msgid "Activity RSS Feed"
-msgstr "用户动态RSS源"
+msgstr "动态RSS信息"
 
 #: bp-members/bp-members-widgets.php:39
 msgid "A dynamic list of recently active, popular, and newest members"
@@ -5099,15 +5128,15 @@ msgstr "谁在线"
 
 #: bp-members/bp-members-widgets.php:404
 msgid "Profile photos of recently active members"
-msgstr "最近活跃会员的头像"
+msgstr "近期活跃会员的头像"
 
 #: bp-members/bp-members-widgets.php:468
 msgid "There are no recently active members"
-msgstr "最近没有活跃会员"
+msgstr "近期没有活跃会员"
 
 #: bp-members/bp-members-widgets.php:536
 msgid "Recently Active Members"
-msgstr "最近活跃会员"
+msgstr "近期活跃会员"
 
 #: bp-members/classes/class-bp-signup.php:585
 #: bp-members/classes/class-bp-signup.php:673
@@ -5224,7 +5253,7 @@ msgstr "收件箱 <span class=\"count\">%s</span>"
 
 #: bp-messages/bp-messages-loader.php:295
 msgid "All Member Notices"
-msgstr "所有通知"
+msgstr "全部会员通知"
 
 #: bp-messages/bp-messages-loader.php:312
 msgid "My Messages"
@@ -5342,12 +5371,12 @@ msgstr "未标记"
 #: bp-messages/bp-messages-star.php:100
 #: bp-templates/bp-legacy/buddypress-functions.php:342
 msgid "Remove all starred messages in this thread"
-msgstr "删除所有已标记的消息"
+msgstr "删除该条消息对话中所有的消息标记"
 
 #: bp-messages/bp-messages-star.php:101
 #: bp-templates/bp-legacy/buddypress-functions.php:343
 msgid "Star the first message in this thread"
-msgstr "标记第一条消息"
+msgstr "标记该条消息对话中的第一条消息"
 
 #: bp-messages/bp-messages-star.php:423
 msgid "%s message was successfully starred"
@@ -5537,11 +5566,11 @@ msgstr[1] "显示%3$s条通知中的%1$s - %2$s条"
 
 #: bp-notifications/bp-notifications-template.php:1255
 msgid "Newest First"
-msgstr "最新的优先"
+msgstr "按最新优先"
 
 #: bp-notifications/bp-notifications-template.php:1256
 msgid "Oldest First"
-msgstr "最早的优先"
+msgstr "按最早优先"
 
 #: bp-notifications/bp-notifications-template.php:1260
 msgid "Go"
@@ -5610,7 +5639,7 @@ msgstr "新密码不匹配。"
 
 #: bp-settings/bp-settings-actions.php:243
 msgid "One of the password fields was empty."
-msgstr "其中一个密码字段为空。"
+msgstr "其中一个密码为空。"
 
 #: bp-settings/bp-settings-actions.php:246
 msgid "The new password must be different from the current password."
@@ -5648,7 +5677,8 @@ msgstr "您的新邮箱已验证成功"
 msgid "You have successfully dismissed your pending email change."
 msgstr "您成功的取消了邮箱修改验证等待通知。"
 
-#: bp-settings/bp-settings-loader.php:94 bp-settings/bp-settings-loader.php:171
+#: bp-settings/bp-settings-loader.php:94
+#: bp-settings/bp-settings-loader.php:171
 msgid "General"
 msgstr "常规"
 
@@ -5658,12 +5688,12 @@ msgstr "权限"
 
 #: bp-settings/bp-settings-template.php:94
 msgid ""
-"There is a pending change of your email address to <code>%1$s</code>.<br "
-"/>Check your email (<code>%2$s</code>) for the verification link. <a "
-"href=\"%3$s\">Cancel</a>"
+"There is a pending change of your email address to <code>%1$s</code>.<br /"
+">Check your email (<code>%2$s</code>) for the verification link. <a href="
+"\"%3$s\">Cancel</a>"
 msgstr ""
-"您有一条邮箱<code>%1$s</code>更改验证通知。<br />查看您的邮箱（<code>"
-"%2$s</code>），验证链接。<a href=\"%3$s\">取消</a>"
+"您有一条邮箱<code>%1$s</code>更改验证通知。<br />查看您的邮箱（<code>%2$s</"
+"code>），验证链接。<a href=\"%3$s\">取消</a>"
 
 #: bp-templates/bp-legacy/buddypress/activity/activity-loop.php:27
 msgid "Load More"
@@ -5671,14 +5701,14 @@ msgstr "更多"
 
 #: bp-templates/bp-legacy/buddypress/activity/activity-loop.php:41
 msgid "Sorry, there was no activity found. Please try a different filter."
-msgstr "抱歉，没有找到动态，请尝试其他关键字。"
+msgstr "抱歉，没有找到相关动态信息，请尝试其他筛选关键字。"
 
-#: bp-templates/bp-legacy/buddypress/activity/comment.php:34
 #. translators: 1: user profile link, 2: user name, 3: activity permalink, 4:
 #. activity timestamp
+#: bp-templates/bp-legacy/buddypress/activity/comment.php:34
 msgid ""
-"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" "
-"class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
 msgstr ""
 "<a href=\"%1$s\">%2$s</a>回复于<a href=\"%3$s\" class=\"activity-time-since"
 "\"><span class=\"time-since\">%4$s</span></a>"
@@ -5708,7 +5738,6 @@ msgstr "收藏"
 #: bp-templates/bp-legacy/buddypress-functions.php:1196
 msgid "Remove Favorite"
 msgstr "移除收藏"
-
 
 #: src/bp-settings/bp-settings-actions.php:480
 msgid "There was a problem verifying your new email address. Please try again."
@@ -5764,7 +5793,7 @@ msgstr "提及"
 #: bp-templates/bp-legacy/buddypress/activity/index.php:134
 #: bp-templates/bp-legacy/buddypress/groups/single/activity.php:3
 msgid "RSS Feed"
-msgstr "RSS新闻"
+msgstr "RSS信息"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:134
 #: bp-templates/bp-legacy/buddypress/groups/single/activity.php:3
@@ -5783,9 +5812,13 @@ msgstr "显示："
 msgid "&mdash; Everything &mdash;"
 msgstr "&mdash;所有&mdash;"
 
-#: bp-templates/bp-legacy/buddypress/activity/post-form.php:32
+#: bp-templates/bp-legacy/buddypress/activity/post-form.php:30
 msgid "What's new in %s, %s?"
 msgstr "在%s中分享点什么吧，%s？"
+
+#: bp-templates/bp-legacy/buddypress/activity/post-form.php:32
+msgid "What's new, %s?"
+msgstr "分享点什么吧, %s?"
 
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:44
 msgid "Post Update"
@@ -5808,7 +5841,7 @@ msgstr "拍摄"
 #: bp-xprofile/classes/class-bp-xprofile-field.php:673
 #: bp-xprofile/classes/class-bp-xprofile-group.php:657
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/crop.php:22
 #: bp-templates/bp-legacy/buddypress/groups/create.php:234
@@ -5820,8 +5853,8 @@ msgstr "裁剪照片"
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:37
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:30
 msgid ""
-"If you'd like to delete your current profile photo but not upload a new "
-"one, please use the delete profile photo button."
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
 msgstr "如果您想要删除目前的头像但又不想上传一个新的，请使用“删除头像”按钮"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:38
@@ -5840,7 +5873,8 @@ msgstr "删除我的头像"
 msgid ""
 "If you'd like to remove the existing group profile photo but not upload a "
 "new one, please use the delete group profile photo button."
-msgstr "如果您想要删除现有的群头像但又不想上传一个新的，请使用“删除群头像”按钮。"
+msgstr ""
+"如果您想要删除现有的群头像但又不想上传一个新的，请使用“删除群头像”按钮。"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:41
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:181
@@ -5904,13 +5938,13 @@ msgstr "最新贴"
 msgid "Permanent link to this post"
 msgstr "该帖子的固定链接"
 
-#: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:82
 #. translators: "started by [poster] in [forum]"
+#: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:82
 msgid "Started by %1$s"
 msgstr "发起者：%1$s"
 
-#: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:93
 #. translators: "started by [poster] in [forum]"
+#: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:93
 msgid "in %1$s"
 msgstr "论坛 %1$s"
 
@@ -6004,13 +6038,32 @@ msgstr "任意会员都可以加入该群。"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:112
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:99
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:109
-msgid "This group will be listed in the groups directory and in search results."
+msgid ""
+"This group will be listed in the groups directory and in search results."
 msgstr "该群会在群目录和搜索结果中显示。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:102
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:100
 msgid "Group content and activity will be visible to any site member."
 msgstr "群内容和群动态将对任何会员可见。"
+
+#: bp-templates/bp-legacy/buddypress/groups/create.php:108
+#: bp-templates/bp-legacy/buddypress/groups/single/admin.php:106
+msgid "This is a private group"
+msgstr "这是一个私人群"
+
+#: bp-templates/bp-legacy/buddypress/groups/create.php:111
+#: bp-templates/bp-legacy/buddypress/groups/single/admin.php:108
+msgid "Only users who request membership and are accepted can join the group."
+msgstr "只有发送好友请求并被接受的用户才可以加入群。"
+
+#: bp-templates/bp-legacy/buddypress/groups/create.php:113
+#: bp-templates/bp-legacy/buddypress/groups/create.php:124
+#: bp-templates/bp-legacy/buddypress/groups/single/admin.php:110
+#: bp-templates/bp-legacy/buddypress/groups/single/admin.php:120
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr "群内容和群动态只对群成员可见。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:119
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:116
@@ -6024,7 +6077,8 @@ msgstr "只有被邀请的用户才可以加入该群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:123
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:119
-msgid "This group will not be listed in the groups directory or search results."
+msgid ""
+"This group will not be listed in the groups directory or search results."
 msgstr "该群不会在群目录或搜索结果中显示。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:129
@@ -6043,8 +6097,8 @@ msgstr "这个群应该有个论坛吗？"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:163
 msgid ""
-"<strong>Attention Site Admin:</strong> Group forums require the <a "
-"href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
 msgstr ""
 "<strong>站点管理员请注意：</strong>群论坛需要您先<a href=\"%s\">正确安装并设"
 "置</a>bbPress。"
@@ -6054,7 +6108,8 @@ msgstr ""
 msgid ""
 "Upload an image to use as a profile photo for this group. The image will be "
 "shown on the main group page, and in search results."
-msgstr "为该群上传一张照片作为群的头像。该照片将会显示在群首页以及群搜索结果中。"
+msgstr ""
+"为该群上传一张照片作为群的头像。该照片将会显示在群首页以及群搜索结果中。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:207
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:173
@@ -6281,7 +6336,7 @@ msgstr "拒绝"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/requests-loop.php:76
 msgid "There are no pending membership requests."
-msgstr "目前没有待审的入群请求。"
+msgstr "目前没有待处理的入群请求。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:22
 msgid "Send Invites"
@@ -6289,12 +6344,12 @@ msgstr "发送邀请"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:37
 msgid "Group invitations can only be extended to friends."
-msgstr "群邀请仅限于朋友"
+msgstr "群邀请仅限于好友"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:38
 msgid ""
-"Once you've made some friendships, you'll be able to invite those members "
-"to this group."
+"Once you've made some friendships, you'll be able to invite those members to "
+"this group."
 msgstr "一旦您加了好友，您就能够把他们邀请到这个群来"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:46
@@ -6303,14 +6358,14 @@ msgstr "您所有的好友都已经在这个群里了。"
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:31
 msgid ""
-"Your account was activated successfully! Your account details have been "
-"sent to you in a separate email."
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
 msgstr "您的帐户已成功激活。您的帐户信息已经通过电子邮件发送给您了。"
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:33
 msgid ""
-"Your account was activated successfully! You can now <a href=\"%s\">log "
-"in</a> with the username and password you provided when you signed up."
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
 msgstr ""
 "您的帐号成功激活！现在您可以用注册时提供的用户名和密码<a href=\"%s\">登录</a>"
 
@@ -6373,26 +6428,25 @@ msgstr "确认密码"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:146
 msgid "Profile Details"
-msgstr "档案明细"
+msgstr "档案详细信息"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:168
 #: bp-templates/bp-legacy/buddypress/members/register.php:183
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:50
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:64
 msgid ""
-"This field can be seen by: <span "
-"class=\"current-visibility-level\">%s</span>"
-msgstr "能看见该字段的是：<span class=\"current-visibility-level\">%s</span>"
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr "这个资料项对谁可见：<span class=\"current-visibility-level\">%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:173
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:55
 #: bp-xprofile/bp-xprofile-admin.php:995
 msgid "Who can see this field?"
-msgstr "谁能看见这个字段"
+msgstr "谁能看见这个资料项"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:243
 msgid "Blog Details"
-msgstr "博客明细"
+msgstr "博客详细信息"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:245
 msgid "Yes, I'd like to create a new site"
@@ -6427,7 +6481,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:96
 msgid "You have no pending friendship requests."
-msgstr "您没有待审的好友请求。"
+msgstr "您没有待处理的好友请求。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:60
 msgid "You have no outstanding group invites."
@@ -6437,7 +6491,8 @@ msgstr "您没有未处理的群邀请。"
 msgid "Send To (Username or Friend's Name)"
 msgstr "发送给（用户名或好友名称）"
 
-#: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:21#: src/bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:14
+#: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:21#:
+#: src/bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:14
 msgid "This is a notice to all users."
 msgstr "这是一个发送给所有用户的通知。"
 
@@ -6457,7 +6512,7 @@ msgstr "发送消息"
 #: bp-templates/bp-legacy/buddypress/members/single/messages/messages-loop.php:48
 #: bp-templates/bp-legacy/buddypress/members/single/notifications/notifications-loop.php:6
 msgid "Select all"
-msgstr "选择所有"
+msgstr "选择全部"
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/messages-loop.php:49
 msgid "From"
@@ -6519,2249 +6574,1712 @@ msgstr "发送一条回复"
 msgid "Send Reply"
 msgstr "发送回复"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:349
-#, c-format
-msgctxt "Avatar alt"
-msgid "Profile picture of %s"
-msgstr "%s的头像"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-notifications.php:7
+msgid "You have no unread notifications."
+msgstr "您没有未读通知"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:391
-msgctxt "My Account Settings sub nav"
-msgid "Profile"
-msgstr "个人资料"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-notifications.php:11
+msgid "This member has no unread notifications."
+msgstr "当前用户没有未读通知"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:308
-msgctxt "My Account Profile sub nav"
-msgid "Edit"
-msgstr "编辑"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-notifications.php:19
+msgid "You have no notifications."
+msgstr "您没有任何通知"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:317
-msgctxt "My Account Profile sub nav"
-msgid "Change Profile Photo"
-msgstr "更换头像"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-notifications.php:23
+msgid "This member has no notifications."
+msgstr "当前用户没有任何通知"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:344
-msgctxt "Page title"
-msgid "My Profile"
-msgstr "我的资料"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/notifications-loop.php:7
+msgid "Notification"
+msgstr "通知"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:300
-msgctxt "My Account Profile sub nav"
-msgid "View"
-msgstr "查看"
+#: bp-templates/bp-legacy/buddypress/members/single/notifications/notifications-loop.php:8
+msgid "Date Received"
+msgstr "收到日期"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:292
-msgctxt "My Account Profile"
-msgid "Profile"
-msgstr "个人资料"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:263
-msgctxt "Profile settings sub nav"
-msgid "Profile Visibility"
-msgstr "个人资料可见度"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:198
-msgctxt "Profile header sub menu"
-msgid "View"
-msgstr "查看"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:220
-msgctxt "Profile header sub menu"
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:1
 msgid "Change Profile Photo"
 msgstr "更改头像"
 
-#: src/bp-xprofile/bp-xprofile-loader.php:208
-msgctxt "Profile header sub menu"
-msgid "Edit"
-msgstr "编辑"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:177
-msgctxt "Profile header menu"
-msgid "Profile"
-msgstr "个人资料"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:137
-msgctxt "Visibility level setting"
-msgid "My Friends"
-msgstr "我的好友"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:126
-msgctxt "Visibility level setting"
-msgid "Only Me"
-msgstr "只对本人"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:130
-msgctxt "Visibility level setting"
-msgid "All Members"
-msgstr "全部成员"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:122
-msgctxt "Visibility level setting"
-msgid "Everyone"
-msgstr "任何人"
-
-#: src/bp-xprofile/bp-xprofile-loader.php:42
-msgctxt "Component page <title>"
-msgid "Extended Profiles"
-msgstr "追加档案"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3029
-msgctxt "xprofile field type"
-msgid "URL"
-msgstr "网址"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2833
-msgctxt "xprofile field type"
-msgid "Text Box"
-msgstr "文本框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2932
-msgctxt "xprofile field type"
-msgid "Number"
-msgstr "数字框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2734
-msgctxt "xprofile field type"
-msgid "Multi-line Text Area"
-msgstr "文本编辑框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2195
-msgctxt "xprofile field type"
-msgid "Radio Buttons"
-msgstr "单选按钮"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2376
-msgctxt "xprofile field type"
-msgid "Multi Select Box"
-msgstr "多选框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2562
-msgctxt "xprofile field type"
-msgid "Drop Down Select Box"
-msgstr "下拉框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1720
-msgctxt "xprofile field type"
-msgid "Date Selector"
-msgstr "日期选择器"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2017
-msgctxt "xprofile field type"
-msgid "Checkboxes"
-msgstr "复选框"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1007
-msgctxt "XProfile admin edit field"
-msgid "Field Name"
-msgstr "字段名"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:670
-msgctxt "xprofile user-admin edit screen"
-msgid "Profile Photo"
-msgstr "头像"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:659
-msgctxt "xprofile user-admin edit screen"
-msgid "User marked as a spammer"
-msgstr "用户被标记为垃圾邮件发送者"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2016
-#: src/bp-xprofile/bp-xprofile-classes.php:2194
-#: src/bp-xprofile/bp-xprofile-classes.php:2375
-#: src/bp-xprofile/bp-xprofile-classes.php:2561
-msgctxt "xprofile field type category"
-msgid "Multi Fields"
-msgstr "多字段"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1719
-#: src/bp-xprofile/bp-xprofile-classes.php:2733
-#: src/bp-xprofile/bp-xprofile-classes.php:2832
-#: src/bp-xprofile/bp-xprofile-classes.php:2931
-#: src/bp-xprofile/bp-xprofile-classes.php:3028
-msgctxt "xprofile field type category"
-msgid "Single Fields"
-msgstr "单项字段"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:517
-msgctxt "xprofile field type category"
-msgid "Other"
-msgstr "其他"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:71
-msgctxt "Settings page header"
-msgid "Profile Fields"
-msgstr "个人资料字段"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:27
-msgctxt "Admin Users menu"
-msgid "Profile Fields"
-msgstr "档案栏"
-
-#: src/bp-templates/bp-legacy/buddypress/members/register.php:80
-msgctxt "Change profile field visibility level"
-msgid "Change"
-msgstr "修改"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:14
-#, c-format
-msgctxt "Group member count"
-msgid "1 member"
-msgid_plural "%d members"
-msgstr[0] "1位成员"
-msgstr[1] "%d位成员"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:27
-msgctxt "xProfile admin page title"
-msgid "Profile Fields"
-msgstr "个人资料项"
-
-#: src/bp-templates/bp-legacy/buddypress/activity/index.php:59
-#, c-format
-msgctxt "Number of new activity mentions"
-msgid "%s new"
-msgid_plural "%s new"
-msgstr[0] "%s个新提及"
-msgstr[1] "%s个新提及"
-
-#: src/bp-notifications/bp-notifications-template.php:931
-msgctxt "Notification screen action"
-msgid "Unread"
-msgstr "未读"
-
-#: src/bp-notifications/bp-notifications-template.php:366
-msgctxt "Notifications pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-notifications/bp-notifications-template.php:365
-msgctxt "Notifications pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-notifications/bp-notifications-loader.php:182
-#, c-format
-msgctxt "My Account Notification pending"
-msgid "Unread <span class=\"count\">%s</span>"
-msgstr "未读 <span class=\"count\">%s</span>"
-
-#: src/bp-notifications/bp-notifications-loader.php:208
-msgctxt "My Account Notification sub nav"
-msgid "Read"
-msgstr "已读"
-
-#: src/bp-notifications/bp-notifications-loader.php:184
-msgctxt "My Account Notification"
-msgid "Notifications"
-msgstr "通知"
-
-#: src/bp-notifications/bp-notifications-loader.php:185
-msgctxt "My Account Notification sub nav"
-msgid "Unread"
-msgstr "未读"
-
-#: src/bp-notifications/bp-notifications-loader.php:181
-#, c-format
-msgctxt "My Account Notification pending"
-msgid "Notifications <span class=\"count\">%s</span>"
-msgstr "通知 <span class=\"count\">%s</span>"
-
-#: src/bp-notifications/bp-notifications-loader.php:109
-msgctxt "Profile screen nav"
-msgid "Notifications"
-msgstr "通知"
-
-#: src/bp-notifications/bp-notifications-loader.php:136
-msgctxt "Notification screen nav"
-msgid "Unread"
-msgstr "未读"
-
-#: src/bp-notifications/bp-notifications-loader.php:147
-msgctxt "Notification screen nav"
-msgid "Read"
-msgstr "已读"
-
-#: src/bp-notifications/bp-notifications-loader.php:26
-msgctxt "Page <title>"
-msgid "Notifications"
-msgstr "通知"
-
-#: src/bp-notifications/bp-notifications-loader.php:107
-#, c-format
-msgctxt "Profile screen nav"
-msgid "Notifications <span class=\"%s\">%s</span>"
-msgstr "通知 <span class=\"%s\">%s</span>"
-
-#: src/bp-messages/bp-messages-template.php:1265
-msgctxt "Message management markup"
-msgid "Mark as Unread"
-msgstr "标记为未读"
-
-#: src/bp-messages/bp-messages-template.php:1259
-msgctxt "Message dropdown filter"
-msgid "All"
-msgstr "全部"
-
-#: src/bp-messages/bp-messages-template.php:1264
-msgctxt "Message management markup"
-msgid "Mark as Read"
-msgstr "标记为已读"
-
-#: src/bp-messages/bp-messages-template.php:1258
-msgctxt "Message dropdown filter"
-msgid "Unread"
-msgstr "未读"
-
-#: src/bp-messages/bp-messages-template.php:1257
-msgctxt "Message dropdown filter"
-msgid "Read"
-msgstr "已读"
-
-#: src/bp-messages/bp-messages-template.php:228
-msgctxt "Message pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-messages/bp-messages-template.php:229
-msgctxt "Message pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-members/bp-members-template.php:1197
-#, c-format
-msgctxt ""
-"Records the timestamp that the user registered into the activity stream"
-msgid "registered %s"
-msgstr "注册于%s"
-
-#: src/bp-members/bp-members-template.php:1081
-#, c-format
-msgctxt "member latest update in member directory"
-msgid "- &quot;%s&quot;"
-msgstr "- &quot;%s&quot;"
-
-#: src/bp-members/bp-members-template.php:342
-msgctxt "Member pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-members/bp-members-template.php:341
-msgctxt "Member pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-members/bp-members-loader.php:250
-msgctxt "Member profile view"
-msgid "View"
-msgstr "查看"
-
-#: src/bp-members/bp-members-admin.php:1668
-#, c-format
-msgctxt "signup notdeleted"
-msgid "%s sign-up was not deleted."
-msgid_plural "%s sign-ups were not deleted."
-msgstr[0] "有%s位注册用户未被删除。"
-msgstr[1] "有%s位注册用户未被删除。"
-
-#: src/bp-members/bp-members-loader.php:236
-msgctxt "Member profile main navigation"
-msgid "Profile"
-msgstr "个人资料"
-
-#: src/bp-members/bp-members-admin.php:1657
-#, c-format
-msgctxt "signup deleted"
-msgid "%s sign-up successfully deleted!"
-msgid_plural "%s sign-ups successfully deleted!"
-msgstr[0] "%s位注册用户已成功删除！"
-msgstr[1] "%s位注册用户已成功删除！"
-
-#: src/bp-members/bp-members-admin.php:1600
-#, c-format
-msgctxt "signup notsent"
-msgid "%s activation email was not sent."
-msgid_plural "%s activation emails were not sent."
-msgstr[0] "有%s封激活邮件未被发送。"
-msgstr[1] "有%s封激活邮件未被发送。"
-
-#: src/bp-members/bp-members-admin.php:1634
-#, c-format
-msgctxt "signup notsent"
-msgid "%s account was not activated."
-msgid_plural "%s accounts were not activated."
-msgstr[0] "有%s个帐号未被激活。"
-msgstr[1] "有%s个帐号未被激活。"
-
-#: src/bp-members/bp-members-admin.php:1623
-#, c-format
-msgctxt "signup resent"
-msgid "%s account successfully activated! "
-msgid_plural "%s accounts successfully activated! "
-msgstr[0] "%s个帐号已成功激活！"
-msgstr[1] "%s个帐号已成功激活！"
-
-#: src/bp-members/bp-members-admin.php:1589
-#, c-format
-msgctxt "signup resent"
-msgid "%s activation email successfully sent! "
-msgid_plural "%s activation emails successfully sent! "
-msgstr[0] "%s封激活邮件成功发送！"
-msgstr[1] "%s封激活邮件成功发送！"
-
-#: src/bp-members/bp-members-admin.php:1406
-msgctxt "Pending Accounts per page (screen options)"
-msgid "Pending Accounts"
-msgstr "待审账号"
-
-#: src/bp-members/bp-members-admin.php:889
-#: src/bp-members/bp-members-admin.php:1830
-msgctxt "user"
-msgid "Add Existing"
-msgstr "添加现有用户"
-
-#: src/bp-members/bp-members-admin.php:767
-msgctxt "members user-admin edit screen"
-msgid "Member Type"
-msgstr "用户类型"
-
-#: src/bp-members/bp-members-admin.php:885
-#: src/bp-members/bp-members-admin.php:1826
-msgctxt "user"
-msgid "Add New"
-msgstr "添加新用户"
-
-#: src/bp-members/bp-members-admin.php:755
-#, c-format
-msgctxt "members user-admin edit screen"
-msgid "%s's Stats"
-msgstr "%s的统计信息"
-
-#: src/bp-members/bp-members-admin.php:721
-msgctxt "members user-admin edit screen"
-msgid "Status"
-msgstr "状态"
-
-#: src/bp-members/admin/bp-members-classes.php:150
-#: src/bp-members/admin/bp-members-classes.php:503
-msgctxt "Pending signup action"
-msgid "Email"
-msgstr "电子邮箱"
-
-#: src/bp-members/admin/bp-members-classes.php:149
-#: src/bp-members/admin/bp-members-classes.php:502
-msgctxt "Pending signup action"
-msgid "Activate"
-msgstr "激活"
-
-#: src/bp-members/admin/bp-members-classes.php:100
-#: src/bp-members/admin/bp-members-classes.php:465
-#: src/bp-members/bp-members-admin.php:1330
-#, c-format
-msgctxt "signup users"
-msgid "Pending %s"
-msgstr "待审用户有%s位"
-
-#: src/bp-groups/bp-groups-template.php:340
-msgctxt "Group pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-groups/bp-groups-template.php:341
-msgctxt "Group pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-groups/bp-groups-screens.php:1157
-msgctxt "Group creation page"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-screens.php:999
-msgctxt "group settings on notification settings page"
-msgid "A member requests to join a private group for which you are an admin"
-msgstr "有会员申请加入您所管理的私人群"
-
-#: src/bp-groups/bp-groups-screens.php:981
-msgctxt "group settings on notification settings page"
-msgid "A member invites you to join a group"
-msgstr "有成员邀请您加入一个群"
-
-#: src/bp-groups/bp-groups-screens.php:987
-msgctxt "group settings on notification settings page"
-msgid "Group information is updated"
-msgstr "群信息已更新"
-
-#: src/bp-groups/bp-groups-screens.php:993
-msgctxt "group settings on notification settings page"
-msgid "You are promoted to a group administrator or moderator"
-msgstr "您已晋升为群管理员或是协管员"
-
-#: src/bp-groups/bp-groups-screens.php:972
-msgctxt "Group settings on notification settings page"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-notifications.php:35
-#, c-format
-msgctxt "Group update email text"
-msgid "* Name changed from \"%s\" to \"%s\""
-msgstr "* 名称由“%s”改为了“%s”"
-
-#: src/bp-groups/bp-groups-notifications.php:43
-#, c-format
-msgctxt "Group update email text"
-msgid "* Description changed from \"%s\" to \"%s\""
-msgstr "* 描述由“%s”改为了“%s”"
-
-#: src/bp-groups/bp-groups-loader.php:598
-#, c-format
-msgctxt "My Account Groups nav"
-msgid "Groups <span class=\"count\">%s</span>"
-msgstr "群 <span class=\"count\">%s</span>"
-
-#: src/bp-groups/bp-groups-loader.php:649
-msgctxt "My Groups page <title>"
-msgid "Memberships"
-msgstr "成员"
-
-#: src/bp-groups/bp-groups-loader.php:614
-msgctxt "My Account Groups sub nav"
-msgid "Memberships"
-msgstr "成员"
-
-#: src/bp-groups/bp-groups-loader.php:631
-msgctxt "My Account Groups sub nav"
-msgid "Create a Group"
-msgstr "创建一个群"
-
-#: src/bp-groups/bp-groups-loader.php:599
-#, c-format
-msgctxt "My Account Groups sub nav"
-msgid "Pending Invites <span class=\"count\">%s</span>"
-msgstr "待接受的邀请 <span class=\"count\">%s</span>"
-
-#: src/bp-groups/bp-groups-loader.php:595
-msgctxt "My Account Groups sub nav"
-msgid "No Pending Invites"
-msgstr "没有待接受的邀请"
-
-#: src/bp-groups/bp-groups-loader.php:485
-msgctxt "My Group screen nav"
-msgid "Send Invites"
-msgstr "发送邀请"
-
-#: src/bp-groups/bp-groups-loader.php:500
-msgctxt "My Group screen nav"
-msgid "Manage"
-msgstr "管理"
-
-#: src/bp-groups/bp-groups-loader.php:594
-msgctxt "My Account Groups"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-loader.php:472
-#, c-format
-msgctxt "My Group screen nav"
-msgid "Members <span>%s</span>"
-msgstr "成员 <span>%s</span>"
-
-#: src/bp-groups/bp-groups-loader.php:460
-msgctxt "My Group screen nav"
-msgid "Forum"
-msgstr "论坛"
-
-#: src/bp-groups/bp-groups-loader.php:359
-msgctxt "Group screen nav without counter"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-loader.php:428
-msgctxt "Group screen navigation title"
-msgid "Home"
-msgstr "首页"
-
-#: src/bp-groups/bp-groups-loader.php:357
-#, c-format
-msgctxt "Group screen nav with counter"
-msgid "Groups <span class=\"%s\">%s</span>"
-msgstr "群 <span class=\"%s\">%s</span>"
-
-#: src/bp-groups/bp-groups-loader.php:448
-msgctxt "Group screen nav"
-msgid "Request Membership"
-msgstr "申请加入"
-
-#: src/bp-groups/bp-groups-loader.php:275
-msgctxt "Group screen nav"
-msgid "Photo"
-msgstr "照片"
-
-#: src/bp-groups/bp-groups-loader.php:283
-msgctxt "Group screen nav"
-msgid "Invites"
-msgstr "邀请"
-
-#: src/bp-groups/bp-groups-loader.php:267
-msgctxt "Group screen nav"
-msgid "Settings"
-msgstr "设置"
-
-#: src/bp-groups/bp-groups-loader.php:168
-msgctxt "Component directory search"
-msgid "Search Groups..."
-msgstr "搜索群..."
-
-#: src/bp-groups/bp-groups-loader.php:263
-msgctxt "Group screen nav"
-msgid "Details"
-msgstr "详细信息"
-
-#: src/bp-groups/bp-groups-adminbar.php:67
-#, c-format
-msgctxt "Group WP Admin Bar manage links"
-msgid "Edit Group %s"
-msgstr "编辑群%s"
-
-#: src/bp-groups/bp-groups-adminbar.php:71
-#, c-format
-msgctxt "Group WP Admin Bar delete link"
-msgid "%s Group"
-msgstr "%s群"
-
-#: src/bp-groups/bp-groups-loader.php:90
-msgctxt "Group screen page <title>"
-msgid "User Groups"
-msgstr "用户群"
-
-#: src/bp-groups/bp-groups-admin.php:1343
-msgctxt "Groups admin Members column header"
-msgid "# Members"
-msgstr "# 成员"
-
-#: src/bp-groups/bp-groups-admin.php:1344
-msgctxt "Groups admin Last Active column header"
-msgid "Last Active"
-msgstr "最近活跃"
-
-#: src/bp-groups/bp-groups-admin.php:1341
-msgctxt "Groups admin Group Description column header"
-msgid "Description"
-msgstr "描述"
-
-#: src/bp-groups/bp-groups-admin.php:1342
-msgctxt "Groups admin Privacy Status column header"
-msgid "Status"
-msgstr "状态"
-
-#: src/bp-groups/bp-groups-admin.php:1340
-msgctxt "Groups admin Group Name column header"
-msgid "Name"
-msgstr "姓名"
-
-#: src/bp-groups/bp-groups-admin.php:823
-msgctxt "Group member user_id in group admin"
-msgid "ID"
-msgstr "ID"
-
-#: src/bp-groups/bp-groups-admin.php:824
-msgctxt "Group member name in group admin"
-msgid "Name"
-msgstr "名称"
-
-#: src/bp-groups/bp-groups-admin.php:825
-msgctxt "Group member role in group admin"
-msgid "Group Role"
-msgstr "群角色"
-
-#: src/bp-groups/bp-groups-admin.php:141
-msgctxt "Groups per page (screen options)"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-admin.php:126
-msgctxt "group admin edit screen"
-msgid "Add New Members"
-msgstr "添加新成员"
-
-#: src/bp-groups/bp-groups-admin.php:127
-msgctxt "group admin edit screen"
-msgid "Manage Members"
-msgstr "管理成员"
-
-#: src/bp-groups/bp-groups-admin.php:125
-msgctxt "group admin edit screen"
-msgid "Settings"
-msgstr "设置"
-
-#: src/bp-groups/bp-groups-admin.php:124
-msgctxt "group admin edit screen"
-msgid "Save"
-msgstr "保存"
-
-#: src/bp-friends/bp-friends-screens.php:118
-msgctxt "Friend settings on notification settings page"
-msgid "A member sends you a friendship request"
-msgstr "有会员给您发送了好友请求"
-
-#: src/bp-friends/bp-friends-loader.php:204
-msgctxt "My Account Friends menu sub nav"
-msgid "Friendships"
-msgstr "好友"
-
-#: src/bp-groups/bp-groups-admin.php:33
-msgctxt "Admin Groups menu"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-groups/bp-groups-admin.php:32
-msgctxt "Admin Groups page title"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-friends/bp-friends-screens.php:124
-msgctxt "Friend settings on notification settings page"
-msgid "A member accepts your friendship request"
-msgstr "有会员接受了您的好友请求"
-
-#: src/bp-friends/bp-friends-screens.php:109
-msgctxt "Friend settings on notification settings page"
-msgid "Friends"
-msgstr "好友"
-
-#: src/bp-friends/bp-friends-loader.php:189
-msgctxt "My Account Friends menu sub nav"
-msgid "No Pending Requests"
-msgstr "没有未处理的请求"
-
-#: src/bp-friends/bp-friends-loader.php:188
-msgctxt "My Account Friends menu"
-msgid "Friends"
-msgstr "好友"
-
-#: src/bp-friends/bp-friends-loader.php:186
-#, c-format
-msgctxt "My Account Friends menu sub nav"
-msgid "Pending Requests <span class=\"count\">%s</span>"
-msgstr "待处理的请求 <span class=\"count\">%s</span>"
-
-#: src/bp-friends/bp-friends-loader.php:185
-#, c-format
-msgctxt "My Account Friends menu"
-msgid "Friends <span class=\"count\">%s</span>"
-msgstr "好友 <span class=\"count\">%s</span>"
-
-#: src/bp-friends/bp-friends-loader.php:140
-msgctxt "Friends screen sub nav"
-msgid "Friendships"
-msgstr "好友列表"
-
-#: src/bp-friends/bp-friends-loader.php:150
-msgctxt "Friends screen sub nav"
-msgid "Requests"
-msgstr "好友请求"
-
-#: src/bp-friends/bp-friends-loader.php:24
-msgctxt "Friends screen page <title>"
-msgid "Friend Connections"
-msgstr "好友关系"
-
-#: src/bp-forums/bp-forums-template.php:2109
-msgctxt "Forum thread pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-forums/bp-forums-template.php:2110
-msgctxt "Forum thread pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-forums/bp-forums-template.php:363
-#: src/bp-forums/bp-forums-template.php:649
-msgctxt "Forum topic pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-forums/bp-forums-template.php:364
-#: src/bp-forums/bp-forums-template.php:650
-msgctxt "Forum topic pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-core/bp-core-widgets.php:35
-msgctxt "Title of the login widget"
-msgid "(BuddyPress) Log In"
-msgstr "(BuddyPress) 登录"
-
-#: src/bp-core/bp-core-template.php:411
-msgctxt "search form"
-msgid "Search these:"
-msgstr "搜索以下内容："
-
-#: src/bp-core/bp-core-template.php:405
-msgctxt "search form"
-msgid "Forums"
-msgstr "论坛"
-
-#: src/bp-core/bp-core-template.php:408
-msgctxt "search form"
-msgid "Posts"
-msgstr "文章"
-
-#: src/bp-core/bp-core-template.php:397
-msgctxt "search form"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-core/bp-core-template.php:401
-msgctxt "search form"
-msgid "Blogs"
-msgstr "博客"
-
-#: src/bp-core/bp-core-template.php:393
-msgctxt "search form"
-msgid "Members"
-msgstr "成员"
-
-#: src/bp-core/bp-core-loader.php:233
-msgctxt "Main navigation"
-msgid "Profile"
-msgstr "个人资料"
-
-#: src/bp-core/bp-core-loader.php:244
-msgctxt "Profile sub nav"
-msgid "View"
-msgstr "查看"
-
-#: src/bp-core/bp-core-functions.php:577
-msgctxt "Page title for the user activation screen."
-msgid "Activate"
-msgstr "激活"
-
-#: src/bp-core/bp-core-functions.php:578
-msgctxt "Page title for the user registration screen."
-msgid "Register"
-msgstr "注册"
-
-#: src/bp-core/bp-core-functions.php:1039
-msgctxt "Separator in time since"
-msgid ","
-msgstr "，"
-
-#: src/bp-core/bp-core-functions.php:576
-msgctxt "Page title for the Members directory."
-msgid "Members"
-msgstr "成员"
-
-#: src/bp-core/bp-core-functions.php:574
-msgctxt "Page title for the Groups directory."
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-core/bp-core-functions.php:575
-msgctxt "Page title for the Sites directory."
-msgid "Sites"
-msgstr "站点"
-
-#: src/bp-core/bp-core-admin.php:338
-msgctxt "BuddyPress setting tab"
-msgid "Profile Settings"
-msgstr "个人资料设置"
-
-#: src/bp-core/bp-core-functions.php:573
-msgctxt "Page title for the Activity directory."
-msgid "Activity"
-msgstr "动态"
-
-#: src/bp-core/admin/bp-core-components.php:144
-#, c-format
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "全部 <span class=\"count\">(%s)</span>"
-msgstr[1] "全部 <span class=\"count\">(%s)</span>"
-
-#: src/bp-core/admin/bp-core-schema.php:337
-msgctxt "First field-group name"
-msgid "General"
-msgstr "总览"
-
-#: src/bp-core/admin/bp-core-schema.php:341
-msgctxt "Display name field"
-msgid "Display Name"
-msgstr "显示名称"
-
-#: src/bp-core/admin/bp-core-tools.php:386
-#, c-format
-msgctxt "buddypress tools intro"
-msgid "Use the %s to repair these relationships."
-msgstr "使用 %s 来修复关联"
-
-#: src/bp-blogs/bp-blogs-widgets.php:142
-msgctxt "Label for the Title field of the Recent Networkwide Posts widget"
-msgid "Title:"
-msgstr "标题："
-
-#: src/bp-members/bp-members-widgets.php:315
-msgctxt "widget name"
-msgid "(BuddyPress) Recently Active Members"
-msgstr "(BuddyPress) 最近活跃用户"
-
-#: src/bp-members/bp-members-widgets.php:209
-msgctxt "widget name"
-msgid "(BuddyPress) Who's Online"
-msgstr "(BuddyPress) 有谁在线"
-
-#: src/bp-members/bp-members-widgets.php:40
-msgctxt "widget name"
-msgid "(BuddyPress) Members"
-msgstr "(BuddyPress) 成员"
-
-#: src/bp-groups/bp-groups-widgets.php:27
-msgctxt "widget name"
-msgid "(BuddyPress) Groups"
-msgstr "(BuddyPress) 群"
-
-#: src/bp-blogs/bp-blogs-template.php:250
-msgctxt "Blog pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-blogs/bp-blogs-template.php:251
-msgctxt "Blog pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-blogs/bp-blogs-widgets.php:37
-msgctxt "widget name"
-msgid "(BuddyPress) Recent Networkwide Posts"
-msgstr "(BuddyPress) 近期全站帖子"
-
-#: src/bp-friends/bp-friends-widgets.php:51
-msgctxt "widget name"
-msgid "(BuddyPress) Friends"
-msgstr "(BuddyPress) 好友"
-
-#: src/bp-activity/bp-activity-template.php:315
-msgctxt "Activity pagination previous text"
-msgid "&larr;"
-msgstr "&larr;"
-
-#: src/bp-activity/bp-activity-template.php:316
-msgctxt "Activity pagination next text"
-msgid "&rarr;"
-msgstr "&rarr;"
-
-#: src/bp-activity/bp-activity-loader.php:316
-msgctxt "My Account Activity sub nav"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-activity/bp-activity-loader.php:340
-msgctxt "Page and <title>"
-msgid "My Activity"
-msgstr "我的动态"
-
-#: src/bp-activity/bp-activity-loader.php:297
-msgctxt "My Account Activity sub nav"
-msgid "Favorites"
-msgstr "收藏"
-
-#: src/bp-activity/bp-activity-loader.php:306
-msgctxt "My Account Activity sub nav"
-msgid "Friends"
-msgstr "好友"
-
-#: src/bp-activity/bp-activity-loader.php:279
-msgctxt "My Account Activity sub nav"
-msgid "Personal"
-msgstr "个人"
-
-#: src/bp-activity/bp-activity-loader.php:271
-msgctxt "My Account Activity sub nav"
-msgid "Activity"
-msgstr "动态"
-
-#: src/bp-activity/bp-activity-loader.php:263
-msgctxt "Toolbar Mention logged in user"
-msgid "Mentions"
-msgstr "提到我的"
-
-#: src/bp-activity/bp-activity-loader.php:261
-#, c-format
-msgctxt "Toolbar Mention logged in user"
-msgid "Mentions <span class=\"count\">%s</span>"
-msgstr "提到我的 <span class=\"count\">%s</span>"
-
-#: src/bp-activity/bp-activity-loader.php:203
-msgctxt "Profile activity screen sub nav"
-msgid "Friends"
-msgstr "好友"
-
-#: src/bp-activity/bp-activity-loader.php:216
-msgctxt "Profile activity screen sub nav"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-activity/bp-activity-loader.php:191
-msgctxt "Profile activity screen sub nav"
-msgid "Favorites"
-msgstr "收藏"
-
-#: src/bp-activity/bp-activity-loader.php:168
-msgctxt "Profile activity screen sub nav"
-msgid "Personal"
-msgstr "个人"
-
-#: src/bp-activity/bp-activity-loader.php:179
-msgctxt "Profile activity screen sub nav"
-msgid "Mentions"
-msgstr "提到我的"
-
-#: src/bp-members/bp-members-loader.php:102
-msgctxt "component directory title"
-msgid "Members"
-msgstr "成员"
-
-#: src/bp-activity/bp-activity-loader.php:142
-msgctxt "Profile activity screen nav"
-msgid "Activity"
-msgstr "活动"
-
-#: src/bp-core/bp-core-filters.php:601
-msgctxt "component directory title"
-msgid "Directory"
-msgstr "目录"
-
-#: src/bp-groups/bp-groups-loader.php:166
-msgctxt "component directory title"
-msgid "Groups"
-msgstr "群"
-
-#: src/bp-activity/bp-activity-loader.php:112
-msgctxt "component directory title"
-msgid "Site-Wide Activity"
-msgstr "全站动态"
-
-#: src/bp-activity/bp-activity-functions.php:1380
-#, c-format
-msgctxt "Activity Custom Post Type post action"
-msgid "%1$s wrote a new <a href=\"%2$s\">item</a>"
-msgstr "%1$s发布了条新<a href=\"%2$s\">动态</a>"
-
-#: src/bp-activity/bp-activity-functions.php:469
-msgctxt "Post Type generic activity post admin filter"
-msgid "New item published"
-msgstr "新动态已发布"
-
-#: src/bp-activity/bp-activity-functions.php:1374
-#, c-format
-msgctxt "Activity Custom Post Type post action"
-msgid "%1$s wrote a new <a href=\"%2$s\">item</a>, on the site %3$s"
-msgstr "%1$s 在网站 %3$s 上发表了新的 <a href=\"%2$s\">内容</a> "
-
-#: src/bp-activity/bp-activity-admin.php:1338
-msgctxt "Admin SWA column header"
-msgid "In Response To"
-msgstr "回复给"
-
-#: src/bp-activity/bp-activity-akismet.php:604
-#, c-format
-msgctxt "x hours ago - akismet cleared this item"
-msgid "<span>%1$s</span> &mdash; %2$s"
-msgstr "<span>%1$s</span> &mdash; %2$s"
-
-#: src/bp-activity/bp-activity-admin.php:1337
-msgctxt "Admin SWA column header"
-msgid "Action"
-msgstr "动作"
-
-#: src/bp-activity/bp-activity-admin.php:1336
-msgctxt "Admin SWA column header"
-msgid "Activity"
-msgstr "活动"
-
-#: src/bp-activity/bp-activity-admin.php:1335
-msgctxt "Admin SWA column header"
-msgid "Author"
-msgstr "作者"
-
-#: src/bp-activity/bp-activity-admin.php:972
-msgctxt "Admin SWA page"
-msgid "Activity"
-msgstr "活动"
-
-#: src/bp-activity/bp-activity-admin.php:267
-msgctxt "Activity items per page (screen options)"
-msgid "Activity"
-msgstr "活动"
-
-#: src/bp-activity/bp-activity-admin.php:252
-msgctxt "activity admin edit screen"
-msgid "Link"
-msgstr "链接"
-
-#: src/bp-activity/bp-activity-admin.php:253
-msgctxt "activity admin edit screen"
-msgid "Type"
-msgstr "类型"
-
-#: src/bp-activity/bp-activity-admin.php:254
-msgctxt "activity admin edit screen"
-msgid "Author ID"
-msgstr "作者ID"
-
-#: src/bp-activity/bp-activity-admin.php:251
-msgctxt "activity admin edit screen"
-msgid "Primary Item/Secondary Item"
-msgstr "主条目/次级条目"
-
-#: src/bp-activity/bp-activity-admin.php:250
-msgctxt "activity admin edit screen"
-msgid "Status"
-msgstr "状态"
-
-#: src/bp-activity/bp-activity-admin.php:32
-msgctxt "Admin Dashbord SWA page title"
-msgid "Activity"
-msgstr "用户动态"
-
-#: src/bp-activity/bp-activity-admin.php:33
-msgctxt "Admin Dashbord SWA menu"
-msgid "Activity"
-msgstr "用户动态"
-
-#. #-#-#-#-#  buddypress.pot (BuddyPress 2.2.3.1)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  buddypress.pot (BuddyPress 2.2.3.1)  #-#-#-#-#
-#. Author URI of the plugin/theme
-msgid "http://buddypress.org"
-msgstr "http://buddypress.org"
-
-#. Description of the plugin/theme
-msgid ""
-"BuddyPress helps you run any kind of social network on your WordPress, with "
-"member profiles, activity streams, user groups, messaging, and more."
-msgstr ""
-"Buddypress 拥有成员个人资料、活动流、用户群、消息以及更多的功能，帮助您在您的"
-"Wordpress上运行各式各样的社交网站。"
-
-#. Author of the plugin/theme
-msgid "The BuddyPress Community"
-msgstr "Buddypress社区"
-
-#: src/bp-xprofile/bp-xprofile-template.php:922
-msgid "Profile not recently updated"
-msgstr "档案最近没有更新"
-
-#: src/bp-xprofile/bp-xprofile-template.php:940
-#, c-format
-msgid "Profile updated %s"
-msgstr "档案已更新 %s"
-
-#: src/bp-xprofile/bp-xprofile-template.php:1116
-msgid "This field's visibility cannot be changed."
-msgstr "该域的可见性不可改变。"
-
-#: src/bp-xprofile/bp-xprofile-settings.php:47
-msgid "This member's profile settings have been saved."
-msgstr "该成员的个人资料设置已经保存。"
-
-
-
-#: src/bp-xprofile/bp-xprofile-settings.php:43
-msgid "Your profile settings have been saved."
-msgstr "您的个人资料设置已经保存。"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3552
-msgid "Add Another Option"
-msgstr "添加另一个设置"
-
-#: src/bp-xprofile/bp-xprofile-screens.php:179
-msgid "Changes saved."
-msgstr "更改已被保存。"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3469
-msgid "Ascending"
-msgstr "升序"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3470
-msgid "Descending"
-msgstr "降序"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3535
-msgid "Default Value"
-msgstr "默认值"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3468
-msgid "Custom"
-msgstr "自定义"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3466
-msgid "Sort Order:"
-msgstr "排列顺序"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:3463
-msgid "Please enter options for this Field:"
-msgstr "请输入改区域的选项："
-
-#: src/bp-xprofile/bp-xprofile-classes.php:2250
-#: src/bp-xprofile/bp-xprofile-classes.php:2340
-#: src/bp-xprofile/bp-xprofile-classes.php:2436
-msgid "Clear"
-msgstr "清空"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1896
-msgid "December"
-msgstr "十二月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1895
-msgid "November"
-msgstr "十一月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1894
-msgid "October"
-msgstr "十月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1892
-msgid "August"
-msgstr "八月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1893
-msgid "September"
-msgstr "九月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1890
-msgid "June"
-msgstr "六月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1891
-msgid "July"
-msgstr "七月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1888
-msgid "April"
-msgstr "四月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1889
-msgid "May"
-msgstr "五月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1886
-msgid "February"
-msgstr "二月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1887
-msgid "March"
-msgstr "三月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1885
-msgid "January"
-msgstr "一月"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1192
-msgid "Please make sure you fill out all required fields."
-msgstr "请确认您填写了全部必选区域。"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1200
-msgid "This field type require at least one option. Please add options below."
-msgstr "该域类型需要至少一个选项。请在下方添加选项。"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1144
-msgid "Field Type"
-msgstr "区域格式"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1138
-msgid "Required"
-msgstr "必填"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1137
-msgid "Not Required"
-msgstr "选填"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1108
-msgid "Enforce the default visibility for all members"
-msgstr "明确所有成员的可见性。"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1134
-msgid "Field Requirement"
-msgstr "域的要求"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1104
-msgid "Let members change this field's visibility"
-msgstr "允许成员改变该域的可见性"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1099
-msgid "Per-Member Visibility"
-msgstr "单个成员的可见性"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1034
-msgid "Submit"
-msgstr "提交"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1081
-msgid "Default Visibility"
-msgstr "默认可见性"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:973
-msgid "Add Field"
-msgstr "添加区域"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:985
-msgid "Edit Field"
-msgstr "编辑区域"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:1012
-msgid "Field Description"
-msgstr "区域描述"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:540
-msgid "Field Group Name"
-msgstr "字段组名称"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:547
-msgid "Group Description"
-msgstr "群简介"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:514
-msgid "Edit Field Group"
-msgstr "编辑字段组"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:512
-msgid "Create Field Group"
-msgstr "创建字段组"
-
-#: src/bp-xprofile/bp-xprofile-classes.php:410
-msgid "Please make sure you give the group a name."
-msgstr "请确保您给该组起了个名字"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:870
-#, c-format
-msgid "This field can be seen by: <span class=\"%s\">%s</span>"
-msgstr "该字段对<span class=\"%s\">%s</span>可见"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:356
-#, c-format
-msgid "The %s was deleted successfully!"
-msgstr "%s已成功删除！"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:426
-msgid "(Required)"
-msgstr "（必填）"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:349
-msgid "option"
-msgstr "选项"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:353
-#, c-format
-msgid "There was an error deleting the %s. Please try again."
-msgstr "在删除%s时发生错误。请再试一次。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:349
-msgid "field"
-msgstr "字段"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:298
-msgid "The field was saved successfully."
-msgstr "字段已成功保存。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:291
-msgid "There was an error saving the field. Please try again."
-msgstr "在保存该字段时发生错误。请再试一次。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:243
-msgid "The group was deleted successfully."
-msgstr "字段组已成功删除。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:174
-msgid "Add New Group"
-msgstr "添加新字段组"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:201
-msgid "There was an error saving the group. Please try again."
-msgstr "保存字段组时出错。请再试一次。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:204
-msgid "The group was saved successfully."
-msgstr "字段组已成功保存。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:173
-msgid "You have no groups."
-msgstr "您没有任何字段组。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:164
-msgid "There are no fields in this group."
-msgstr "该字段组没有任何字段。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:113
-msgid "Add New Field"
-msgstr "添加新字段"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:98
-#: src/bp-xprofile/bp-xprofile-admin.php:425
-msgid "(Primary)"
-msgstr "（主要）"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:75
-#, c-format
-msgid "Fields in the \"%s\" group will appear on the signup page."
-msgstr "在“%s”组中出现的字段将会在注册页中显示。"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:99
-#, c-format
-msgid "%s&#8217;s profile was updated"
-msgstr "%s的个人资料已更新。"
-
-#: src/bp-xprofile/bp-xprofile-admin.php:72
-#: src/bp-xprofile/bp-xprofile-classes.php:510
-msgid "Add New Field Group"
-msgstr "添加新字段组"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:65
-#, c-format
-msgid "%s changed their profile picture"
-msgstr "%s更改了他们的头像"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:41
-#: src/bp-xprofile/bp-xprofile-activity.php:340
-msgid "Profile Updates"
-msgstr "个人资料更新"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:39
-msgid "Updated Profile"
-msgstr "已更新的个人资料"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:33
-msgid "Updated Profile Photos"
-msgstr "已更新的头像"
-
-#: src/bp-xprofile/bp-xprofile-activity.php:31
-msgid "Member changed profile picture"
-msgstr "成员更改了个人资料照片"
-
-
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1505
-msgid "There was a problem deleting messages."
-msgstr "删除信息时出现问题。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1480
-msgid "There was a problem marking messages as read."
-msgstr "信息标记为已读时出现问题。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1455
-msgid "There was a problem marking messages as unread."
-msgstr "信息标记为未读时出现问题。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1437
-msgid "There was a problem sending that reply. Please try again."
-msgstr "发送回复时发生错误，请重试。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1372
-msgid "There was a problem closing the notice."
-msgstr "关闭通知时出现问题。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1349
-msgid "Error leaving group"
-msgstr "退出群时出错"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1340
-msgid "Membership Requested"
-msgstr "添加好友请求"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1328
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1338
-msgid "Error requesting membership"
-msgstr "添加好友请求时出错"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1315
-msgid "Error joining group"
-msgstr "加入群时出错"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1285
-msgid "There was a problem rejecting that request. Please try again."
-msgstr "拒绝该请求时发生错误。请重试。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1266
-msgid "There was a problem accepting that request. Please try again."
-msgstr "接受该请求时发生错误。请重试。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1246
-msgid "Request Pending"
-msgstr "等待审核"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1241
-msgid "Friendship request could not be cancelled."
-msgstr "添加好友请求不能被取消。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1229
-msgid " Friendship could not be requested."
-msgstr "无法进行好友请求"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1174
-#, c-format
-msgid ""
-"%s has previously requested to join this group. Sending an invitation will "
-"automatically add the member to the group."
-msgstr "%s之前申请过加入此群。发送邀请后将自动将该成员加入。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:964
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1000
-msgid "There was a problem when deleting. Please try again."
-msgstr "删除时发生错误。请重试。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:832
-msgid "There was a problem posting your update. Please try again."
-msgstr "在发表您的更新时发生错误。请再试一次。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:253
-msgid ""
-"Your profile has unsaved changes. If you leave the page, the changes will be "
-"lost."
-msgstr "您的个人资料更改尚未保存。如果离开此页面，您的更改将会丢失。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:252
-#, c-format
-msgid "Show all %d comments"
-msgstr "显示全部 %d 条评论。"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:250
-msgid "Show all"
-msgstr "显示全部"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:251
-msgid "Show all comments for this thread"
-msgstr "显示该话题所有评论"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:248
-msgid "Rejected"
-msgstr "已拒绝"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:247
-msgid "My Favorites"
-msgstr "我的收藏"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:245
-msgid "Are you sure you want to leave this group?"
-msgstr "您确定要退出该群吗？"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:244
-msgid "comments"
-msgstr "评论"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:242
-msgid "Accepted"
-msgstr "已接受"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/notifications.
-#: php:4
-msgid "Send an email notice when:"
-msgstr "选择何时发送电子邮件："
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/profile.php:15
-msgid "Visibility"
-msgstr "可见性"
-
-#: src/bp-templates/bp-legacy/buddypress-functions.php:63
-msgid "BuddyPress Legacy"
-msgstr "BuddyPress 遗产"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:18
-msgid "Repeat New Password"
-msgstr "重复新密码"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:16
-msgid "New Password"
-msgstr "新密码"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:15
-msgid "Change Password <span>(leave blank for no change)</span>"
-msgstr "更改密码<strong>（留空将不进行修改）</strong>"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:8
-msgid "Password Lost and Found"
-msgstr "密码丢失和找回"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:8
-msgid "Lost your password?"
-msgstr "忘记密码？"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:12
-msgid "Account Email"
-msgstr "账户电子邮箱"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/general.php:7
-msgid ""
-"Current Password <span>(required to update email or change current "
-"password)</span>"
-msgstr "当前密码<span>（需要更新电子邮箱或更改当前密码）</span>"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.
-#: php:23
-msgid "I understand the consequences."
-msgstr "我已了解后果。"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.
-#: php:11
-msgid ""
-"Deleting this account will delete all of the content it has created. It will "
-"be completely irrecoverable."
-msgstr "删除账号会同时删除该账号创建的所有内容。删除后不可恢复。"
-
-
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.
-#: php:7
-msgid ""
-"Deleting your account will delete all of the content you have created. It "
-"will be completely irrecoverable."
-msgstr "删除您的账号会同时删除该账号创建的所有内容。删除后不可恢复。"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/settings/capabilities.php:9
-msgid "This user is a spammer."
-msgstr "该用户是个垃圾内容发送者。"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:35
-#: src/bp-xprofile/bp-xprofile-admin.php:874
-msgid "Change"
-msgstr "更改"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:8
-#, c-format
-msgid "%s's Profile"
-msgstr "%s 的档案"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:10
-#, c-format
-msgid "Editing '%s' Profile Group"
-msgstr "编辑 '%s' 的档案组"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:
-#: 55
-msgid ""
-"Your profile photo will be used on your profile and throughout the site. To "
-"change your profile photo, please create an account with <a href=\"http://"
-"gravatar.com\">Gravatar</a> using the same email address as you used to "
-"register with this site."
-msgstr ""
-"您的头像将会显示在个人资料中且会用于网站各处。要修改您的头像，请使用同样于您"
-"在这个网站注册的电子邮件地址在<a href=\"http://gravatar.com\">Gravatar</a>上"
-"新建一个帐号。"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:
-#: 36
-msgid "Profile Photo preview"
-msgstr "预览头像"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:
-#: 31
-msgid "Crop Your New Profile Photo"
-msgstr "裁剪您的新头像"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:
-#: 33
-msgid "Profile Photo to crop"
-msgstr "要裁剪的头像"
-
-
-
-
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:
-#: 14
-msgid ""
-"Click below to select a JPG, GIF or PNG format photo from your computer and "
-"then click 'Upload Image' to proceed."
-msgstr ""
-"点击下方从您的计算机中选择一张 JPG、GIF 或 PNG 格式的照片并点击“上传照片”进行"
-"处理。"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:7
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:14
 msgid ""
 "Your profile photo will be used on your profile and throughout the site. If "
 "there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
 "account email we will use that, or you can upload an image from your "
 "computer."
 msgstr ""
-"您的头像将会显示在个人资料中且会用于网站各处。如果您有一个<a href=\"http://"
+"您的头像将会显示在个人档案中并用于网站各处。如果您有一个<a href=\"http://"
 "gravatar.com\">Gravatar</a>帐号和您当前的邮件地址关联，那我们将会使用这个帐"
 "号，或者您可以从本地计算机中上传一张图片。"
 
-#: src/bp-templates/bp-
-#: legacy/buddypress/members/single/notifications/notifications-loop.php:8
-msgid "Date Received"
-msgstr "收到日期"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:1
-msgid "Change Profile Photo"
-msgstr "修改头像"
-
-#: src/bp-templates/bp-
-#: legacy/buddypress/members/single/notifications/notifications-loop.php:7
-msgid "Notification"
-msgstr "通知"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-
-#: notifications.php:23
-msgid "This member has no notifications."
-msgstr "当前用户没有任何通知"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-
-#: notifications.php:19
-msgid "You have no notifications."
-msgstr "您没有任何通知"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-
-#: notifications.php:11
-msgid "This member has no unread notifications."
-msgstr "当前用户没有未读通知"
-
-#: src/bp-templates/bp-legacy/buddypress/members/single/notifications/feedback-no-
-#: notifications.php:7
-msgid "You have no unread notifications."
-msgstr "您没有未读通知"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-templates/bp-legacy/buddypress/groups/create.php:69
-#: src/bp-templates/bp-legacy/buddypress/groups/create.php:80
-#: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:75
-#: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:85
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:21
 msgid ""
-"Group content and activity will only be visible to members of the group."
-msgstr "群内容和群动态只对群成员可见。"
-
-#: src/bp-templates/bp-legacy/buddypress/groups/create.php:67
-#: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:73
-msgid "Only users who request membership and are accepted can join the group."
-msgstr "只有发送好友请求并被接受的用户才可以加入群。"
-
-#: src/bp-templates/bp-legacy/buddypress/groups/create.php:64
-#: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:71
-msgid "This is a private group"
-msgstr "这是一个私人群"
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-templates/bp-legacy/buddypress/activity/post-form.php:25
-#, c-format
-msgid "What's new, %s?"
-msgstr "分享些新鲜事吧，%s？"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-messages/bp-messages-actions.php:239
-msgid "Messages marked as unread."
-msgstr "消息已标记为未读。"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-groups/bp-groups-template.php:2093
-msgid "This group has no moderators"
-msgstr "该群没有协管员"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: bp-groups/bp-groups-notifications.php:1098
-msgid "You have %d new group invitations"
-msgstr "您有%d个群邀请"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: bp-groups/bp-groups-notifications.php:756
-msgid "%d accepted group membership requests"
-msgstr "%d个已接受的入群请求"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: bp-groups/bp-groups-admin.php:500
-msgid "You cannot remove all administrators from a group."
-msgstr "您无法从群中移除所有的管理员。"
-
-#: bp-groups/bp-groups-admin.php:506
-msgid "Group name cannot be empty."
-msgstr "群名称不能为空。"
-
-#: bp-groups/bp-groups-admin.php:510
-msgid "Group description cannot be empty."
-msgstr "群简介不能为空。"
-
-#: bp-groups/bp-groups-admin.php:514
-msgid "Group name and description cannot be empty."
-msgstr "群的名称和简介不能为空。"
-
-#: bp-groups/bp-groups-admin.php:518
-msgid "An error occurred when trying to update your group details."
-msgstr "更新群资料时发生错误。"
-
-#: bp-groups/bp-groups-admin.php:523
-msgid "The group has been updated successfully."
-msgstr "群已更新成功。"
-
-#: bp-groups/bp-groups-admin.php:527
-msgid "The following users could not be added to the group: <em>%s</em>"
-msgstr "以下用户无法被加入到群中：<em>%s</em>"
-
-#: bp-groups/bp-groups-admin.php:531
-msgid "The following users were successfully added to the group: <em>%s</em>"
-msgstr "以下用户已成功加入进群：<em>%s</em>"
-
-#: bp-groups/bp-groups-admin.php:536
-msgid "An error occurred when trying to modify the following members: <em>%s</em>"
-msgstr "变更以下成员时出现错误：<em>%s</em>"
-
-#: bp-groups/bp-groups-admin.php:541
-msgid "The following members were successfully modified: <em>%s</em>"
-msgstr "以下成员已修改成功：<em>%s</em>"
-
-#: bp-groups/bp-groups-admin.php:570 bp-groups/bp-groups-adminbar.php:45
-#: bp-xprofile/bp-xprofile-admin.php:140
-msgid "Edit Group"
-msgstr "编辑群"
-
-#: bp-groups/bp-groups-admin.php:573 bp-groups/bp-groups-admin.php:728
-msgid "Add New"
-msgstr "新建"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-forums/deprecated/1.6.php:184
-msgid "New bbPress Installation"
-msgstr "安装新的 bbPress"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#: src/bp-core/bp-core-avatars.php:601
-#, c-format
-msgid "The file you uploaded is too big. Please upload a file under %s"
-msgstr "您上传的文件太大了。上传文件的尺寸请小于 %s"
-
-#: src/bp-core/bp-core-avatars.php:606
-msgid "Please upload only JPG, GIF or PNG photos."
-msgstr "请上传 JPG、GIF 和 PNG 格式的照片。"
-
-#: src/bp-core/bp-core-avatars.php:596
-#, c-format
-msgid "Your upload failed. Please try again. Error was: %s"
-msgstr "您上传失败。请再尝试一次。错误是： %s"
-
-
-
-#: src/bp-core/bp-core-avatars.php:591
-msgid "The image was not uploaded."
-msgstr "图像没有被上传。"
-
-
-
-#: src/bp-core/bp-core-avatars.php:588 src/bp-core/bp-core-avatars.php:589
-msgid "The image exceeds the maximum allowed file size of: "
-msgstr "该图像超过了所允许的最大文件大小："
-
-#: src/bp-core/bp-core-avatars.php:587
-msgid "The image was uploaded successfully"
-msgstr "图像上传成功"
-
-#: src/bp-core/bp-core-admin.php:616
-msgid "And so Much More"
-msgstr "以及更多"
-
-#: src/bp-core/bp-core-admin.php:617
-msgid ""
-"With over 130 bugs squashed and constant attention to improving unit-test "
-"coverage, we think this version is just the bee&#8217;s knees."
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
 msgstr ""
-"随着130个缺陷的修复以及持续提高单元测试覆盖率，我们认为这个版本是最好的一个版"
-"本。"
+"点击下方按钮从您的计算机中选择一张 JPG、GIF 或 PNG 格式的照片然后点击“上传照"
+"片”按钮上传。"
 
-#: src/bp-core/bp-core-admin.php:610
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:38
+msgid "Crop Your New Profile Photo"
+msgstr "裁剪您的新头像"
+
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:40
+msgid "Profile Photo to crop"
+msgstr "要裁剪的头像"
+
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:43
+msgid "Profile Photo preview"
+msgstr "头像预览"
+
+#: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:70
 msgid ""
-"We now properly group and cache several different types of queries and "
-"objects, with an emphasis on multi-network environments."
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with <a href=\"http://"
+"gravatar.com\">Gravatar</a> using the same email address as you used to "
+"register with this site."
 msgstr ""
-"我们现在把不同类型的查询和对象正确地组合在一起并缓存起来，重点是在多网络环"
-"境。"
+"您的头像将会显示在个人档案中并用于网站各处。要修改您的头像，请使用您在网站注"
+"册的电子邮箱地址到<a href=\"http://gravatar.com\">Gravatar</a>上新建一个帐"
+"号。"
 
-#: src/bp-core/bp-core-admin.php:594
-msgid ""
-"We support a wide range of WordPress versions, even though you should always "
-"stay up-to-date."
-msgstr "虽然您一直使用最新的WordPress版本，但是我们也支持各种其它版本。"
+#: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:20
+msgid "Editing '%s' Profile Group"
+msgstr "编辑'%s'的档案组"
 
-#: src/bp-core/bp-core-admin.php:607
+#: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:50
+#: bp-xprofile/bp-xprofile-admin.php:986
+msgid "Change"
+msgstr "更改"
+
+#: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:22
+msgid "%s's Profile"
+msgstr "%s的档案"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/capabilities.php:19
+msgid "This user is a spammer."
+msgstr "该用户是个垃圾信息发送者。"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:10
 msgid ""
-"Metadata, multiple scopes, actions, post types, and more are now easily "
-"queried using core APIs and functionality."
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr "删除您的账号会同时删除该账号创建的所有内容。删除后不可恢复。"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:14
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr "删除账号会同时删除该账号创建的所有内容。删除后不可恢复。"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:33
+msgid "I understand the consequences."
+msgstr "我知道其后果。"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:10
+msgid ""
+"Current Password <span>(required to update email or change current "
+"password)</span>"
+msgstr "当前密码<span>（需要更新电子邮箱或更改当前密码）</span>"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:11
+msgid "Password Lost and Found"
+msgstr "密码丢失和找回"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:11
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:15
+msgid "Account Email"
+msgstr "帐号电子邮箱"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:18
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr "更改密码<strong>（留空将不进行修改）</strong>"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:19
+msgid "New Password"
+msgstr "新密码"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:21
+msgid "Repeat New Password"
+msgstr "重复新密码"
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/notifications.php:7
+msgid "Send an email notice when:"
+msgstr "选择何时发送电子邮件："
+
+#: bp-templates/bp-legacy/buddypress/members/single/settings/profile.php:22
+#: bp-xprofile/classes/class-bp-xprofile-field.php:885
+msgid "Visibility"
+msgstr "可见性"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:63
+msgid "BuddyPress Legacy"
+msgstr "BuddyPress旧功能"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:299
+msgid "Accepted"
+msgstr "已接受"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:301
+msgid "comments"
+msgstr "评论"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:302
+msgid "Are you sure you want to leave this group?"
+msgstr "您确定要退出该群吗？"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:304
+msgid "My Favorites"
+msgstr "我的收藏"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:305
+msgid "Rejected"
+msgstr "已拒绝"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:307
+msgid "Show all"
+msgstr "显示全部"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:308
+msgid "Show all comments for this thread"
+msgstr "显示该话题的全部评论"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:309
+msgid "Show all %d comments"
+msgstr "显示全部%d条评论。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:310
+msgid ""
+"Your profile has unsaved changes. If you leave the page, the changes will be "
+"lost."
+msgstr "您的档案资料更改尚未保存。如果离开此页面，您的更改将会丢失。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:942
+msgid "There was a problem posting your update. Please try again."
+msgstr "在发表您的更新时发生错误。请再尝试一次。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1074
+#: bp-templates/bp-legacy/buddypress-functions.php:1111
+msgid "There was a problem when deleting. Please try again."
+msgstr "删除时发生错误。请再尝试一次。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1298
+msgid ""
+"%s has previously requested to join this group. Sending an invitation will "
+"automatically add the member to the group."
+msgstr "%s之前申请过加入此群。发送邀请后将自动将该成员加入。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1353
+msgid " Friendship could not be requested."
+msgstr "无法发送加好友请求。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1365
+msgid "Friendship request could not be cancelled."
+msgstr "无法取消加好友请求。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1370
+msgid "Request Pending"
+msgstr "待处理请求"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1390
+msgid "There was a problem accepting that request. Please try again."
+msgstr "接受该请求时发生错误。请再尝试一次。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1409
+msgid "There was a problem rejecting that request. Please try again."
+msgstr "拒绝该请求时发生错误。请再尝试一次。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1439
+msgid "Error joining group"
+msgstr "加入群时出错"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1452
+#: bp-templates/bp-legacy/buddypress-functions.php:1462
+msgid "Error requesting membership"
+msgstr "请求入群时出错"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1464
+msgid "Membership Requested"
+msgstr "入群请求已发"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1473
+msgid "Error leaving group"
+msgstr "退出群时出错"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1496
+msgid "There was a problem closing the notice."
+msgstr "关闭通知时出现错误。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1599
+msgid "There was a problem sending that reply. Please try again."
+msgstr "发送回复时出现错误，请再尝试一次。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1617
+msgid "There was a problem marking messages as unread."
+msgstr "标记消息为未读时出现错误。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1642
+msgid "There was a problem marking messages as read."
+msgstr "标记消息为已读时出现错误。"
+
+#: bp-templates/bp-legacy/buddypress-functions.php:1667
+msgid "There was a problem deleting messages."
+msgstr "删除消息时出现错误。"
+
+#: bp-xprofile/bp-xprofile-activity.php:31
+msgid "Member changed profile picture"
+msgstr "会员更改了头像"
+
+#: bp-xprofile/bp-xprofile-activity.php:33
+msgid "Updated Profile Photos"
+msgstr "已更新的头像"
+
+#: bp-xprofile/bp-xprofile-activity.php:39
+msgid "Updated Profile"
+msgstr "已更新的个人档案"
+
+#: bp-xprofile/bp-xprofile-activity.php:41
+#: bp-xprofile/bp-xprofile-activity.php:340
+msgid "Profile Updates"
+msgstr "个人档案更新"
+
+#: bp-xprofile/bp-xprofile-activity.php:65
+msgid "%s changed their profile picture"
+msgstr "%s更改了他们的头像"
+
+#: bp-xprofile/bp-xprofile-activity.php:99
+msgid "%s&#8217;s profile was updated"
+msgstr "%s的个人档案已更新。"
+
+#: bp-xprofile/bp-xprofile-admin.php:91
+#: bp-xprofile/classes/class-bp-xprofile-group.php:655
+msgid "Add New Field Group"
+msgstr "新增资料组"
+
+#: bp-xprofile/bp-xprofile-admin.php:120 bp-xprofile/bp-xprofile-admin.php:499
+msgid "(Primary)"
+msgstr "（主要）"
+
+#: bp-xprofile/bp-xprofile-admin.php:139
+#: bp-xprofile/classes/class-bp-xprofile-field.php:671
+msgid "Add New Field"
+msgstr "新增资料项"
+
+#: bp-xprofile/bp-xprofile-admin.php:172
+msgid "Fields for \"%s\" Group"
+msgstr "资料组“%s”中的项"
+
+#: bp-xprofile/bp-xprofile-admin.php:197
+msgid "There are no fields in this group."
+msgstr "该资料项组中没有任何资料项。"
+
+#: bp-xprofile/bp-xprofile-admin.php:205
+msgid "* Fields in this group appear on the signup page."
+msgstr "该组中带星号(*)的资料项会显示在注册页面。"
+
+#: bp-xprofile/bp-xprofile-admin.php:213
+msgid "You have no groups."
+msgstr "您没有任何资料组。"
+
+#: bp-xprofile/bp-xprofile-admin.php:214
+msgid "Add New Group"
+msgstr "新增资料组"
+
+#: bp-xprofile/bp-xprofile-admin.php:252
+msgid "There was an error saving the group. Please try again."
+msgstr "保存资料组时出错。请再尝试一次。"
+
+#: bp-xprofile/bp-xprofile-admin.php:257
+msgid "The group was saved successfully."
+msgstr "资料组已成功保存。"
+
+#: bp-xprofile/bp-xprofile-admin.php:298
+msgid "The group was deleted successfully."
+msgstr "资料组已成功删除。"
+
+#: bp-xprofile/bp-xprofile-admin.php:353
+msgid "There was an error saving the field. Please try again."
+msgstr "在保存该资料项时发生错误。请再尝试一次。"
+
+#: bp-xprofile/bp-xprofile-admin.php:356
+msgid "The field was saved successfully."
+msgstr "资料项已成功保存。"
+
+#: bp-xprofile/bp-xprofile-admin.php:420
+msgid "field"
+msgstr "资料项"
+
+#: bp-xprofile/bp-xprofile-admin.php:420
+msgid "option"
+msgstr "选项"
+
+#: bp-xprofile/bp-xprofile-admin.php:424
+msgid "There was an error deleting the %s. Please try again."
+msgstr "在删除%s时发生错误。请再尝试一次。"
+
+#: bp-xprofile/bp-xprofile-admin.php:427
+msgid "The %s was deleted successfully!"
+msgstr "%s已成功删除！"
+
+#: bp-xprofile/bp-xprofile-admin.php:500
+msgid "(Required)"
+msgstr "（必填）"
+
+#: bp-xprofile/bp-xprofile-admin.php:982
+msgid "This field can be seen by: <span class=\"%s\">%s</span>"
+msgstr "该资料项对<span class=\"%s\">%s</span>可见"
+
+#: bp-xprofile/bp-xprofile-screens.php:179
+msgid "Changes saved."
+msgstr "更改已被保存。"
+
+#: bp-xprofile/bp-xprofile-settings.php:43
+msgid "Your profile settings have been saved."
+msgstr "您的个人档案设置已保存。"
+
+#: bp-xprofile/bp-xprofile-settings.php:47
+msgid "This member's profile settings have been saved."
+msgstr "该成员的个人档案设置已保存。"
+
+#: bp-xprofile/bp-xprofile-template.php:1089
+msgid "Profile not recently updated"
+msgstr "档案最近没有更新"
+
+#: bp-xprofile/bp-xprofile-template.php:1107
+msgid "Profile updated %s"
+msgstr "档案最后更新于%s"
+
+#: bp-xprofile/bp-xprofile-template.php:1285
+msgid "This field's visibility cannot be changed."
+msgstr "该资料项的可见性不可改变。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:193
+msgid "January"
+msgstr "一月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:194
+msgid "February"
+msgstr "二月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:195
+msgid "March"
+msgstr "三月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:196
+msgid "April"
+msgstr "四月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:197
+msgid "May"
+msgstr "五月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:198
+msgid "June"
+msgstr "六月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:199
+msgid "July"
+msgstr "七月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:200
+msgid "August"
+msgstr "八月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:201
+msgid "September"
+msgstr "九月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:202
+msgid "October"
+msgstr "十月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:203
+msgid "November"
+msgstr "十一月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:204
+msgid "December"
+msgstr "十二月"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-multiselectbox.php:88
+#: bp-xprofile/classes/class-bp-xprofile-field-type-radiobutton.php:83
+#: bp-xprofile/classes/class-bp-xprofile-field-type-radiobutton.php:173
+msgid "Clear"
+msgstr "清空"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:263
+msgid "Please enter options for this Field:"
+msgstr "请输入该资料项选项："
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:266
+msgid "Sort Order:"
+msgstr "排列顺序"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:268
+msgid "Custom"
+msgstr "自定义"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:269
+msgid "Ascending"
+msgstr "升序"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:270
+msgid "Descending"
+msgstr "降序"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:335
+msgid "Default Value"
+msgstr "默认值"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type.php:352
+msgid "Add Another Option"
+msgstr "添加另一个选项"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:593
+msgid "Profile fields must have a name."
+msgstr "档案资料项必须要有个名字。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:599
+msgid "Profile field requirement is missing."
+msgstr "没有为档案资料项指定是否为必填项。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:605
+msgid "Profile field type is missing."
+msgstr "没有为档案资料项指定类型。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:611
+msgid "The profile field type %s is not registered."
+msgstr "档案资料项类型没有注册过。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:626
+msgid "These field options are invalid."
+msgstr "这些资料项的选项无效。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:637
+#: bp-xprofile/classes/class-bp-xprofile-field.php:643
+msgid "%s require at least one option."
+msgstr "%s至少需要有一个选项。"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:684
+msgid "Edit Field"
+msgstr "编辑资料项"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:795
+#: bp-xprofile/classes/class-bp-xprofile-group.php:712
+msgid "Submit"
+msgstr "提交"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:905
+msgid "Allow members to override"
+msgstr "允许会员自定义"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:909
+msgid "Enforce field visibility"
+msgstr "强制资料项可见"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:934
+msgid "Requirement"
+msgstr "资料项要求"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:937
+msgid "Not Required"
+msgstr "选填"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:938
+msgid "Required"
+msgstr "必填"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:961
+msgid "Type"
+msgstr "类型"
+
+#: bp-xprofile/classes/class-bp-xprofile-group.php:524
+msgid "Please make sure you give the group a name."
+msgstr "请确保您输入了该资料组的名称"
+
+#: bp-xprofile/classes/class-bp-xprofile-group.php:661
+msgid "Edit Field Group"
+msgstr "编辑资料组"
+
+#: bp-xprofile/classes/class-bp-xprofile-group.php:686
+msgid "Field Group Name"
+msgstr "资料组名称"
+
+#: bp-xprofile/classes/class-bp-xprofile-group.php:691
+msgid "Field Description"
+msgstr "资料项描述"
+
+#. Author URI of the plugin/theme
+msgid "https://buddypress.org/"
+msgstr "https://buddypress.org"
+
+#. Description of the plugin/theme
+msgid ""
+"BuddyPress helps you run any kind of social network on your WordPress, with "
+"member profiles, activity streams, user groups, messaging, and more."
 msgstr ""
-"使用核心应用程序接口（API）和其功能现在很容易就能对元数据、多范围、各种操作、"
-"文章类型等更多项进行查询。"
+"Buddypress 拥有成员个人档案资料、动态流、用户群、消息以及更多的功能，帮助您在"
+"您的Wordpress上运行各式各样的社交网站。"
 
-#: src/bp-core/bp-core-admin.php:606
-msgid "Complex Activity Queries"
-msgstr "复杂活动查询"
+#. Author of the plugin/theme
+msgid "The BuddyPress Community"
+msgstr "Buddypress社区"
 
-#: src/bp-core/bp-core-admin.php:593
-msgid "WordPress 3.6 - 4.1"
-msgstr "WordPress 3.6 - 4.1"
+#: bp-activity/bp-activity-admin.php:32
+msgctxt "Admin Dashbord SWA page title"
+msgid "Activity"
+msgstr "动态"
 
-#: src/bp-core/bp-core-admin.php:588
-msgid ""
-"Private message conversations made infinitely more flexible with an "
-"additional metadata table."
-msgstr "元数据表的使用，更让私信会话变得无限灵活。"
+#: bp-activity/bp-activity-admin.php:33
+msgctxt "Admin Dashbord SWA menu"
+msgid "Activity"
+msgstr "动态"
 
-#: src/bp-core/bp-core-admin.php:587
-msgid "Message Meta"
-msgstr "消息元数据"
+#: bp-activity/bp-activity-admin.php:253
+msgctxt "activity admin edit screen"
+msgid "Status"
+msgstr "状态"
 
-#: src/bp-core/bp-core-admin.php:582
-msgid ""
-"The Legacy template pack is now more responsive and accommodating to more "
-"WordPress themes."
-msgstr "旧模板包现在更加能自适应且兼容更多的WordPress主题。"
+#: bp-activity/bp-activity-admin.php:254
+msgctxt "activity admin edit screen"
+msgid "Primary Item/Secondary Item"
+msgstr "主项/次要项"
 
-#: src/bp-core/bp-core-admin.php:581
-msgid "Template Pack"
-msgstr "模板包"
+#: bp-activity/bp-activity-admin.php:255
+msgctxt "activity admin edit screen"
+msgid "Link"
+msgstr "链接"
 
-#: src/bp-core/bp-core-admin.php:576
-msgid ""
-"Register custom post types so they appear as activity stream items, complete "
-"with custom verbiage."
-msgstr "注册自定义文章类型以便于以动态流项目的方式显示，其完成过程相当复杂。"
+#: bp-activity/bp-activity-admin.php:256
+msgctxt "activity admin edit screen"
+msgid "Type"
+msgstr "类型"
 
-#: src/bp-core/bp-core-admin.php:575
-msgid "Post Types Activities"
-msgstr "文章类型动态"
+#: bp-activity/bp-activity-admin.php:257
+msgctxt "activity admin edit screen"
+msgid "Author ID"
+msgstr "作者ID"
 
-#: src/bp-core/bp-core-admin.php:560
-msgid ""
-"This amazing new feature is available to plugin developers starting with "
-"BuddyPress 2.2"
-msgstr "这个超赞的新功能让小伙伴们开始继续开发BuddyPress 2.2"
+#: bp-activity/bp-activity-admin.php:270
+msgctxt "Activity items per page (screen options)"
+msgid "Activity"
+msgstr "用户动态"
 
-#: src/bp-core/bp-core-admin.php:559
-msgid ""
-"Registering member types finally enables a strict separation of different "
-"and explicit types of community members."
-msgstr "建立会员类型最后能把不同的会员类型和明确的会员类型严格地区分开来。"
+#: src/bp-activity/bp-activity-admin.php:972
+msgctxt "Admin SWA page"
+msgid "Activity"
+msgstr "用户动态"
 
-#: src/bp-core/bp-core-admin.php:554
-msgid "Member types metabox"
-msgstr "会员类型元数据框"
+#: bp-activity/bp-activity-admin.php:1335
+msgctxt "Admin SWA column header"
+msgid "Author"
+msgstr "作者"
 
-#: src/bp-core/bp-core-admin.php:558
-msgid "Native APIs for crafting great new member experiences."
-msgstr "用于建立各种超棒用户体验的庞大本地应用程序接口（API）"
+#: bp-activity/bp-activity-admin.php:1336
+msgctxt "Admin SWA column header"
+msgid "Activity"
+msgstr "用户动态"
 
-#: src/bp-core/bp-core-admin.php:552
-msgid "Member Types"
+#: bp-activity/bp-activity-admin.php:1337
+msgctxt "Admin SWA column header"
+msgid "Action"
+msgstr "动作"
+
+#: bp-activity/bp-activity-admin.php:1338
+msgctxt "Admin SWA column header"
+msgid "In Response To"
+msgstr "回复给"
+
+#: bp-activity/bp-activity-akismet.php:612
+msgctxt "x hours ago - akismet cleared this item"
+msgid "<span>%1$s</span> &mdash; %2$s"
+msgstr "<span>%1$s</span> &mdash; %2$s"
+
+#: bp-activity/bp-activity-functions.php:481
+msgctxt "Post Type generic activity post admin filter"
+msgid "New item published"
+msgstr "新动态已发布"
+
+#: bp-activity/bp-activity-functions.php:1400
+msgctxt "Activity Custom Post Type post action"
+msgid "%1$s wrote a new <a href=\"%2$s\">item</a>, on the site %3$s"
+msgstr "%1$s在站点%3$s上发布了条新<a href=\"%2$s\">动态</a>"
+
+#: bp-activity/bp-activity-functions.php:1406
+msgctxt "Activity Custom Post Type post action"
+msgid "%1$s wrote a new <a href=\"%2$s\">item</a>"
+msgstr "%1$s发布了新<a href=\"%2$s\">动态</a>"
+
+#: bp-activity/bp-activity-loader.php:112
+msgctxt "component directory title"
+msgid "Site-Wide Activity"
+msgstr "全站用户动态"
+
+#: bp-blogs/bp-blogs-loader.php:69
+msgctxt "component directory title"
+msgid "Sites"
+msgstr "站点"
+
+#: bp-core/bp-core-filters.php:741
+msgctxt "component directory title"
+msgid "Directory"
+msgstr "目录"
+
+#: bp-groups/bp-groups-loader.php:166
+msgctxt "component directory title"
+msgid "Groups"
+msgstr "群"
+
+#: bp-members/bp-members-loader.php:103
+msgctxt "component directory title"
+msgid "Members"
+msgstr "成员"
+
+#: bp-activity/bp-activity-loader.php:140
+msgctxt "Profile activity screen nav"
+msgid "Activity"
+msgstr "动态"
+
+#: bp-activity/bp-activity-loader.php:166
+msgctxt "Profile activity screen sub nav"
+msgid "Personal"
+msgstr "个人"
+
+#: bp-activity/bp-activity-loader.php:177
+msgctxt "Profile activity screen sub nav"
+msgid "Mentions"
+msgstr "提到我的"
+
+#: bp-activity/bp-activity-loader.php:190
+msgctxt "Profile activity screen sub nav"
+msgid "Favorites"
+msgstr "收藏"
+
+#: bp-activity/bp-activity-loader.php:203
+msgctxt "Profile activity screen sub nav"
+msgid "Friends"
+msgstr "好友"
+
+#: bp-activity/bp-activity-loader.php:216
+msgctxt "Profile activity screen sub nav"
+msgid "Groups"
+msgstr "群"
+
+#: bp-activity/bp-activity-loader.php:261
+msgctxt "Toolbar Mention logged in user"
+msgid "Mentions <span class=\"count\">%s</span>"
+msgstr "提到我的 <span class=\"count\">%s</span>"
+
+#: bp-activity/bp-activity-loader.php:263
+msgctxt "Toolbar Mention logged in user"
+msgid "Mentions"
+msgstr "提到我的"
+
+#: bp-activity/bp-activity-loader.php:271
+msgctxt "My Account Activity sub nav"
+msgid "Activity"
+msgstr "动态"
+
+#: bp-activity/bp-activity-loader.php:279
+msgctxt "My Account Activity sub nav"
+msgid "Personal"
+msgstr "个人"
+
+#: bp-activity/bp-activity-loader.php:299
+msgctxt "My Account Activity sub nav"
+msgid "Favorites"
+msgstr "收藏"
+
+#: bp-activity/bp-activity-loader.php:309
+msgctxt "My Account Activity sub nav"
+msgid "Friends"
+msgstr "好友"
+
+#: bp-activity/bp-activity-loader.php:319
+msgctxt "My Account Activity sub nav"
+msgid "Groups"
+msgstr "群"
+
+#: bp-activity/bp-activity-loader.php:343
+msgctxt "Page and <title>"
+msgid "My Activity"
+msgstr "我的动态"
+
+#: bp-activity/bp-activity-template.php:394
+msgctxt "Activity pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-activity/bp-activity-template.php:395
+msgctxt "Activity pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-blogs/bp-blogs-template.php:250
+msgctxt "Blog pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-blogs/bp-blogs-template.php:251
+msgctxt "Blog pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-blogs/bp-blogs-widgets.php:38
+msgctxt "widget name"
+msgid "(BuddyPress) Recent Networkwide Posts"
+msgstr "(BuddyPress) 最近新发布的文章"
+
+#: bp-friends/bp-friends-widgets.php:51
+msgctxt "widget name"
+msgid "(BuddyPress) Friends"
+msgstr "(BuddyPress) 好友"
+
+#: bp-groups/bp-groups-widgets.php:27
+msgctxt "widget name"
+msgid "(BuddyPress) Groups"
+msgstr "(BuddyPress) 群"
+
+#: bp-members/bp-members-widgets.php:38
+msgctxt "widget name"
+msgid "(BuddyPress) Members"
+msgstr "(BuddyPress) 会员"
+
+#: bp-members/bp-members-widgets.php:253
+msgctxt "widget name"
+msgid "(BuddyPress) Who's Online"
+msgstr "(BuddyPress) 谁在线"
+
+#: bp-members/bp-members-widgets.php:403
+msgctxt "widget name"
+msgid "(BuddyPress) Recently Active Members"
+msgstr "(BuddyPress) 最近常在线会员"
+
+#: bp-blogs/bp-blogs-widgets.php:158
+msgctxt "Label for the Title field of the Recent Networkwide Posts widget"
+msgid "Title:"
+msgstr "标题："
+
+#: bp-core/admin/bp-core-admin-components.php:152
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部 <span class=\"count\">(%s)</span>"
+msgstr[1] "全部 <span class=\"count\">(%s)</span>"
+
+#: bp-core/admin/bp-core-admin-schema.php:350
+msgctxt "First field-group name"
+msgid "General"
+msgstr "概况"
+
+#: bp-core/admin/bp-core-admin-schema.php:354
+msgctxt "Display name field"
+msgid "Display Name"
+msgstr "显示名称"
+
+#: bp-core/admin/bp-core-admin-tools.php:404
+msgctxt "buddypress tools intro"
+msgid "Use the %s to repair these relationships."
+msgstr "使用%s来修复关联"
+
+#: bp-core/bp-core-admin.php:339
+msgctxt "BuddyPress setting tab"
+msgid "Profile Settings"
+msgstr "档案设置"
+
+#: bp-core/bp-core-admin.php:617
+msgctxt "About screen, website links"
+msgid "Learn more:"
+msgstr "更多："
+
+#: bp-core/bp-core-admin.php:617
+msgctxt "About screen, link to project blog"
+msgid "News"
+msgstr "新闻"
+
+#: bp-core/bp-core-admin.php:617
+msgctxt "About screen, link to support site"
+msgid "Support"
+msgstr "服务支持"
+
+#: bp-core/bp-core-admin.php:617
+msgctxt "About screen, link to documentation"
+msgid "Documentation"
+msgstr "文档"
+
+#: bp-core/bp-core-admin.php:617
+msgctxt "About screen, link to development blog"
+msgid "Development Blog"
+msgstr "开发博客"
+
+#: bp-core/bp-core-admin.php:618
+msgctxt "official Twitter accounts:"
+msgid "Twitter:"
+msgstr "推特（Twitter）:"
+
+#: bp-core/bp-core-admin.php:618
+msgctxt "@buddypress twitter account name"
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: bp-core/bp-core-admin.php:618
+msgctxt "@bptrac twitter account name"
+msgid "Trac"
+msgstr "Trac"
+
+#: bp-core/bp-core-admin.php:618
+msgctxt "@buddypressdev twitter account name"
+msgid "Development"
+msgstr "开发"
+
+#: bp-core/bp-core-catchuri.php:277
+msgctxt "member type URL base"
+msgid "type"
+msgstr "类型"
+
+#: bp-core/bp-core-functions.php:640
+msgctxt "Page title for the Activity directory."
+msgid "Activity"
+msgstr "动态"
+
+#: bp-core/bp-core-functions.php:641
+msgctxt "Page title for the Groups directory."
+msgid "Groups"
+msgstr "群"
+
+#: bp-core/bp-core-functions.php:642
+msgctxt "Page title for the Sites directory."
+msgid "Sites"
+msgstr "站点"
+
+#: bp-core/bp-core-functions.php:643
+msgctxt "Page title for the Members directory."
+msgid "Members"
+msgstr "会员"
+
+#: bp-core/bp-core-functions.php:644
+msgctxt "Page title for the user activation screen."
+msgid "Activate"
+msgstr "激活"
+
+#: bp-core/bp-core-functions.php:645
+msgctxt "Page title for the user registration screen."
+msgid "Register"
+msgstr "注册"
+
+#: bp-core/bp-core-functions.php:1186
+msgctxt "Separator in time since"
+msgid ","
+msgstr "，"
+
+#: bp-core/bp-core-loader.php:289
+msgctxt "Main navigation"
+msgid "Profile"
+msgstr "个人档案"
+
+#: bp-core/bp-core-loader.php:300
+msgctxt "Profile sub nav"
+msgid "View"
+msgstr "查看"
+
+#: bp-core/bp-core-template.php:501
+msgctxt "search form"
+msgid "Members"
+msgstr "会员"
+
+#: bp-core/bp-core-template.php:505
+msgctxt "search form"
+msgid "Groups"
+msgstr "群"
+
+#: bp-core/bp-core-template.php:509
+msgctxt "search form"
+msgid "Blogs"
+msgstr "博客"
+
+#: bp-core/bp-core-template.php:513
+msgctxt "search form"
+msgid "Forums"
+msgstr "论坛"
+
+#: bp-core/bp-core-template.php:516
+msgctxt "search form"
+msgid "Posts"
+msgstr "文章"
+
+#: bp-core/bp-core-template.php:519
+msgctxt "search form"
+msgid "Search these:"
+msgstr "搜索以下内容："
+
+#: bp-core/bp-core-widgets.php:35
+msgctxt "Title of the login widget"
+msgid "(BuddyPress) Log In"
+msgstr "(BuddyPress) 登录"
+
+#: bp-core/classes/class-bp-attachment-avatar.php:55
+msgctxt "avatar types separator"
+msgid ","
+msgstr "，"
+
+#: bp-core/classes/class-bp-attachment.php:456
+msgctxt "Attachment source file"
+msgid "source file"
+msgstr "源文件"
+
+#: bp-core/classes/class-bp-attachment.php:458
+msgctxt "Attachment destination file"
+msgid "destination file"
+msgstr "目标文件"
+
+#: bp-forums/bp-forums-template.php:359 bp-forums/bp-forums-template.php:647
+msgctxt "Forum topic pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-forums/bp-forums-template.php:360 bp-forums/bp-forums-template.php:648
+msgctxt "Forum topic pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-forums/bp-forums-template.php:2105
+msgctxt "Forum thread pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-forums/bp-forums-template.php:2106
+msgctxt "Forum thread pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-friends/bp-friends-loader.php:24
+msgctxt "Friends screen page <title>"
+msgid "Friend Connections"
+msgstr "好友联系"
+
+#: bp-friends/bp-friends-loader.php:140
+msgctxt "Friends screen sub nav"
+msgid "Friendships"
+msgstr "好友列表"
+
+#: bp-friends/bp-friends-loader.php:150
+msgctxt "Friends screen sub nav"
+msgid "Requests"
+msgstr "好友请求"
+
+#: bp-friends/bp-friends-loader.php:185
+msgctxt "My Account Friends menu"
+msgid "Friends <span class=\"count\">%s</span>"
+msgstr "好友 <span class=\"count\">%s</span>"
+
+#: bp-friends/bp-friends-loader.php:188
+msgctxt "My Account Friends menu"
+msgid "Friends"
+msgstr "好友"
+
+#: bp-friends/bp-friends-loader.php:186
+msgctxt "My Account Friends menu sub nav"
+msgid "Pending Requests <span class=\"count\">%s</span>"
+msgstr "待处理的请求 <span class=\"count\">%s</span>"
+
+#: bp-friends/bp-friends-loader.php:189
+msgctxt "My Account Friends menu sub nav"
+msgid "No Pending Requests"
+msgstr "没有待处理的请求"
+
+#: bp-friends/bp-friends-loader.php:204
+msgctxt "My Account Friends menu sub nav"
+msgid "Friendships"
+msgstr "好友列表"
+
+#: bp-friends/bp-friends-screens.php:109
+msgctxt "Friend settings on notification settings page"
+msgid "Friends"
+msgstr "好友"
+
+#: bp-friends/bp-friends-screens.php:118
+msgctxt "Friend settings on notification settings page"
+msgid "A member sends you a friendship request"
+msgstr "有会员给您发送了好友请求"
+
+#: bp-friends/bp-friends-screens.php:124
+msgctxt "Friend settings on notification settings page"
+msgid "A member accepts your friendship request"
+msgstr "有会员接受了您的好友请求"
+
+#: bp-groups/bp-groups-admin.php:32
+msgctxt "Admin Groups page title"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-admin.php:33
+msgctxt "Admin Groups menu"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-admin.php:131
+msgctxt "group admin edit screen"
+msgid "Save"
+msgstr "保存"
+
+#: bp-groups/bp-groups-admin.php:132
+msgctxt "group admin edit screen"
+msgid "Settings"
+msgstr "设置"
+
+#: bp-groups/bp-groups-admin.php:133
+msgctxt "group admin edit screen"
+msgid "Add New Members"
+msgstr "添加新成员"
+
+#: bp-groups/bp-groups-admin.php:134
+msgctxt "group admin edit screen"
+msgid "Manage Members"
+msgstr "管理成员"
+
+#: bp-groups/bp-groups-admin.php:153
+msgctxt "Groups per page (screen options)"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-admin.php:877
+msgctxt "Group member user_id in group admin"
+msgid "ID"
+msgstr "标识（ID）"
+
+#: bp-groups/bp-groups-admin.php:878
+msgctxt "Group member name in group admin"
+msgid "Name"
+msgstr "名字"
+
+#: bp-groups/bp-groups-admin.php:879
+msgctxt "Group member role in group admin"
+msgid "Group Role"
+msgstr "群角色"
+
+#: bp-groups/bp-groups-admin.php:1446
+msgctxt "Groups admin Group Name column header"
+msgid "Name"
+msgstr "名字"
+
+#: bp-groups/bp-groups-admin.php:1447
+msgctxt "Groups admin Group Description column header"
+msgid "Description"
+msgstr "简介"
+
+#: bp-groups/bp-groups-admin.php:1448
+msgctxt "Groups admin Privacy Status column header"
+msgid "Status"
+msgstr "状态"
+
+#: bp-groups/bp-groups-admin.php:1449
+msgctxt "Groups admin Members column header"
+msgid "# Members"
+msgstr "# 成员"
+
+#: bp-groups/bp-groups-admin.php:1450
+msgctxt "Groups admin Last Active column header"
+msgid "Last Active"
+msgstr "最后更新"
+
+#: bp-groups/bp-groups-adminbar.php:67
+msgctxt "Group WP Admin Bar manage links"
+msgid "Edit Group %s"
+msgstr "编辑群%s"
+
+#: bp-groups/bp-groups-adminbar.php:71
+msgctxt "Group WP Admin Bar delete link"
+msgid "%s Group"
+msgstr "%s群"
+
+#: bp-groups/bp-groups-loader.php:90
+msgctxt "Group screen page <title>"
+msgid "User Groups"
+msgstr "用户群"
+
+#: bp-groups/bp-groups-loader.php:168
+msgctxt "Component directory search"
+msgid "Search Groups..."
+msgstr "搜索群..."
+
+#: bp-groups/bp-groups-loader.php:291
+msgctxt "Group screen nav"
+msgid "Details"
+msgstr "详细信息"
+
+#: bp-groups/bp-groups-loader.php:295
+msgctxt "Group screen nav"
+msgid "Settings"
+msgstr "设置"
+
+#: bp-groups/bp-groups-loader.php:304
+msgctxt "Group screen nav"
+msgid "Photo"
+msgstr "照片"
+
+#: bp-groups/bp-groups-loader.php:312
+msgctxt "Group screen nav"
+msgid "Invites"
+msgstr "邀请"
+
+#: bp-groups/bp-groups-loader.php:489
+msgctxt "Group screen nav"
+msgid "Request Membership"
+msgstr "入群请求"
+
+#: bp-groups/bp-groups-loader.php:398
+msgctxt "Group screen nav with counter"
+msgid "Groups <span class=\"%s\">%s</span>"
+msgstr "群 <span class=\"%s\">%s</span>"
+
+#: bp-groups/bp-groups-loader.php:400
+msgctxt "Group screen nav without counter"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-loader.php:469
+msgctxt "Group screen navigation title"
+msgid "Home"
+msgstr "首页"
+
+#: bp-groups/bp-groups-loader.php:501
+msgctxt "My Group screen nav"
+msgid "Forum"
+msgstr "论坛"
+
+#: bp-groups/bp-groups-loader.php:513
+msgctxt "My Group screen nav"
+msgid "Members <span>%s</span>"
+msgstr "成员 <span>%s</span>"
+
+#: bp-groups/bp-groups-loader.php:526
+msgctxt "My Group screen nav"
+msgid "Send Invites"
+msgstr "发送邀请"
+
+#: bp-groups/bp-groups-loader.php:541
+msgctxt "My Group screen nav"
+msgid "Manage"
+msgstr "管理"
+
+#: bp-groups/bp-groups-loader.php:644
+msgctxt "My Account Groups"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-loader.php:645
+msgctxt "My Account Groups sub nav"
+msgid "No Pending Invites"
+msgstr "没有待接受的邀请"
+
+#: bp-groups/bp-groups-loader.php:649
+msgctxt "My Account Groups sub nav"
+msgid "Pending Invites <span class=\"count\">%s</span>"
+msgstr "待接受的邀请 <span class=\"count\">%s</span>"
+
+#: bp-groups/bp-groups-loader.php:664
+msgctxt "My Account Groups sub nav"
+msgid "Memberships"
+msgstr "成员列表"
+
+#: bp-groups/bp-groups-loader.php:681
+msgctxt "My Account Groups sub nav"
+msgid "Create a Group"
+msgstr "创建一个群"
+
+#: bp-groups/bp-groups-loader.php:648
+msgctxt "My Account Groups nav"
+msgid "Groups <span class=\"count\">%s</span>"
+msgstr "群 <span class=\"count\">%s</span>"
+
+#: bp-groups/bp-groups-loader.php:699
+msgctxt "My Groups page <title>"
+msgid "Memberships"
+msgstr "成员列表"
+
+#: bp-groups/bp-groups-notifications.php:35
+msgctxt "Group update email text"
+msgid "* Name changed from \"%s\" to \"%s\""
+msgstr "* 名称由“%s”改为了“%s”"
+
+#: bp-groups/bp-groups-notifications.php:43
+msgctxt "Group update email text"
+msgid "* Description changed from \"%s\" to \"%s\""
+msgstr "* 简介由“%s”改为了“%s”"
+
+#: bp-groups/bp-groups-screens.php:1331
+msgctxt "Group settings on notification settings page"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-screens.php:1340
+msgctxt "group settings on notification settings page"
+msgid "A member invites you to join a group"
+msgstr "有成员邀请您加入一个群"
+
+#: bp-groups/bp-groups-screens.php:1346
+msgctxt "group settings on notification settings page"
+msgid "Group information is updated"
+msgstr "群信息已更新"
+
+#: bp-groups/bp-groups-screens.php:1352
+msgctxt "group settings on notification settings page"
+msgid "You are promoted to a group administrator or moderator"
+msgstr "您已晋升为群管理员或是协管员"
+
+#: bp-groups/bp-groups-screens.php:1358
+msgctxt "group settings on notification settings page"
+msgid "A member requests to join a private group for which you are an admin"
+msgstr "有会员申请加入您所管理的私人群"
+
+#: bp-groups/bp-groups-screens.php:1543
+msgctxt "Group creation page"
+msgid "Groups"
+msgstr "群"
+
+#: bp-groups/bp-groups-template.php:364
+msgctxt "Group pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-groups/bp-groups-template.php:365
+msgctxt "Group pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-members/admin/bp-members-admin-classes.php:100
+#: bp-members/admin/bp-members-admin-classes.php:482
+#: bp-members/bp-members-admin.php:1351
+msgctxt "signup users"
+msgid "Pending %s"
+msgstr "待审用户 %s位"
+
+#: bp-members/admin/bp-members-admin-classes.php:151
+#: bp-members/admin/bp-members-admin-classes.php:519
+msgctxt "Pending signup action"
+msgid "Activate"
+msgstr "激活"
+
+#: bp-members/admin/bp-members-admin-classes.php:152
+#: bp-members/admin/bp-members-admin-classes.php:520
+msgctxt "Pending signup action"
+msgid "Email"
+msgstr "电子邮箱"
+
+#: bp-members/bp-members-admin.php:732
+msgctxt "members user-admin edit screen"
+msgid "Status"
+msgstr "状态"
+
+#: bp-members/bp-members-admin.php:766
+msgctxt "members user-admin edit screen"
+msgid "%s's Stats"
+msgstr "%s的统计信息"
+
+#: bp-members/bp-members-admin.php:778
+msgctxt "members user-admin edit screen"
+msgid "Member Type"
 msgstr "会员类型"
 
+#: bp-members/bp-members-admin.php:896 bp-members/bp-members-admin.php:1848
+msgctxt "user"
+msgid "Add New"
+msgstr "添加新用户"
+
+#: bp-members/bp-members-admin.php:900 bp-members/bp-members-admin.php:1852
+msgctxt "user"
+msgid "Add Existing"
+msgstr "添加现有用户"
+
+#: bp-members/bp-members-admin.php:1428
+msgctxt "Pending Accounts per page (screen options)"
+msgid "Pending Accounts"
+msgstr "待激活账号"
+
+#: bp-members/bp-members-admin.php:1611
+msgctxt "signup resent"
+msgid "%s activation email successfully sent! "
+msgid_plural "%s activation emails successfully sent! "
+msgstr[0] "%s封激活邮件已成功发送！"
+msgstr[1] "%s封激活邮件已成功发送！"
+
+#: bp-members/bp-members-admin.php:1645
+msgctxt "signup resent"
+msgid "%s account successfully activated! "
+msgid_plural "%s accounts successfully activated! "
+msgstr[0] "%s个帐号已成功激活！"
+msgstr[1] "%s个帐号已成功激活！"
+
+#: bp-members/bp-members-admin.php:1622
+msgctxt "signup notsent"
+msgid "%s activation email was not sent."
+msgid_plural "%s activation emails were not sent."
+msgstr[0] "%s封激活邮件尚未发送。"
+msgstr[1] "%s封激活邮件尚未发送。"
+
+#: bp-members/bp-members-admin.php:1656
+msgctxt "signup notsent"
+msgid "%s account was not activated."
+msgid_plural "%s accounts were not activated."
+msgstr[0] "%s个帐号尚未激活。"
+msgstr[1] "%s个帐号尚未激活。"
+
+#: bp-members/bp-members-admin.php:1679
+msgctxt "signup deleted"
+msgid "%s sign-up successfully deleted!"
+msgid_plural "%s sign-ups successfully deleted!"
+msgstr[0] "%s位注册用户已成功删除！"
+msgstr[1] "%s位注册用户已成功删除！"
+
+#: bp-members/bp-members-admin.php:1690
+msgctxt "signup notdeleted"
+msgid "%s sign-up was not deleted."
+msgid_plural "%s sign-ups were not deleted."
+msgstr[0] "%s位注册用户尚未被删除。"
+msgstr[1] "%s位注册用户尚未被删除。"
+
+#: bp-members/bp-members-loader.php:237
+msgctxt "Member profile main navigation"
+msgid "Profile"
+msgstr "个人档案"
+
+#: bp-members/bp-members-loader.php:251
+msgctxt "Member profile view"
+msgid "View"
+msgstr "查看"
+
+#: bp-members/bp-members-template.php:349
+msgctxt "Member pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-members/bp-members-template.php:350
+msgctxt "Member pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-members/bp-members-template.php:1136
+msgctxt "member latest update in member directory"
+msgid "- &quot;%s&quot;"
+msgstr "- &quot;%s&quot;"
+
+#: bp-members/bp-members-template.php:1252
+msgctxt ""
+"Records the timestamp that the user registered into the activity stream"
+msgid "registered %s"
+msgstr "注册于%s"
+
+#: bp-messages/bp-messages-template.php:228
+msgctxt "Message pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-messages/bp-messages-template.php:229
+msgctxt "Message pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-messages/bp-messages-template.php:1265
+msgctxt "Message dropdown filter"
+msgid "Read"
+msgstr "已读"
+
+#: bp-messages/bp-messages-template.php:1266
+msgctxt "Message dropdown filter"
+msgid "Unread"
+msgstr "未读"
+
+#: bp-messages/bp-messages-template.php:1267
+msgctxt "Message dropdown filter"
+msgid "All"
+msgstr "全部"
+
+#: bp-messages/bp-messages-template.php:1272
+msgctxt "Message management markup"
+msgid "Mark as Read"
+msgstr "标记为已读"
+
+#: bp-messages/bp-messages-template.php:1273
+msgctxt "Message management markup"
+msgid "Mark as Unread"
+msgstr "标记为未读"
+
+#: bp-notifications/bp-notifications-loader.php:26
+msgctxt "Page <title>"
+msgid "Notifications"
+msgstr "通知"
+
+#: bp-notifications/bp-notifications-loader.php:110
+msgctxt "Profile screen nav"
+msgid "Notifications <span class=\"%s\">%s</span>"
+msgstr "通知 <span class=\"%s\">%s</span>"
+
+#: bp-notifications/bp-notifications-loader.php:112
+msgctxt "Profile screen nav"
+msgid "Notifications"
+msgstr "通知"
+
+#: bp-notifications/bp-notifications-loader.php:139
+msgctxt "Notification screen nav"
+msgid "Unread"
+msgstr "未读"
+
+#: bp-notifications/bp-notifications-loader.php:150
+msgctxt "Notification screen nav"
+msgid "Read"
+msgstr "已读"
+
+#: bp-notifications/bp-notifications-loader.php:184
+msgctxt "My Account Notification pending"
+msgid "Notifications <span class=\"count\">%s</span>"
+msgstr "通知 <span class=\"count\">%s</span>"
+
+#: bp-notifications/bp-notifications-loader.php:185
+msgctxt "My Account Notification pending"
+msgid "Unread <span class=\"count\">%s</span>"
+msgstr "未读 <span class=\"count\">%s</span>"
+
+#: bp-notifications/bp-notifications-loader.php:187
+msgctxt "My Account Notification"
+msgid "Notifications"
+msgstr "通知"
+
+#: bp-notifications/bp-notifications-loader.php:188
+msgctxt "My Account Notification sub nav"
+msgid "Unread"
+msgstr "未读"
+
+#: bp-notifications/bp-notifications-loader.php:211
+msgctxt "My Account Notification sub nav"
+msgid "Read"
+msgstr "已读"
+
+#: bp-notifications/bp-notifications-template.php:370
+msgctxt "Notifications pagination next text"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bp-notifications/bp-notifications-template.php:369
+msgctxt "Notifications pagination previous text"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bp-notifications/bp-notifications-template.php:939
+msgctxt "Notification screen action"
+msgid "Unread"
+msgstr "未读"
+
+#: bp-templates/bp-legacy/buddypress/activity/index.php:115
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] "%s个新提及"
+msgstr[1] "%s个新提及"
+
+#: bp-templates/bp-legacy/buddypress/assets/_attachments/uploader.php:23
+msgctxt "Uploader: Drop your file here - or - Select your File"
+msgid "or"
+msgstr "或"
+
+#: bp-templates/bp-legacy/buddypress/members/register.php:168
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr "变更"
+
+#: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:23
+msgctxt "Group member count"
+msgid "1 member"
+msgid_plural "%d members"
+msgstr[0] "1位成员"
+msgstr[1] "%d位成员"
+
+#: bp-xprofile/bp-xprofile-admin.php:29
+msgctxt "xProfile admin page title"
+msgid "Profile Fields"
+msgstr "档案资料项"
+
+#: bp-xprofile/bp-xprofile-admin.php:29
+msgctxt "Admin Users menu"
+msgid "Profile Fields"
+msgstr "档案资料项"
+
+#: bp-xprofile/bp-xprofile-admin.php:90
+msgctxt "Settings page header"
+msgid "Profile Fields"
+msgstr "档案资料项"
+
+#: bp-xprofile/bp-xprofile-admin.php:593
+msgctxt "xprofile field type category"
+msgid "Other"
+msgstr "其他"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-multiselectbox.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-radiobutton.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-selectbox.php:27
+msgctxt "xprofile field type category"
+msgid "Multi Fields"
+msgstr "多项资料"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-number.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-textarea.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-textbox.php:27
+#: bp-xprofile/classes/class-bp-xprofile-field-type-url.php:27
+msgctxt "xprofile field type category"
+msgid "Single Fields"
+msgstr "单项资料"
+
+#: bp-xprofile/bp-xprofile-admin.php:767
+msgctxt "xprofile user-admin edit screen"
+msgid "User marked as a spammer"
+msgstr "用户被标记为垃圾信息发送者"
+
+#: bp-xprofile/bp-xprofile-admin.php:779
+msgctxt "xprofile user-admin edit screen"
+msgid "Profile Photo"
+msgstr "头像"
+
+#: bp-xprofile/bp-xprofile-loader.php:43
+msgctxt "Component page <title>"
+msgid "Extended Profiles"
+msgstr "档案扩展资料"
+
+#: bp-xprofile/bp-xprofile-loader.php:123
+msgctxt "Visibility level setting"
+msgid "Everyone"
+msgstr "任何人"
+
+#: bp-xprofile/bp-xprofile-loader.php:127
+msgctxt "Visibility level setting"
+msgid "Only Me"
+msgstr "只对本人"
+
+#: bp-xprofile/bp-xprofile-loader.php:131
+msgctxt "Visibility level setting"
+msgid "All Members"
+msgstr "所有会员"
+
+#: bp-xprofile/bp-xprofile-loader.php:138
+msgctxt "Visibility level setting"
+msgid "My Friends"
+msgstr "我的好友"
+
+#: bp-xprofile/bp-xprofile-loader.php:178
+msgctxt "Profile header menu"
+msgid "Profile"
+msgstr "个人档案"
+
+#: bp-xprofile/bp-xprofile-loader.php:199
+msgctxt "Profile header sub menu"
+msgid "View"
+msgstr "查看"
+
+#: bp-xprofile/bp-xprofile-loader.php:209
+msgctxt "Profile header sub menu"
+msgid "Edit"
+msgstr "编辑"
+
+#: bp-xprofile/bp-xprofile-loader.php:221
+msgctxt "Profile header sub menu"
+msgid "Change Profile Photo"
+msgstr "更改头像"
+
+#: bp-xprofile/bp-xprofile-loader.php:264
+msgctxt "Profile settings sub nav"
+msgid "Profile Visibility"
+msgstr "档案可见度"
+
+#: bp-xprofile/bp-xprofile-loader.php:293
+msgctxt "My Account Profile"
+msgid "Profile"
+msgstr "个人档案资料"
+
+#: bp-xprofile/bp-xprofile-loader.php:301
+msgctxt "My Account Profile sub nav"
+msgid "View"
+msgstr "查看"
+
+#: bp-xprofile/bp-xprofile-loader.php:309
+msgctxt "My Account Profile sub nav"
+msgid "Edit"
+msgstr "编辑"
+
+#: bp-xprofile/bp-xprofile-loader.php:318
+msgctxt "My Account Profile sub nav"
+msgid "Change Profile Photo"
+msgstr "更改头像"
+
+#: bp-xprofile/bp-xprofile-loader.php:345
+msgctxt "Page title"
+msgid "My Profile"
+msgstr "我的资料"
+
+#: bp-xprofile/bp-xprofile-loader.php:350
+msgctxt "Avatar alt"
+msgid "Profile picture of %s"
+msgstr "%s的头像"
+
+#: bp-xprofile/bp-xprofile-loader.php:393
+msgctxt "My Account Settings sub nav"
+msgid "Profile"
+msgstr "个人档案"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox.php:28
+msgctxt "xprofile field type"
+msgid "Checkboxes"
+msgstr "复选框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:28
+msgctxt "xprofile field type"
+msgid "Date Selector"
+msgstr "日期选择框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-multiselectbox.php:28
+msgctxt "xprofile field type"
+msgid "Multi Select Box"
+msgstr "多选框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-number.php:28
+msgctxt "xprofile field type"
+msgid "Number"
+msgstr "数字框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-radiobutton.php:28
+msgctxt "xprofile field type"
+msgid "Radio Buttons"
+msgstr "单选按钮"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-selectbox.php:28
+msgctxt "xprofile field type"
+msgid "Drop Down Select Box"
+msgstr "下拉框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-textarea.php:28
+msgctxt "xprofile field type"
+msgid "Multi-line Text Area"
+msgstr "文本编辑框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-textbox.php:28
+msgctxt "xprofile field type"
+msgid "Text Box"
+msgstr "文本框"
+
+#: bp-xprofile/classes/class-bp-xprofile-field-type-url.php:28
+msgctxt "xprofile field type"
+msgid "URL"
+msgstr "网址"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:855
+msgctxt "XProfile admin edit field"
+msgid "Name"
+msgstr "名称"
+
+#: bp-xprofile/classes/class-bp-xprofile-field.php:861
+msgctxt "XProfile admin edit field"
+msgid "Description"
+msgstr "描述"

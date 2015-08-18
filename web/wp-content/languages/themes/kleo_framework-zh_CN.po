@@ -33,15 +33,15 @@ msgstr "在当前位置没有任何发现，试试搜索"
 
 #: comments.php:24
 msgid "0 Comments"
-msgstr "0 条评论"
+msgstr "0条评论"
 
 #: comments.php:24
 msgid "1 Comment"
-msgstr "1 条评论"
+msgstr "1条评论"
 
 #: comments.php:24
 msgid "% Comments"
-msgstr "% 条评论"
+msgstr "%条评论"
 
 #: comments.php:33 comments.php:43
 msgid "Previous"
@@ -53,7 +53,7 @@ msgstr "往后"
 
 #: comments.php:49
 msgid "Comments are closed."
-msgstr "评论被关闭"
+msgstr "评论已关闭"
 
 #: bbpress/user-details.php:65 content-aside.php:32 content-audio.php:30
 #: content-gallery.php:30 content-image.php:30 content-link.php:24
@@ -124,7 +124,7 @@ msgstr "边栏菜单"
 #: functions.php:144 kleo-framework/lib/function-breadcrumb.php:212
 #, php-format
 msgid "Page %s"
-msgstr "页数 %s"
+msgstr "第%s页"
 
 #: functions.php:458
 msgid "Main Sidebar"
@@ -141,7 +141,7 @@ msgstr "，"
 #: functions.php:568
 #, php-format
 msgid "View %s's profile"
-msgstr "查看%s的个人资料"
+msgstr "查看%s的个人档案"
 
 #: functions.php:571
 #, php-format
@@ -150,7 +150,7 @@ msgstr "查看%s写的所有文章"
 
 #: functions.php:588
 msgid "View profile"
-msgstr "查看个人资料"
+msgstr "查看个人档案"
 
 #: functions.php:598
 #, php-format
@@ -723,7 +723,7 @@ msgstr "我们没有找到您的名字。在继续之前请先填写您的facebo
 msgid ""
 "Thank you for registering. Please make sure to complete your profile fields "
 "below."
-msgstr "感谢您的注册。请确保填写完成您以下的个人资料项"
+msgstr "感谢您的注册。请确保填写完您以下的个人资料项"
 
 #: kleo-framework/lib/function-facebook-login.php:423
 #, php-format
@@ -1727,23 +1727,23 @@ msgstr "该文本显示在主菜单旁"
 
 #: lib/options.php:1721
 msgid "Hide Breadcrumb section for Profile pages"
-msgstr "在个人资料页面隐藏面包屑导航块"
+msgstr "在个人档案页面隐藏面包屑导航块"
 
 #: lib/options.php:1722
 msgid ""
 "If enabled the breadcrumb section will be hidden. Best used when you enable "
 "full width profile page below"
 msgstr ""
-"如果启用，面包屑导航将会被隐藏。当您启用下方以宽屏显示个人资料页面时，最好启"
+"如果启用，面包屑导航将会被隐藏。当您启用下方以宽屏显示个人档案页面时，最好启"
 "用它。"
 
 #: lib/options.php:1728
 msgid "Enable Full width Profile Header"
-msgstr "启用宽屏个人资料封面"
+msgstr "启用宽屏个人档案封面"
 
 #: lib/options.php:1729
 msgid "If enabled it will show the profile Photo in full width"
-msgstr "如果启用它，个人资料封面照片将会以宽屏方式显示"
+msgstr "如果启用它，个人档案封面照片将会以宽屏方式显示"
 
 #: lib/options.php:1735
 msgid "Enable Full width Group Header"
@@ -1875,7 +1875,7 @@ msgstr "在Buddypress管理帐号"
 
 #: lib/options.php:1910
 msgid "Integrates \"My Account\" into Buddypress profile tabs"
-msgstr "把 \"我的帐户\" 集成到Buddypress个人资料标签中"
+msgstr "把 \"我的帐户\" 集成到Buddypress个人档案标签中"
 
 #: lib/options.php:1917
 msgid "Number of days to treat a product as new"
@@ -2502,7 +2502,7 @@ msgstr "限制用户使用rtMedia在他们的资料中添加媒体文件"
 
 #: lib/plugin-pmpro/config.php:46
 msgid "Add media to your profile"
-msgstr "增加媒体文件到您的个人资料中"
+msgstr "增加媒体文件到您的个人档案中"
 
 #: lib/plugin-pmpro/config.php:278
 msgid "Upgrade account"

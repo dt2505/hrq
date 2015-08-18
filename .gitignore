@@ -21,7 +21,7 @@
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-class.php
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-places-widget.php
 
-### them translation
+### theme translation
 !web/wp-content/languages/themes/kleo_framework-zh_CN.mo
 !web/wp-content/languages/themes/kleo_framework-zh_CN.po
 
@@ -41,8 +41,6 @@
 #buddypress
 !web/wp-content/languages/plugins/buddypress-zh_CN.mo
 !web/wp-content/languages/plugins/buddypress-zh_CN.po
-# fix the translation issue in group pagination
-!web/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php
 
 # even if they are in subdirectories
 !*/

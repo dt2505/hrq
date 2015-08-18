@@ -1839,7 +1839,7 @@ function bp_groups_pagination_count() {
 		if ( 1 == $groups_template->total_group_count ) {
 			$message = __( 'Viewing 1 group', 'buddypress' );
 		} else {
-			$message = sprintf( _n( 'Viewing 1 group', 'Viewing %1$s - %2$s of %3$s groups', $groups_template->total_group_count, 'buddypress' ), $from_num, $to_num, $total );
+			$message = sprintf( _n( 'Viewing %1$s - %2$s of %3$s group', 'Viewing %1$s - %2$s of %3$s groups', $groups_template->total_group_count, 'buddypress' ), $from_num, $to_num, $total );
 		}
 
 		/**

@@ -21,7 +21,15 @@ License URI: license.txt
 }
 
 /* fix the layout issue with long message */
-#buddypress div#message-thread div.message-content p {
+/*#buddypress div#message-thread div.message-content p {*/
+	/*word-wrap: break-word;*/
+/*}*/
+
+#message-subject {
+	word-wrap: break-word;
+	max-width: 95%;
+}
+.message-content {
 	word-wrap: break-word;
 }
 
@@ -40,16 +48,16 @@ License URI: license.txt
 /* Group */
 #buddypress div#item-nav ul #rtmedia-media-nav-groups-li a:before { content: "\E81B"; }
 
-/*.buddypress div#item-header div#item-meta p {*/
-	/*overflow: visible;*/
-	/*word-wrap: break-word;*/
-/*}*/
+.buddypress div#item-header div#item-meta p {
+	overflow: visible;
+	word-wrap: break-word;
+}
 
-/*#main .alternate-color h1 {*/
-	/*max-width: 80% !important;*/
-	/*word-wrap: break-word;*/
-/*}*/
+.main-right-breadcrumb.main-title .page-title {
+	max-width: 80% !important;
+	word-wrap: break-word;
+}
 
-/*.widget.buddypress div.item-title {*/
-	/*word-wrap: break-word;*/
-/*}*/
+.widget.buddypress div.item-title {
+	word-wrap: break-word;
+}
