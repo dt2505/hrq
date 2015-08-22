@@ -130,24 +130,3 @@ function ml_restrict_media_library( $wp_query_obj ) {
     return;
 }
 add_action('pre_get_posts','ml_restrict_media_library');
-
-/**
- * uncomment the following code for disabling heartbeat if encountering high CPU problem
- *
- * - admin-ajax.php is part of WordPress AJAX API that is used in the backend and frontend.
- * - WordPress heartbeat API also calls this script every 15 seconds to auto save your posts
- * - while you’re editing your posts.  It also calls it on various other pages while you’re
- * - logged in to provide you with information like – what your fellow administrators and
- * - authors are currently working on. There are other things that the heartbeat API will
- * - do as well. Now imagine if you have many contributors and administrators logged into
- * - the backend, with each session sending heartbeat API requests to the server every
- * - 15 seconds.  This could cause some performance problems to your WordPress installation
- * - and admin-ajax.php high CPU problem is directly related to this
- */
-//add_action( 'init', 'my_deregister_heartbeat', 1 );
-//function my_deregister_heartbeat() {
-//    global $pagenow;
-//
-//    if ( 'post.php' != $pagenow && 'post-new.php' != $pagenow )
-//        wp_deregister_script('heartbeat');
-//}

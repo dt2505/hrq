@@ -14,6 +14,7 @@ License URI: license.txt
 * Please add your custom styles below
 */
 
+#buddypress div.activity-comments form textarea, /* activity comment */
 #message_content,
 #group-desc,
 #whats-new {
@@ -21,10 +22,6 @@ License URI: license.txt
 }
 
 /* fix the layout issue with long message */
-/*#buddypress div#message-thread div.message-content p {*/
-	/*word-wrap: break-word;*/
-/*}*/
-
 #message-subject {
 	word-wrap: break-word;
 	max-width: 95%;
@@ -53,7 +50,7 @@ License URI: license.txt
 	word-wrap: break-word;
 }
 
-.main-right-breadcrumb.main-title .page-title {
+#main .alternate-color h1 {
 	max-width: 80% !important;
 	word-wrap: break-word;
 }
@@ -61,3 +58,28 @@ License URI: license.txt
 .widget.buddypress div.item-title {
 	word-wrap: break-word;
 }
+
+.item-desc {
+	width: 95%;
+}
+
+#groups-list .item-desc p,
+#groups-dir-list .item-desc p {
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+#groups-list .item-title a,
+#groups-dir-list .item-title a {
+	word-wrap: break-word;
+}
+
+/*.main-title .page-title {*/
+	/*clear: left;*/
+	/*float: left;*/
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	/*width: 100%;*/
+	/*word-wrap: break-word;*/
+	/*max-width: 100%;*/
+/*}*/
