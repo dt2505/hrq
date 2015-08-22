@@ -8,7 +8,9 @@
 
 const ERROR_GROUP_ALREADY_EXIST = "您要建的群已经存在";
 const MAX_LENGTH_OF_GROUP_NAME = 20;
-const ERROR_GROUP_NAME_IS_TOO_LONG = "群的名字太长(最多只允许输入%d个字)";
+const ERROR_GROUP_NAME_IS_TOO_LONG = "群的名字太长 (最多只允许输入%d个字)";
+const MAX_LENGTH_OF_GROUP_DESC = 150;
+const ERROR_GROUP_DESC_IS_TOO_LONG = "群简介太长 (最多只允许输入%d个字)";
 
 /**
  * Disables BuddyPress' registration process and fallsback to WordPress' one.
@@ -84,30 +86,21 @@ function check_duplicated_group_name($name, $id) {
 add_filter('groups_group_name_before_save','check_duplicated_group_name', 10, 2);
 /** END - checking group name **/
 
-/** code snippet for length of xprofile control */
-//function bpfr_custom_textfield_length() {
-//
-//    //Check if user is logged in & if xprofile component is activated
-//    if ( is_user_logged_in() && bp_is_active( 'xprofile' ) ) :
-//        $my_custom_textfield = bp_get_member_profile_data( 'field=Brief Biography&user_id='.bp_get_member_user_id() );
-//
-//        /*
-//		 * The length = number of characters, not words.
-//		 * Set the number of caracters to show.
-//		 * The 3 dots are the appended text ending the excerpt.
-//		 * Don't remove the quotes if you change this
-//		 * BuddyPress 2.1 will add new class and id for custom fields.
-//		 * The span can be omited to style this part. See ticket #5741
-//		 */
-//        if ( strlen($my_custom_textfield) > 20) :  //adjust to your need
-//            $my_custom_textfield = substr($my_custom_textfield, 20).'...'; //adjust to your need
-//        endif;
-//        // uncomment the following line to get a span around the displayed field content
-//        // echo '<span class="short-custom">'. $my_custom_textfield; .'</span>';
-//        // comment the following line if you use the span
-//        echo $my_custom_textfield;
-//
-//
-//    endif; // is_user_logged_in
-//}
-//add_action( 'bp_directory_members_item', 'bpfr_custom_textfield_length' );
+/**
+ * check the number of characters in group description
+ * @param $description
+ * @param $id
+ */
+function check_characters_of_group_description($description, $id) {
+    // check only when it is new
+    if (empty($id)) {
+        if (mb_strlen($description) > MAX_LENGTH_OF_GROUP_DESC) {
+            bp_core_add_message( __( sprintf(ERROR_GROUP_DESC_IS_TOO_LONG, MAX_LENGTH_OF_GROUP_DESC), 'buddypress' ), 'error' );
+            bp_core_redirect( trailingslashit( bp_get_groups_directory_permalink() . 'create/step/' . bp_get_groups_current_create_step() ) );
+        }
+    } else {
+        return $description;
+    }
+}
+add_filter("groups_group_description_before_save", "check_characters_of_group_description", 10, 2);
+/** END - checking group description characters **/

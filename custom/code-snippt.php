@@ -78,3 +78,31 @@ function reset_group_description_excerpt($value, $group) {
     return bp_create_excerpt($group->description, 10);
 }
 add_filter("bp_get_group_description_excerpt", "reset_group_description_excerpt", 10, 2);
+
+/** code snippet for length of xprofile control */
+//function bpfr_custom_textfield_length() {
+//
+//    //Check if user is logged in & if xprofile component is activated
+//    if ( is_user_logged_in() && bp_is_active( 'xprofile' ) ) :
+//        $my_custom_textfield = bp_get_member_profile_data( 'field=Brief Biography&user_id='.bp_get_member_user_id() );
+//
+//        /*
+//		 * The length = number of characters, not words.
+//		 * Set the number of caracters to show.
+//		 * The 3 dots are the appended text ending the excerpt.
+//		 * Don't remove the quotes if you change this
+//		 * BuddyPress 2.1 will add new class and id for custom fields.
+//		 * The span can be omited to style this part. See ticket #5741
+//		 */
+//        if ( strlen($my_custom_textfield) > 20) :  //adjust to your need
+//            $my_custom_textfield = substr($my_custom_textfield, 20).'...'; //adjust to your need
+//        endif;
+//        // uncomment the following line to get a span around the displayed field content
+//        // echo '<span class="short-custom">'. $my_custom_textfield; .'</span>';
+//        // comment the following line if you use the span
+//        echo $my_custom_textfield;
+//
+//
+//    endif; // is_user_logged_in
+//}
+//add_action( 'bp_directory_members_item', 'bpfr_custom_textfield_length' );
