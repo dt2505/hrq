@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress 2.3.0\n"
 "Report-Msgid-Bugs-To: https://buddypress.trac.wordpress.org\n"
 "POT-Creation-Date: 2015-06-05 13:48:17+00:00\n"
-"PO-Revision-Date: 2015-08-18 17:22+1000\n"
+"PO-Revision-Date: 2015-08-23 21:14+1000\n"
 "Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "Language: Chinese (China)\n"
@@ -1174,14 +1174,14 @@ msgstr "保存设置"
 #: bp-core/admin/bp-core-admin-components.php:67
 #: bp-core/admin/bp-core-admin-components.php:374
 msgid "Extended Profiles"
-msgstr "扩展档案"
+msgstr "扩展资料"
 
 #: bp-core/admin/bp-core-admin-components.php:68
 #: bp-core/admin/bp-core-admin-components.php:375
 msgid ""
 "Customize your community with fully editable profile fields that allow your "
 "users to describe themselves."
-msgstr "使用可编辑的，且能让用户进行自我描述的档案资料项来自定义您的社区。"
+msgstr "使用可编辑的，且能让用户进行自我描述的个人资料项来自定义您的社区。"
 
 #: bp-core/admin/bp-core-admin-components.php:71
 #: bp-core/admin/bp-core-admin-components.php:378
@@ -1193,7 +1193,7 @@ msgstr "账户设置"
 msgid ""
 "Allow your users to modify their account and notification settings directly "
 "from within their profiles."
-msgstr "允许您的用户在他们的个人档案中直接修改账户和通知设置。"
+msgstr "允许您的用户在他们的个人资料中直接修改账户和通知设置。"
 
 #: bp-core/admin/bp-core-admin-components.php:75
 #: bp-core/admin/bp-core-admin-components.php:394
@@ -1464,7 +1464,7 @@ msgid ""
 "\">Managing Profile Fields</a>"
 msgstr ""
 "<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
-"\">管理个人档案</a>"
+"\">管理个人资料</a>"
 
 #: bp-core/admin/bp-core-admin-functions.php:553
 msgid ""
@@ -1836,7 +1836,7 @@ msgstr "管理工具"
 
 #: bp-core/bp-core-admin.php:527
 msgid "Add User Profile Fields"
-msgstr "新增用户档案资料项"
+msgstr "新增用户资料项"
 
 #: bp-core/bp-core-admin.php:529
 msgid "Manage User Signups"
@@ -1976,7 +1976,7 @@ msgstr "缓存的改进"
 msgid ""
 "Improved caching for the following components: Messages, Profiles, Members "
 "&amp; Member Types, and Friends."
-msgstr "已改进以下组件的缓存：消息、个人档案、会员及会员类型、和好友。"
+msgstr "已改进以下组件的缓存：消息、个人资料、会员及会员类型、和好友。"
 
 #: src/bp-core/bp-core-admin.php:613
 msgid "Developer Reference"
@@ -2321,7 +2321,7 @@ msgstr "特殊社区角色不复存在。请使用影射的权限代替。"
 msgid ""
 "This user has been marked as a spammer. Only site admins can view this "
 "profile."
-msgstr "该用户已被标记为垃圾信息发布者。只有站点管理员才可以查看该档案。"
+msgstr "该用户已被标记为垃圾信息发布者。只有站点管理员才可以查看该用户资料。"
 
 #: bp-core/bp-core-catchuri.php:544 bp-core/bp-core-catchuri.php:621
 msgid "You must log in to access the page you requested."
@@ -2640,7 +2640,7 @@ msgstr[1] "%d个群"
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:54
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:22
 msgid "My Profile"
-msgstr "我的档案"
+msgstr "我的个人资料"
 
 #: bp-core/deprecated/1.5.php:149
 #: bp-members/admin/bp-members-admin-classes.php:136
@@ -2782,7 +2782,7 @@ msgstr "博客作者"
 
 #: bp-core/deprecated/2.1.php:547
 msgid "Edit %s's Profile"
-msgstr "编辑%s的档案"
+msgstr "编辑%s的个人资料"
 
 #: bp-core/deprecated/2.1.php:551
 msgid "Edit %s's Profile Photo"
@@ -2967,7 +2967,7 @@ msgstr "集成群"
 
 #: bp-forums/deprecated/1.6.php:77 bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
-msgstr "集成会员个人档案"
+msgstr "集成会员个人资料"
 
 #: bp-forums/deprecated/1.6.php:78 bp-forums/deprecated/1.6.php:220
 msgid "Activity Stream Integration"
@@ -4666,7 +4666,7 @@ msgstr "注册管理"
 
 #: bp-members/bp-members-admin.php:648 bp-members/bp-members-admin.php:856
 msgid "Profile"
-msgstr "档案"
+msgstr "个人资料"
 
 #: bp-members/bp-members-admin.php:652
 msgid "Extended Profile"
@@ -4698,7 +4698,7 @@ msgid ""
 "\">Managing Profiles</a>"
 msgstr ""
 "<a href=\"https://codex.buddypress.org/administrator-guide/extended-profiles/"
-"\">管理个人档案</a>"
+"\">管理个人资料</a>"
 
 #: bp-members/bp-members-admin.php:858
 msgid "Edit User"
@@ -4726,11 +4726,11 @@ msgstr "注册于：<strong>%1$s</strong>"
 
 #: bp-members/bp-members-admin.php:1014
 msgid "View Profile"
-msgstr "查看个人档案"
+msgstr "查看个人资料"
 
 #: bp-members/bp-members-admin.php:1015
 msgid "Update Profile"
-msgstr "更新个人档案"
+msgstr "更新个人资料"
 
 #: bp-members/bp-members-admin.php:1035 bp-xprofile/bp-xprofile-admin.php:1031
 msgid ""
@@ -4887,7 +4887,7 @@ msgstr "确认"
 
 #: bp-members/bp-members-adminbar.php:41
 msgid "Edit My Profile"
-msgstr "编辑我的档案"
+msgstr "编辑我的个人资料"
 
 #: bp-members/bp-members-adminbar.php:55
 msgid "Log in"
@@ -6428,7 +6428,7 @@ msgstr "确认密码"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:146
 msgid "Profile Details"
-msgstr "档案详细信息"
+msgstr "个人资料详细信息"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:168
 #: bp-templates/bp-legacy/buddypress/members/register.php:183
@@ -6609,7 +6609,7 @@ msgid ""
 "account email we will use that, or you can upload an image from your "
 "computer."
 msgstr ""
-"您的头像将会显示在个人档案中并用于网站各处。如果您有一个<a href=\"http://"
+"您的头像将会显示在个人资料中并用于网站各处。如果您有一个<a href=\"http://"
 "gravatar.com\">Gravatar</a>帐号和您当前的邮件地址关联，那我们将会使用这个帐"
 "号，或者您可以从本地计算机中上传一张图片。"
 
@@ -6640,13 +6640,13 @@ msgid ""
 "gravatar.com\">Gravatar</a> using the same email address as you used to "
 "register with this site."
 msgstr ""
-"您的头像将会显示在个人档案中并用于网站各处。要修改您的头像，请使用您在网站注"
+"您的头像将会显示在个人资料中并用于网站各处。要修改您的头像，请使用您在网站注"
 "册的电子邮箱地址到<a href=\"http://gravatar.com\">Gravatar</a>上新建一个帐"
 "号。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:20
 msgid "Editing '%s' Profile Group"
-msgstr "编辑'%s'的档案组"
+msgstr "编辑'%s'的个人资料组"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:50
 #: bp-xprofile/bp-xprofile-admin.php:986
@@ -6655,7 +6655,7 @@ msgstr "更改"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:22
 msgid "%s's Profile"
-msgstr "%s的档案"
+msgstr "%s的个人资料"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/capabilities.php:19
 msgid "This user is a spammer."
@@ -6756,7 +6756,7 @@ msgstr "显示全部%d条评论。"
 msgid ""
 "Your profile has unsaved changes. If you leave the page, the changes will be "
 "lost."
-msgstr "您的档案资料更改尚未保存。如果离开此页面，您的更改将会丢失。"
+msgstr "您的个人资料更改尚未保存。如果离开此页面，您的更改将会丢失。"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:942
 msgid "There was a problem posting your update. Please try again."
@@ -6840,12 +6840,12 @@ msgstr "已更新的头像"
 
 #: bp-xprofile/bp-xprofile-activity.php:39
 msgid "Updated Profile"
-msgstr "已更新的个人档案"
+msgstr "已更新的个人资料"
 
 #: bp-xprofile/bp-xprofile-activity.php:41
 #: bp-xprofile/bp-xprofile-activity.php:340
 msgid "Profile Updates"
-msgstr "个人档案更新"
+msgstr "个人资料更新"
 
 #: bp-xprofile/bp-xprofile-activity.php:65
 msgid "%s changed their profile picture"
@@ -6853,7 +6853,7 @@ msgstr "%s更改了他们的头像"
 
 #: bp-xprofile/bp-xprofile-activity.php:99
 msgid "%s&#8217;s profile was updated"
-msgstr "%s的个人档案已更新。"
+msgstr "%s的个人资料已更新。"
 
 #: bp-xprofile/bp-xprofile-admin.php:91
 #: bp-xprofile/classes/class-bp-xprofile-group.php:655
@@ -6939,19 +6939,19 @@ msgstr "更改已被保存。"
 
 #: bp-xprofile/bp-xprofile-settings.php:43
 msgid "Your profile settings have been saved."
-msgstr "您的个人档案设置已保存。"
+msgstr "您的个人资料设置已保存。"
 
 #: bp-xprofile/bp-xprofile-settings.php:47
 msgid "This member's profile settings have been saved."
-msgstr "该成员的个人档案设置已保存。"
+msgstr "该成员的个人资料设置已保存。"
 
 #: bp-xprofile/bp-xprofile-template.php:1089
 msgid "Profile not recently updated"
-msgstr "档案最近没有更新"
+msgstr "个人资料最近没有更新"
 
 #: bp-xprofile/bp-xprofile-template.php:1107
 msgid "Profile updated %s"
-msgstr "档案最后更新于%s"
+msgstr "个人资料最后更新于%s"
 
 #: bp-xprofile/bp-xprofile-template.php:1285
 msgid "This field's visibility cannot be changed."
@@ -7041,19 +7041,19 @@ msgstr "添加另一个选项"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:593
 msgid "Profile fields must have a name."
-msgstr "档案资料项必须要有个名字。"
+msgstr "个人资料项必须要有个名字。"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:599
 msgid "Profile field requirement is missing."
-msgstr "没有为档案资料项指定是否为必填项。"
+msgstr "没有为个人资料项指定是否为必填项。"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:605
 msgid "Profile field type is missing."
-msgstr "没有为档案资料项指定类型。"
+msgstr "没有为个人资料项指定类型。"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:611
 msgid "The profile field type %s is not registered."
-msgstr "档案资料项类型没有注册过。"
+msgstr "个人资料项类型没有注册过。"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:626
 msgid "These field options are invalid."
@@ -7122,8 +7122,8 @@ msgid ""
 "BuddyPress helps you run any kind of social network on your WordPress, with "
 "member profiles, activity streams, user groups, messaging, and more."
 msgstr ""
-"Buddypress 拥有成员个人档案资料、动态流、用户群、消息以及更多的功能，帮助您在"
-"您的Wordpress上运行各式各样的社交网站。"
+"Buddypress 拥有成员个人资料、动态流、用户群、消息以及更多的功能，帮助您在您的"
+"Wordpress上运行各式各样的社交网站。"
 
 #. Author of the plugin/theme
 msgid "The BuddyPress Community"
@@ -7389,7 +7389,7 @@ msgstr "使用%s来修复关联"
 #: bp-core/bp-core-admin.php:339
 msgctxt "BuddyPress setting tab"
 msgid "Profile Settings"
-msgstr "档案设置"
+msgstr "个人资料设置"
 
 #: bp-core/bp-core-admin.php:617
 msgctxt "About screen, website links"
@@ -7479,7 +7479,7 @@ msgstr "，"
 #: bp-core/bp-core-loader.php:289
 msgctxt "Main navigation"
 msgid "Profile"
-msgstr "个人档案"
+msgstr "个人资料"
 
 #: bp-core/bp-core-loader.php:300
 msgctxt "Profile sub nav"
@@ -7945,7 +7945,7 @@ msgstr[1] "%s位注册用户尚未被删除。"
 #: bp-members/bp-members-loader.php:237
 msgctxt "Member profile main navigation"
 msgid "Profile"
-msgstr "个人档案"
+msgstr "个人资料"
 
 #: bp-members/bp-members-loader.php:251
 msgctxt "Member profile view"
@@ -8100,17 +8100,17 @@ msgstr[1] "%d位成员"
 #: bp-xprofile/bp-xprofile-admin.php:29
 msgctxt "xProfile admin page title"
 msgid "Profile Fields"
-msgstr "档案资料项"
+msgstr "个人资料项"
 
 #: bp-xprofile/bp-xprofile-admin.php:29
 msgctxt "Admin Users menu"
 msgid "Profile Fields"
-msgstr "档案资料项"
+msgstr "个人资料项"
 
 #: bp-xprofile/bp-xprofile-admin.php:90
 msgctxt "Settings page header"
 msgid "Profile Fields"
-msgstr "档案资料项"
+msgstr "个人资料项"
 
 #: bp-xprofile/bp-xprofile-admin.php:593
 msgctxt "xprofile field type category"
@@ -8147,7 +8147,7 @@ msgstr "头像"
 #: bp-xprofile/bp-xprofile-loader.php:43
 msgctxt "Component page <title>"
 msgid "Extended Profiles"
-msgstr "档案扩展资料"
+msgstr "扩展资料"
 
 #: bp-xprofile/bp-xprofile-loader.php:123
 msgctxt "Visibility level setting"
@@ -8172,7 +8172,7 @@ msgstr "我的好友"
 #: bp-xprofile/bp-xprofile-loader.php:178
 msgctxt "Profile header menu"
 msgid "Profile"
-msgstr "个人档案"
+msgstr "个人资料"
 
 #: bp-xprofile/bp-xprofile-loader.php:199
 msgctxt "Profile header sub menu"
@@ -8192,12 +8192,12 @@ msgstr "更改头像"
 #: bp-xprofile/bp-xprofile-loader.php:264
 msgctxt "Profile settings sub nav"
 msgid "Profile Visibility"
-msgstr "档案可见度"
+msgstr "个人资料可见度"
 
 #: bp-xprofile/bp-xprofile-loader.php:293
 msgctxt "My Account Profile"
 msgid "Profile"
-msgstr "个人档案资料"
+msgstr "个人资料"
 
 #: bp-xprofile/bp-xprofile-loader.php:301
 msgctxt "My Account Profile sub nav"
@@ -8227,7 +8227,7 @@ msgstr "%s的头像"
 #: bp-xprofile/bp-xprofile-loader.php:393
 msgctxt "My Account Settings sub nav"
 msgid "Profile"
-msgstr "个人档案"
+msgstr "个人资料"
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox.php:28
 msgctxt "xprofile field type"
