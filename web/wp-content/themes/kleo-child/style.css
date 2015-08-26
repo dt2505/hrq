@@ -74,12 +74,37 @@ License URI: license.txt
 	word-wrap: break-word;
 }
 
-/*.main-title .page-title {*/
-	/*clear: left;*/
-	/*float: left;*/
-	/*overflow: hidden;*/
-	/*text-overflow: ellipsis;*/
-	/*width: 100%;*/
-	/*word-wrap: break-word;*/
-	/*max-width: 100%;*/
-/*}*/
+#rtmedia_create_new_album, /* create album button */
+#rtmedia_album_name /* album name input */ {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 0.428571rem;
+}
+
+/* fix bug the pagination numbers are not aligned to each other */
+.rtmedia-container .rtmedia_next_prev a {
+	overflow: visible;
+}
+/* give a fixed width to album creation page */
+.rtmedia-popup {
+	width: 230px;
+}
+/* 180px in original size is too long */
+#rtm-media-options-list .rtm-options {
+	width: 100px;
+}
+/* align favourite button on activity */
+#buddypress a.button.fav, #buddypress a.button.unfav {
+	top: 5px;
+}
+
+/* fix activity header issue when resize to 320*480 */
+@media screen and (max-width: 480px) {
+	#buddypress a.button.fav, #buddypress a.button.unfav {
+		right: -10px
+	}
+	#buddypress .activity-header {
+		margin: 0 20px 20px 0 !important;
+	}
+}
