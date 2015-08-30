@@ -14,11 +14,21 @@ License URI: license.txt
 * Please add your custom styles below
 */
 
+#comment,
 #buddypress div.activity-comments form textarea, /* activity comment */
 #message_content,
 #group-desc,
 #whats-new {
 	resize: vertical;
+}
+
+/* displaying chinese date and time without breaking line */
+article .article-meta {
+	width: 120px;
+}
+.single .container .with-meta .article-content,
+.posts-listing.standard-listing.with-meta .article-content {
+	margin-left: 140px;
 }
 
 /* fix the layout issue with long message */
@@ -82,10 +92,27 @@ License URI: license.txt
 	padding: 0.428571rem;
 }
 
+/** -=== FIX CSS ISSUES IN RTMEDIA ===-  */
+/* give same height as pagination numbers' */
+#rtmedia_go_to_num {
+	height: 30px;
+}
+.dashicons,
+.dashicons-before::before {
+	vertical-align: middle;
+}
+.rtm-pagination .dashicons {
+	margin-top: -1px;
+}
+/* fix pagination numbers are not aligned centrally */
+.rtm-pagination .rtm-paginate a.rtmedia-page-link {
+	padding: 0 8px;
+}
 /* fix bug the pagination numbers are not aligned to each other */
 .rtmedia-container .rtmedia_next_prev a {
 	overflow: visible;
 }
+
 /* give a fixed width to album creation page */
 .rtmedia-popup {
 	width: 230px;
@@ -94,6 +121,8 @@ License URI: license.txt
 #rtm-media-options-list .rtm-options {
 	width: 100px;
 }
+/** -=== FIX CSS ISSUES IN RTMEDIA - END ===-  */
+
 /* align favourite button on activity */
 #buddypress a.button.fav, #buddypress a.button.unfav {
 	top: 5px;

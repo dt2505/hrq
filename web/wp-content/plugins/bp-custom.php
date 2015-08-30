@@ -13,45 +13,6 @@ const MAX_LENGTH_OF_GROUP_DESC = 150;
 const ERROR_GROUP_DESC_IS_TOO_LONG = "群简介太长 (最多只允许输入%d个字)";
 
 /**
- * Disables BuddyPress' registration process and fallsback to WordPress' one.
- */
-//function my_disable_bp_registration() {
-//    remove_action( 'bp_init',    'bp_core_wpsignup_redirect' );
-//    remove_action( 'bp_screens', 'bp_core_screen_signup' );
-//}
-//add_action( 'bp_loaded', 'my_disable_bp_registration' );
-//
-//function firmasite_redirect_bp_signup_page($page ){
-//    return bp_get_root_domain() . '/wp_signup.php';
-//}
-//add_filter( 'bp_get_signup_page', "firmasite_redirect_bp_signup_page");
-/** END - falls back to wordpress standard registration process **/
-
-//function bp_xprofile_field_add_placeholder($elements) {
-//    $attributes = [
-//        "field_1" => ["placeholder" => "名字"],                 // qq
-//        "field_69" => ["placeholder" => "QQ号"],                 // qq
-//        "field_6" => ["placeholder" => "微信号"],                // webchat
-//        "field_7" => ["placeholder" => "Facebook"],             // Facebook
-//        "field_39" => ["placeholder" => "Twitter"],             // Twitter
-//        "field_8" => ["placeholder" => "如：0123456789"],         // mobile
-//        "field_64" => ["placeholder" => "如：123 Swanstone Street"], // address
-//        "field_66" => ["placeholder" => "如：墨尔本"],       // city
-//        "field_65" => ["placeholder" => "如：VIC"],          // state
-//        "field_67" => ["placeholder" => "如：澳大利亚"]          // nation
-//    ];
-//
-//    foreach($attributes as $key => $value) {
-//        if ($elements["id"] === $key) {
-//            $elements['placeholder'] = $value["placeholder"];
-//        }
-//    }
-//
-//    return $elements;
-//}
-//add_action('bp_xprofile_field_edit_html_elements','bp_xprofile_field_add_placeholder');
-
-/**
  * check if the given group name already exists before it gets persisted
  * @param $name
  * @param $id
@@ -104,3 +65,84 @@ function check_characters_of_group_description($description, $id) {
 }
 add_filter("groups_group_description_before_save", "check_characters_of_group_description", 10, 2);
 /** END - checking group description characters **/
+
+/**-------------------------RESTRICT MIME TYPES BASED ON USER ROLE -------------------------*/
+/**
+ * @return array|null, all possible role id for the current logged in user
+ */
+function get_user_roles() {
+    if ( is_user_logged_in() ) {
+        global $current_user;
+
+        return $current_user->roles;
+    } else {
+        return null;
+    }
+}
+function getMimeTypesByRole($role = null) {
+    $defaultMimeTypes = [
+        'jpg|jpeg|jpe' => 'image/jpeg',
+        'png' => 'image/png',
+        'gif' => 'image/gif'
+    ];
+    switch($role) {
+        case "普通用户":
+        default:
+            return $defaultMimeTypes;
+    }
+}
+function getMimeTypesByRoleIds($roleIds) {
+    $defaultMimeTypes = getMimeTypesByRole();
+    if (empty($roleIds)) {
+        return $defaultMimeTypes;
+    }
+
+    global $wp_roles;
+    $allRoles = $wp_roles->get_names();
+
+    $allowedMimeTypes = [];
+    foreach($roleIds as $roleId) {
+        if (array_key_exists($roleId, $allRoles)) {
+            $mimeTypes = getMimeTypesByRole($allRoles[$roleId]);
+            $allowedMimeTypes = array_merge($allowedMimeTypes, $mimeTypes);
+        }
+    }
+
+    return empty($allowedMimeTypes) ? $defaultMimeTypes : $allowedMimeTypes;
+}
+/** restrict mime types based on user roles */
+/**
+ * use this to restrict mime types
+ * @param array $existing_mimes
+ * @return array
+ */
+function custom_upload_mimes ( $existing_mimes = array() ) {
+    if (is_super_admin(get_current_user_id())) {
+        return $existing_mimes;
+    }
+    return getMimeTypesByRoleIds(get_user_roles());
+}
+add_filter('upload_mimes', 'custom_upload_mimes');
+/** END - restrict mime types */
+
+//function my_counter_nav_menu($menu) {
+
+//    var_dump(explode("\n", $menu));
+//    throw new \Exception(var_export($menu));
+
+//    $notif_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'notifications/';
+//    $friends_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'friends/';
+//    $msg_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'messages/';
+//
+//    if (!is_user_logged_in())
+//        return $menu;
+//    else
+//        $notif = '<ul><li><a href=" ' .$notif_url. ' ">Notif ['. bp_notifications_get_unread_notification_count( bp_loggedin_user_id() ) .']</a></li>
+//        <li><a href=" ' .$friends_url. ' ">Friends ['. friends_get_friend_count_for_user( bp_loggedin_user_id() ) .']</a></li>
+//        <li><a href=" ' .$msg_url. ' ">Messages ['.  bp_get_total_unread_messages_count( bp_loggedin_user_id() ) .']</a></li></ul>
+//        ';
+//
+//    $menu = $menu . $notif;
+//    return $menu;
+//}
+//add_filter( 'wp_nav_menu_items', 'my_counter_nav_menu' );

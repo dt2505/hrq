@@ -7,45 +7,6 @@
  */
 
 /**
- * @return array|null
- */
-function get_user_roles() {
-    if ( is_user_logged_in() ) {
-        global $current_user;
-
-        return $current_user->roles;
-    } else {
-        return null;
-    }
-}
-
-/** restrict mime types based on user roles */
-/**
- * use this to restrict mime types
- * @param array $existing_mimes
- * @return array
- */
-function custom_upload_mimes ( $existing_mimes = array() ) {
-    get_user_roles();
-
-	// set role-based mime types here
-
-// Add file extension 'extension' with mime type 'mime/type'
-    $existing_mimes['extension'] = 'mime/type';
-
-// add as many as you like e.g.
-
-    $existing_mimes['doc'] = 'application/msword';
-
-// remove items here if desired ...
-
-// and return the new full result
-    return $existing_mimes;
-}
-add_filter('upload_mimes', 'custom_upload_mimes');
-/** END - restrict mime types */
-
-/**
  * uncomment the following code for disabling heartbeat if encountering high CPU problem
  *
  * - admin-ajax.php is part of WordPress AJAX API that is used in the backend and frontend.
@@ -106,3 +67,57 @@ add_filter("bp_get_group_description_excerpt", "reset_group_description_excerpt"
 //    endif; // is_user_logged_in
 //}
 //add_action( 'bp_directory_members_item', 'bpfr_custom_textfield_length' );
+
+/**
+ * Disables BuddyPress' registration process and fallsback to WordPress' one.
+ */
+//function my_disable_bp_registration() {
+//    remove_action( 'bp_init',    'bp_core_wpsignup_redirect' );
+//    remove_action( 'bp_screens', 'bp_core_screen_signup' );
+//}
+//add_action( 'bp_loaded', 'my_disable_bp_registration' );
+//
+//function firmasite_redirect_bp_signup_page($page ){
+//    return bp_get_root_domain() . '/wp_signup.php';
+//}
+//add_filter( 'bp_get_signup_page', "firmasite_redirect_bp_signup_page");
+/** END - falls back to wordpress standard registration process **/
+
+//function bp_xprofile_field_add_placeholder($elements) {
+//    $attributes = [
+//        "field_1" => ["placeholder" => "名字"],                 // qq
+//        "field_69" => ["placeholder" => "QQ号"],                 // qq
+//        "field_6" => ["placeholder" => "微信号"],                // webchat
+//        "field_7" => ["placeholder" => "Facebook"],             // Facebook
+//        "field_39" => ["placeholder" => "Twitter"],             // Twitter
+//        "field_8" => ["placeholder" => "如：0123456789"],         // mobile
+//        "field_64" => ["placeholder" => "如：123 Swanstone Street"], // address
+//        "field_66" => ["placeholder" => "如：墨尔本"],       // city
+//        "field_65" => ["placeholder" => "如：VIC"],          // state
+//        "field_67" => ["placeholder" => "如：澳大利亚"]          // nation
+//    ];
+//
+//    foreach($attributes as $key => $value) {
+//        if ($elements["id"] === $key) {
+//            $elements['placeholder'] = $value["placeholder"];
+//        }
+//    }
+//
+//    return $elements;
+//}
+//add_action('bp_xprofile_field_edit_html_elements','bp_xprofile_field_add_placeholder');
+
+// get your own posts
+function ml_restrict_media_library( $wp_query_obj ) {
+    global $pagenow;
+
+    if( current_user_can("administrator") ) return;
+//    if( 'admin-ajax.php' != $pagenow && 'upload.php' != $pagenow && isset($_REQUEST['action']) && $_REQUEST['action'] != 'query-attachments' ) return;
+    if( 'upload.php' != $pagenow && isset($_REQUEST['action']) && $_REQUEST['action'] != 'query-attachments' ) return;
+
+    if( current_user_can('edit_posts') )
+        $wp_query_obj->set('author', wp_get_current_user()->ID );
+
+    return;
+}
+add_action('pre_get_posts','ml_restrict_media_library');

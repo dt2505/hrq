@@ -115,18 +115,3 @@ function my_latest_update_pref($latest_update) {
 }
 add_filter("bp_get_activity_latest_update_excerpt", "my_latest_update_pref");
 /** END - shortening the latest update */
-
-// get your own posts
-function ml_restrict_media_library( $wp_query_obj ) {
-    global $pagenow;
-
-    if( current_user_can("administrator") ) return;
-//    if( 'admin-ajax.php' != $pagenow && 'upload.php' != $pagenow && isset($_REQUEST['action']) && $_REQUEST['action'] != 'query-attachments' ) return;
-    if( 'upload.php' != $pagenow && isset($_REQUEST['action']) && $_REQUEST['action'] != 'query-attachments' ) return;
-
-    if( current_user_can('edit_posts') )
-        $wp_query_obj->set('author', wp_get_current_user()->ID );
-
-    return;
-}
-add_action('pre_get_posts','ml_restrict_media_library');
