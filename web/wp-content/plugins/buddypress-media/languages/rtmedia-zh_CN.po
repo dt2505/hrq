@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: rtMedia for WordPress, BuddyPress and bbPress 3.8.12\n"
 "Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
 "POT-Creation-Date: 2015-08-05 15:05+0530\n"
-"PO-Revision-Date: 2015-08-26 21:27+1000\n"
+"PO-Revision-Date: 2015-08-30 21:37+1000\n"
 "Last-Translator: rtMedia <rtmedia@rtcamp.com>\n"
 "Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
 "Language: en\n"
@@ -2738,7 +2738,7 @@ msgstr "正在载入媒体"
 
 #: ../app/main/RTMedia.php:892
 msgid "Please enter some content to post."
-msgstr "请输入状态内容。"
+msgstr "请输入点什么吧。"
 
 #: ../app/main/RTMedia.php:893
 msgid "Empty Comment is not allowed."
@@ -3155,3 +3155,7 @@ msgid ""
 "This will allow handling API requests for rtMedia sent through any mobile "
 "app."
 msgstr "这将允许处理发送自任何移动应用程序对于rtMedia的API请求"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2339
+msgid "d F Y"
+msgstr "Y年m月d日"

@@ -27,6 +27,8 @@
 
 ### plugin translation
 # rtMedia
+# fix the date format at line: 2339
+!web/wp-content/plugins/buddypress-media/app/main/controllers/template/rt-template-functions.php
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
 # bp-follow
