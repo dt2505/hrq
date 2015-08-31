@@ -15,6 +15,9 @@
 !custom/pages/*
 !custom/revolution_slider/*
 
+# fix the issue caused by delaying to close the submenu of live notification
+!web/wp-content/themes/kleo/assets/js/app.js
+
 # bp-checkin plugin - fix the compatible issue with the latest version(2.3.2) of buddypress
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-component.php
 !web/wp-content/plugins/bp-checkins/includes/bp-checkins-group-class.php
@@ -24,6 +27,7 @@
 ### theme translation
 !web/wp-content/languages/themes/kleo_framework-zh_CN.mo
 !web/wp-content/languages/themes/kleo_framework-zh_CN.po
+!web/wp-content/themes/kleo/languages/kleo_framework.pot
 
 ### plugin translation
 # rtMedia
@@ -31,18 +35,23 @@
 !web/wp-content/plugins/buddypress-media/app/main/controllers/template/rt-template-functions.php
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
 !web/wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
+!web/wp-content/plugins/buddypress-media/languages/rtmedia.po
 # bp-follow
 !web/wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.mo
 !web/wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.po
+!web/wp-content/plugins/buddypress-followers/languages/bp-follow.pot
 # bp cover photo
 !web/wp-content/languages/plugins/bpcp-zh_CN.mo
 !web/wp-content/languages/plugins/bpcp-zh_CN.po
+!web/wp-content/plugins/buddypress-cover-photo/languages/bpcp-en_US.po
 #bp profile search
 !web/wp-content/languages/plugins/bps-zh_CN.mo
 !web/wp-content/languages/plugins/bps-zh_CN.po
+!web/wp-content/plugins/bp-profile-search/languages/bps.pot
 #buddypress
 !web/wp-content/languages/plugins/buddypress-zh_CN.mo
 !web/wp-content/languages/plugins/buddypress-zh_CN.po
+!web/wp-content/plugins/buddypress/buddypress.pot
 
 # even if they are in subdirectories
 !*/
