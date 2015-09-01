@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress 2.3.0\n"
 "Report-Msgid-Bugs-To: https://buddypress.trac.wordpress.org\n"
 "POT-Creation-Date: 2015-06-05 13:48:17+00:00\n"
-"PO-Revision-Date: 2015-09-01 21:58+1000\n"
+"PO-Revision-Date: 2015-08-23 21:14+1000\n"
 "Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "Language: Chinese (China)\n"
@@ -116,11 +116,11 @@ msgstr "%s好友们的动态信息"
 #. Name] | Groups Activity"
 #: bp-activity/bp-activity-actions.php:626
 msgid "%1$s | %2$s | Group Activity"
-msgstr "%1$s | %2$s | 圈子动态"
+msgstr "%1$s | %2$s | 群动态"
 
 #: bp-activity/bp-activity-actions.php:629
 msgid "Public group activity feed of which %s is a member."
-msgstr "%s所在公共圈子的动态信息"
+msgstr "%s所在公共群的动态信息"
 
 #. translators: User mentions activity RSS title - "[Site Name] | [User Display
 #. Name] | Mentions"
@@ -223,8 +223,8 @@ msgid ""
 "<code>joined_group</code> is used when a user joins a group."
 msgstr ""
 "<strong>类型</strong> - 每个不同类型动态信息都有其独自的类型。例如："
-"<code>created_group</code>用于当圈子建立时，而<code>joined_group</code>用于当"
-"用户加入圈子时。"
+"<code>created_group</code>用于当群建立时，而<code>joined_group</code>用于当用"
+"户入群时。"
 
 #: bp-activity/bp-activity-admin.php:242
 msgid ""
@@ -690,7 +690,7 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"%1$s在圈子“%2$s”中提及了您：\n"
+"%1$s在群“%2$s”中提及了您：\n"
 "\n"
 "\"%3$s\"\n"
 "\n"
@@ -847,12 +847,12 @@ msgstr "头像"
 
 #: bp-activity/bp-activity-template.php:1630
 msgid "Group logo"
-msgstr "圈子徽标（Logo）"
+msgstr "群徽标（Logo）"
 
 #: bp-activity/bp-activity-template.php:1633
 #: bp-groups/bp-groups-admin.php:1574 bp-groups/bp-groups-template.php:897
 msgid "Group logo of %s"
-msgstr "圈子%s的徽标（Logo）"
+msgstr "群%s的徽标（Logo）"
 
 #: bp-activity/bp-activity-template.php:1644
 msgid "Profile picture of the author of the site %s"
@@ -1269,7 +1269,7 @@ msgstr "BuddyPress 社区内的成员功能都依附于该组件。"
 #: bp-core/admin/bp-core-admin-components.php:366
 #: bp-templates/bp-legacy/buddypress/groups/create.php:152
 msgid "Group Forums"
-msgstr "圈子论坛"
+msgstr "群论坛"
 
 #: bp-core/admin/bp-core-admin-components.php:367
 msgid "BuddyPress Forums are retired. Use %s."
@@ -1306,28 +1306,27 @@ msgid ""
 "direct posting, favoriting, and @mentions, all with full RSS feed and email "
 "notification support."
 msgstr ""
-"带有条状式评论的全局、个人和圈子动态信息流；直接发表文章、收藏和@提及等所有这"
-"些都支持完整的RSS新闻和邮件通知。"
+"带有条状式评论的全局、个人和群动态信息流；直接发表文章、收藏和@提及等所有这些"
+"都支持完整的RSS新闻和邮件通知。"
 
 #: bp-core/admin/bp-core-admin-components.php:398
 msgid "User Groups"
-msgstr "用户圈子"
+msgstr "用户群"
 
 #: bp-core/admin/bp-core-admin-components.php:399
 msgid ""
 "Groups allow your users to organize themselves into specific public, private "
 "or hidden sections with separate activity streams and member listings."
 msgstr ""
-"圈子功能允许您的用户自己组建带有不同动态信息流及成员名单的公共、个人或私密圈"
-"子。"
+"群功能允许您的用户自己组建带有不同动态信息流及成员名单的公共、个人或私密群。"
 
 #: bp-core/admin/bp-core-admin-components.php:402
 msgid "Group Forums (Legacy)"
-msgstr "圈子论坛（旧）"
+msgstr "群论坛（旧）"
 
 #: bp-core/admin/bp-core-admin-components.php:403
 msgid "Group forums allow for focused, bulletin-board style conversations."
-msgstr "圈子论坛允许集中、公告版式的会话。"
+msgstr "群论坛允许集中、公告版式的会话。"
 
 #: bp-core/admin/bp-core-admin-components.php:406
 msgid "Site Tracking"
@@ -1564,15 +1563,15 @@ msgstr "允许注册用户更新头像"
 
 #: bp-core/admin/bp-core-admin-settings.php:179
 msgid "Enable group creation for all users"
-msgstr "允许所有用户建立圈子"
+msgstr "允许所有用户建立群"
 
 #: bp-core/admin/bp-core-admin-settings.php:180
 msgid "Administrators can always create groups, regardless of this setting."
-msgstr "管理员不受该设置所限，可以一直新建圈子。"
+msgstr "管理员不受该设置所限，可以一直新建群。"
 
 #: bp-core/admin/bp-core-admin-settings.php:193
 msgid "Allow customizable avatars for groups"
-msgstr "允许自定义圈子头像"
+msgstr "允许自定义群头像"
 
 #: bp-core/admin/bp-core-admin-settings.php:223
 msgid "Attempt to save a new config file."
@@ -1626,8 +1625,8 @@ msgid ""
 "activity items. Occasionally these relationships become out of sync, most "
 "often after an import, update, or migration."
 msgstr ""
-"BuddyPress持续追踪用户、圈子和动态信息之间的各种关系。有时候这些关系变会得不"
-"同步，最常见的是在导入、更新或数据迁移之后。"
+"BuddyPress持续追踪用户、群和动态信息之间的各种关系。有时候这些关系变会得不同"
+"步，最常见的是在导入、更新或数据迁移之后。"
 
 #: bp-core/admin/bp-core-admin-tools.php:23
 msgid "Use the tools below to manually recalculate these relationships."
@@ -1661,7 +1660,7 @@ msgstr "为每位用户统计好友数"
 
 #: bp-core/admin/bp-core-admin-tools.php:130
 msgid "Count groups for each user"
-msgstr "为每个用户统计圈子"
+msgstr "为每个用户统计群"
 
 #: bp-core/admin/bp-core-admin-tools.php:140
 msgid "Repopulate blogs records"
@@ -1687,7 +1686,7 @@ msgstr "完毕！"
 
 #: bp-core/admin/bp-core-admin-tools.php:229
 msgid "Counting the number of groups for each user&hellip; %s"
-msgstr "正在为每位用户统计圈子数量&hellip; %s"
+msgstr "正在为每位用户统计群数量&hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:272
 msgid "Repopulating Blogs records&hellip; %s"
@@ -1757,19 +1756,19 @@ msgstr "同步资料"
 
 #: bp-core/bp-core-admin.php:354
 msgid "Groups Settings"
-msgstr "圈子设置"
+msgstr "设置群"
 
 #: bp-core/bp-core-admin.php:357
 msgid "Group Creation"
-msgstr "圈子建立"
+msgstr "建立群"
 
 #: bp-core/bp-core-admin.php:361
 msgid "Group Photo Uploads"
-msgstr "圈子照片"
+msgstr "群照片"
 
 #: bp-core/bp-core-admin.php:370
 msgid "Legacy Group Forums"
-msgstr "旧的圈子论坛"
+msgstr "旧的群论坛"
 
 #: bp-core/bp-core-admin.php:373
 msgid "bbPress Configuration"
@@ -1841,7 +1840,7 @@ msgstr "审查动态流"
 
 #: bp-core/bp-core-admin.php:534
 msgid "Manage Groups"
-msgstr "管理圈子"
+msgstr "管理群"
 
 #: bp-core/bp-core-admin.php:536
 msgid "Repair Data"
@@ -1861,9 +1860,9 @@ msgstr ""
 
 #: bp-core/bp-core-admin.php:543
 msgid ""
-"Can&#8217;t find what you need? Stop by <a href=\"https://buddypress.org/"
-"support/\">our support forums</a>, where active BuddyPress users and "
-"developers are waiting to share tips and more."
+"Can&#8217;t find what you need? Stop by <a "
+"href=\"https://buddypress.org/support/\">our support forums</a>, where "
+"active BuddyPress users and developers are waiting to share tips and more."
 msgstr ""
 "无法找到您所要的？来<a href=\"http://buddypress.org/support/\">我们的服务支持"
 "论坛</a>, 在这里，在线的BuddyPress会员和开发者们都在等着分享他们各自的经验技"
@@ -2391,7 +2390,7 @@ msgstr "激活您的帐户"
 #: bp-core/bp-core-filters.php:757 bp-groups/bp-groups-template.php:3390
 #: bp-groups/bp-groups-template.php:3391
 msgid "Create a Group"
-msgstr "建立一个圈子"
+msgstr "建立群"
 
 #: bp-core/bp-core-filters.php:788
 msgid "Page %s"
@@ -2558,21 +2557,21 @@ msgstr "您的头像已成功删除！"
 #: bp-core/classes/class-bp-attachment-avatar.php:371
 #: bp-groups/bp-groups-screens.php:966
 msgid "There was a problem cropping the group profile photo."
-msgstr "裁剪圈子头像时出现错误。"
+msgstr "裁剪群头像时出现错误。"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:372
 msgid "The group profile photo was uploaded successfully."
-msgstr "圈子头像已上传成功。"
+msgstr "群头像已上传成功。"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:373
 #: bp-groups/bp-groups-screens.php:923
 msgid "There was a problem deleting the group profile photo. Please try again."
-msgstr "删除圈子头像时出现错误。请再尝试一次。"
+msgstr "删除群头像时出现错误。请再尝试一次。"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:374
 #: bp-groups/bp-groups-screens.php:921
 msgid "The group profile photo was deleted successfully!"
-msgstr "圈子头像删除成功！"
+msgstr "群头像删除成功！"
 
 #: bp-core/classes/class-bp-attachment.php:157
 msgid "The file was uploaded successfully"
@@ -2630,8 +2629,8 @@ msgstr "文件已成功上传。"
 #: bp-groups/bp-groups-template.php:5512
 msgid "%d group"
 msgid_plural "%d groups"
-msgstr[0] "%d个圈子"
-msgstr[1] "%d个圈子"
+msgstr[0] "%d个群"
+msgstr[1] "%d个群"
 
 #: bp-core/deprecated/1.5.php:142
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:54
@@ -2673,7 +2672,7 @@ msgstr "Yahoo Messenger"
 
 #: bp-core/deprecated/1.5.php:352
 msgid "%1$s mentioned you in the group \"%2$s\""
-msgstr "%1$s在圈子“%2$s”中提及了您"
+msgstr "%1$s在群“%2$s”中提及了您"
 
 #: bp-core/deprecated/1.6.php:128 bp-core/deprecated/1.6.php:149
 #: bp-groups/bp-groups-template.php:4798 bp-groups/bp-groups-template.php:4819
@@ -2733,7 +2732,7 @@ msgstr "任意成员"
 
 #: bp-core/deprecated/2.1.php:347
 msgid "Random Group"
-msgstr "任意圈子"
+msgstr "任意群"
 
 #: bp-core/deprecated/2.1.php:353
 msgid "Random Site"
@@ -2749,11 +2748,11 @@ msgstr "编辑详细信息"
 
 #: bp-core/deprecated/2.1.php:418
 msgid "Group Settings"
-msgstr "圈子设置"
+msgstr "群设置"
 
 #: bp-core/deprecated/2.1.php:422 bp-groups/bp-groups-loader.php:718
 msgid "Group Profile Photo"
-msgstr "圈子头像"
+msgstr "群头像"
 
 #: bp-core/deprecated/2.1.php:428
 msgid "Manage Invitations"
@@ -2765,13 +2764,13 @@ msgstr "管理成员"
 
 #: bp-core/deprecated/2.1.php:436
 msgid "Membership Requests"
-msgstr "加入圈子申请"
+msgstr "入群申请"
 
 #: bp-core/deprecated/2.1.php:440 bp-groups/bp-groups-admin.php:983
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:440
 #: bp-xprofile/bp-xprofile-admin.php:145
 msgid "Delete Group"
-msgstr "删除圈子"
+msgstr "删除群"
 
 #: bp-core/deprecated/2.1.php:491
 msgid "Blog Authors"
@@ -2843,7 +2842,7 @@ msgstr "主题已成功建立"
 
 #: bp-forums/bp-forums-screens.php:73 bp-forums/bp-forums-screens.php:78
 msgid "Please pick the group forum where you would like to post this topic."
-msgstr "请选择您要建立该主题的圈子论坛。"
+msgstr "请选择您要建立该主题的群论坛。"
 
 #: bp-forums/bp-forums-screens.php:288 bp-groups/bp-groups-template.php:3201
 #: bp-groups/bp-groups-template.php:3202
@@ -2861,7 +2860,7 @@ msgstr "已删除用户"
 
 #: bp-forums/bp-forums-template.php:1102
 msgid "Group logo for %s"
-msgstr "圈子%s的徽标"
+msgstr "群%s的徽标"
 
 #: bp-forums/bp-forums-template.php:1360 bp-groups/bp-groups-template.php:2070
 msgid "%d post"
@@ -2937,14 +2936,14 @@ msgstr "（已安装）"
 
 #: bp-forums/deprecated/1.6.php:68 bp-forums/deprecated/1.6.php:210
 msgid "Forums for Groups"
-msgstr "圈子论坛"
+msgstr "群论坛"
 
 #: bp-forums/deprecated/1.6.php:70 bp-forums/deprecated/1.6.php:212
 msgid ""
 "Give each individual group its own discussion forum. Choose this if you'd "
 "like to keep your members' conversations separated into distinct areas."
 msgstr ""
-"每个圈子拥有它自己的论坛。如果您希望把用户的会话分割在不同的区，请选择此项。"
+"每个群拥有它自己的论坛。如果您希望把用户的会话分割在不同的区，请选择此项。"
 
 #: bp-forums/deprecated/1.6.php:72 bp-forums/deprecated/1.6.php:214
 msgid ""
@@ -2960,7 +2959,7 @@ msgstr "功能"
 
 #: bp-forums/deprecated/1.6.php:76 bp-forums/deprecated/1.6.php:218
 msgid "Group Integration"
-msgstr "集成圈子"
+msgstr "集成群"
 
 #: bp-forums/deprecated/1.6.php:77 bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
@@ -2976,7 +2975,7 @@ msgstr "集成@提及"
 
 #: bp-forums/deprecated/1.6.php:83
 msgid "Uninstall Group Forums"
-msgstr "卸载圈子论坛"
+msgstr "卸载群论坛"
 
 #: bp-forums/deprecated/1.6.php:88 bp-forums/deprecated/1.6.php:231
 msgid "New! bbPress"
@@ -2997,7 +2996,7 @@ msgstr ""
 
 #: bp-forums/deprecated/1.6.php:94 bp-forums/deprecated/1.6.php:237
 msgid "Non-group specific forum creation"
-msgstr "建立圈子无关的论坛"
+msgstr "建立群无关的论坛"
 
 #: bp-forums/deprecated/1.6.php:95 bp-forums/deprecated/1.6.php:238
 msgid "Moderation via the WP admin dashboard"
@@ -3028,7 +3027,7 @@ msgid ""
 "If you decide to use bbPress, you will need to deactivate the legacy group "
 "forum component.  For more info, <a href=\"%s\">read this codex article</a>."
 msgstr ""
-"如果您决定要使用bbPress，那么需要停用旧的圈子论坛组件。更多信息请<a href=\"%s"
+"如果您决定要使用bbPress，那么需要停用旧的群论坛组件。更多信息请<a href=\"%s"
 "\">参考这篇代码宝典（codex）文章</a>。"
 
 #: bp-forums/deprecated/1.6.php:143
@@ -3108,7 +3107,7 @@ msgstr ""
 
 #: bp-forums/deprecated/1.6.php:225
 msgid "Install Group Forums"
-msgstr "安装圈子论坛"
+msgstr "安装群论坛"
 
 #: bp-forums/deprecated/1.6.php:226
 msgid "Use Existing Installation"
@@ -3370,24 +3369,24 @@ msgstr "没有找到成员，请尝试其他关键字。"
 
 #: bp-groups/bp-groups-actions.php:39
 msgid "You do not have access to this group."
-msgstr "您无法访问该圈子。"
+msgstr "您无法访问该群。"
 
 #: bp-groups/bp-groups-actions.php:50
 msgid "You are not an admin of this group."
-msgstr "您不是该圈子的管理员。"
+msgstr "您不是该群的管理员。"
 
 #: bp-groups/bp-groups-actions.php:107
 msgid "Sorry, you are not allowed to create groups."
-msgstr "抱歉，您不允许建立圈子。"
+msgstr "抱歉，您不允许建立群。"
 
 #: bp-groups/bp-groups-actions.php:132 bp-groups/bp-groups-actions.php:167
 #: bp-groups/bp-groups-actions.php:191
 msgid "There was an error saving group details. Please try again."
-msgstr "保存圈子详细信息时发生错误。请再尝试一次。"
+msgstr "保存群详细信息时发生错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-actions.php:147
 msgid "Only the group creator may continue editing this group."
-msgstr "只有圈子建立者才能继续编辑该圈子。"
+msgstr "只有群建立者才能继续编辑该群。"
 
 #: bp-groups/bp-groups-actions.php:160
 msgid "Please fill in all of the required fields"
@@ -3405,63 +3404,63 @@ msgstr "删除邀请时出现错误"
 msgid ""
 "There was an error saving the group profile photo, please try uploading "
 "again."
-msgstr "保存圈子头像时出现错误，请再上传一次。"
+msgstr "保存群头像时出现错误，请再上传一次。"
 
 #: bp-groups/bp-groups-actions.php:345
 msgid "The group profile photo was uploaded successfully!"
-msgstr "圈子头像已上传成功！"
+msgstr "群头像已上传成功！"
 
 #: bp-groups/bp-groups-actions.php:380 bp-groups/bp-groups-actions.php:387
 msgid "There was an error joining the group."
-msgstr "加入圈子时发生错误。"
+msgstr "加入群时发生错误。"
 
 #: bp-groups/bp-groups-actions.php:389
 msgid "You joined the group!"
-msgstr "您加入了该圈子！"
+msgstr "您加入了该群！"
 
 #: bp-groups/bp-groups-actions.php:434 bp-groups/bp-groups-screens.php:1045
 msgid "This group must have at least one admin"
-msgstr "这个圈子必须要有一个管理员"
+msgstr "这个群必须要有一个管理员"
 
 #: bp-groups/bp-groups-actions.php:436
 msgid "There was an error leaving the group."
-msgstr "退出圈子时发生错误。"
+msgstr "退出群时发生错误。"
 
 #: bp-groups/bp-groups-actions.php:438 bp-groups/bp-groups-functions.php:447
 msgid "You successfully left the group."
-msgstr "您已成功退出该圈子。"
+msgstr "您已成功退出该群。"
 
 #: bp-groups/bp-groups-actions.php:534
 msgid "Activity feed for the group, %s."
-msgstr "该圈子的动态信息，%s。"
+msgstr "该群的动态信息，%s。"
 
 #: bp-groups/bp-groups-activity.php:31
 msgid "Created a group"
-msgstr "新建了一个圈子"
+msgstr "建立了一个群"
 
 #: bp-groups/bp-groups-activity.php:33
 msgid "New Groups"
-msgstr "新建圈子"
+msgstr "新建群"
 
 #: bp-groups/bp-groups-activity.php:40
 msgid "Joined a group"
-msgstr "加入了一个圈子"
+msgstr "加入了一个群"
 
 #: bp-groups/bp-groups-activity.php:42
 msgid "Group Memberships"
-msgstr "圈子成员"
+msgstr "群成员"
 
 #: bp-groups/bp-groups-activity.php:49
 msgid "Group details edited"
-msgstr "圈子资料已修改"
+msgstr "群资料已修改"
 
 #: bp-groups/bp-groups-activity.php:51
 msgid "Group Updates"
-msgstr "圈子更新"
+msgstr "群更新"
 
 #: bp-groups/bp-groups-activity.php:62
 msgid "New group forum topic"
-msgstr "新圈子论坛主题"
+msgstr "新群论坛主题"
 
 #: bp-groups/bp-groups-activity.php:64
 msgid "Forum Topics"
@@ -3469,7 +3468,7 @@ msgstr "论坛主题"
 
 #: bp-groups/bp-groups-activity.php:71
 msgid "New group forum post"
-msgstr "新圈子论坛帖子"
+msgstr "新群论坛帖子"
 
 #: bp-groups/bp-groups-activity.php:73
 msgid "Forum Replies"
@@ -3478,34 +3477,34 @@ msgstr "论坛回复"
 #: bp-groups/bp-groups-activity.php:106
 #, c-format
 msgid "%1$s created the group %2$s"
-msgstr "%1$s建立了圈子%2$s"
+msgstr "%1$s建立了群%2$s"
 
 #: bp-groups/bp-groups-activity.php:138 bp-groups/bp-groups-activity.php:444
 msgid "%1$s joined the group %2$s"
-msgstr "%1$s已加入圈子%2$s"
+msgstr "%1$s已加入群%2$s"
 
 #: bp-groups/bp-groups-activity.php:189
 msgid "%1$s updated details for the group %2$s"
-msgstr "%1$s更新了圈子%2$s的详细信息"
+msgstr "%1$s更新了群%2$s的详细信息"
 
 #: bp-groups/bp-groups-activity.php:193
 msgid "%1$s changed the name and description of the group %2$s"
-msgstr "%1$s修改了圈子%2$s的名称和描述"
+msgstr "%1$s修改了群%2$s的名称和描述"
 
 #: bp-groups/bp-groups-activity.php:197
 msgid "%1$s changed the name of the group %2$s from \"%3$s\" to \"%4$s\""
-msgstr "%1$s把圈子%2$s的名称从“%3$s”修改成了“%4$s”"
+msgstr "%1$s把群%2$s的名称从“%3$s”修改成了“%4$s”"
 
 #: bp-groups/bp-groups-activity.php:201
 msgid ""
 "%1$s changed the description of the group %2$s from \"%3$s\" to \"%4$s\""
-msgstr "%1$s把圈子%2$s的描述从“%3$s”修改为“%4$s”"
+msgstr "%1$s把群%2$s的描述从“%3$s”修改为“%4$s”"
 
 #: bp-groups/bp-groups-admin.php:120
 msgid ""
 "This page is a convenient way to edit the details associated with one of "
 "your groups."
-msgstr "该页面可以方便地修改您其中一个圈子的详细信息。"
+msgstr "该页面可以方便地修改您其中一个群的详细信息。"
 
 #: bp-groups/bp-groups-admin.php:121
 msgid ""
@@ -3529,21 +3528,21 @@ msgid ""
 "and you can act on groups by using the on-hover action links or the Bulk "
 "Actions."
 msgstr ""
-"您能像管理评论和其他内容一样方便的管理圈子。这个页面使用和其他管理页面一样的"
-"方式来自定义页面，您还可以使用上悬停操作链接（鼠标移上去时会出现的操作选项链"
-"接）或者批量操作按钮执行圈子管理操作。"
+"您能像管理评论和其他内容一样方便的管理群。这个页面使用和其他管理页面一样的方"
+"式来自定义页面，您还可以使用上悬停操作链接（鼠标移上去时会出现的操作选项链"
+"接）或者批量操作按钮执行群管理操作。"
 
 #: bp-groups/bp-groups-admin.php:165
 msgid "Group Actions"
-msgstr "圈子的操作"
+msgstr "群的操作"
 
 #: bp-groups/bp-groups-admin.php:167
 msgid ""
 "Clicking \"Visit\" will take you to the group&#8217;s public page. Use this "
 "link to see what the group looks like on the front end of your site."
 msgstr ""
-"点击“显示”按钮将会把您带到该圈子的公共页面。使用这个链接来预览该圈子页面效果"
-"如何。"
+"点击“显示”按钮将会把您带到该群的公共页面。使用这个链接来预览该群页面效果如"
+"何。"
 
 #: bp-groups/bp-groups-admin.php:168
 msgid ""
@@ -3551,8 +3550,8 @@ msgid ""
 "various details about the group, such as its name and description, its "
 "members, and other settings."
 msgstr ""
-"点击“编辑”按钮将会带您到管理圈子详细信息的后台控制面板，例如圈子名称、描述、"
-"成员以及其他设置。"
+"点击“编辑”按钮将会带您到管理群详细信息的后台控制面板，例如群名称、描述、成员"
+"以及其他设置。"
 
 #: bp-groups/bp-groups-admin.php:169
 msgid ""
@@ -3561,8 +3560,8 @@ msgid ""
 "where you&#8217;ll be asked to confirm the permanent deletion of the "
 "group(s)."
 msgstr ""
-"如果你在特定的圈子下点击“删除”按钮，或者选择多个圈子然后从批量操作中点选“删"
-"除”，会显示一个永久性删除的确认框，让您确认删除操作。"
+"如果你在特定的群下点击“删除”按钮，或者选择多个群然后从批量操作中点选“删除”，"
+"会显示一个永久性删除的确认框，让您确认删除操作。"
 
 #: bp-groups/bp-groups-admin.php:184
 msgid "Start typing a username to add a new member."
@@ -3572,43 +3571,42 @@ msgstr "输入用户名来增加新成员"
 msgid ""
 "If you leave this page, you will lose any unsaved changes you have made to "
 "the group."
-msgstr "如果您离开这个页面，您将丢失所有对该圈子所做的未保存的修改。"
+msgstr "如果您离开这个页面，您将丢失所有对该群所做的未保存的修改。"
 
 #: bp-groups/bp-groups-admin.php:500
 msgid "You cannot remove all administrators from a group."
-msgstr "您不能把圈子中所有的管理员都移除。"
+msgstr "您不能把群中所有的管理员都移除。"
 
 #: bp-groups/bp-groups-admin.php:506
 msgid "Group name cannot be empty."
-msgstr "圈子的名称不能为空。"
+msgstr "群的名称不能为空。"
 
 #: bp-groups/bp-groups-admin.php:510
 msgid "Group description cannot be empty."
-msgstr "圈子的描述不能为空。"
+msgstr "群的描述不能为空。"
 
 #: bp-groups/bp-groups-admin.php:514
 msgid "Group name and description cannot be empty."
-msgstr "圈子的名称和描述都不能为空。"
+msgstr "群的名称和描述都不能为空。"
 
 #: bp-groups/bp-groups-admin.php:518
 msgid "An error occurred when trying to update your group details."
-msgstr "更新您的圈子详细信息时出现错误。"
+msgstr "更新您的群详细信息时出现错误。"
 
 #: bp-groups/bp-groups-admin.php:523
 msgid "The group has been updated successfully."
-msgstr "圈子已更新成功。"
+msgstr "群已更新成功。"
 
 #: bp-groups/bp-groups-admin.php:527
 msgid "The following users could not be added to the group: <em>%s</em>"
-msgstr "以下用户无法被加入到圈子中：<em>%s</em>"
+msgstr "以下用户无法被加入到群中：<em>%s</em>"
 
 #: bp-groups/bp-groups-admin.php:531
 msgid "The following users were successfully added to the group: <em>%s</em>"
-msgstr "以下用户已成功被加入到圈子中：<em>%s</em>"
+msgstr "以下用户已成功被加入到群中：<em>%s</em>"
 
 #: bp-groups/bp-groups-admin.php:536
-msgid ""
-"An error occurred when trying to modify the following members: <em>%s</em>"
+msgid "An error occurred when trying to modify the following members: <em>%s</em>"
 msgstr "更新以下成员信息时出现错误：<em>%s</em>"
 
 #: bp-groups/bp-groups-admin.php:541
@@ -3618,7 +3616,7 @@ msgstr "以下成员的信息已更新成功：<em>%s</em>"
 #: bp-groups/bp-groups-admin.php:570 bp-groups/bp-groups-adminbar.php:45
 #: bp-xprofile/bp-xprofile-admin.php:140
 msgid "Edit Group"
-msgstr "编辑圈子"
+msgstr "编辑群"
 
 #: bp-groups/bp-groups-admin.php:573 bp-groups/bp-groups-admin.php:728
 msgid "Add New"
@@ -3634,19 +3632,19 @@ msgstr "固定链接："
 
 #: bp-groups/bp-groups-admin.php:596
 msgid "Visit Group"
-msgstr "显示圈子"
+msgstr "显示群"
 
 #: bp-groups/bp-groups-admin.php:623
 msgid "No group found with this ID. <a href=\"%s\">Go back and try again</a>."
-msgstr "没有发现使用这个ID的圈子。<a href=\"%s\">返回并再尝试一次</a>."
+msgstr "没有发现使用这个ID的群。<a href=\"%s\">返回并再尝试一次</a>."
 
 #: bp-groups/bp-groups-admin.php:666
 msgid "Delete Groups"
-msgstr "删除圈子"
+msgstr "删除群"
 
 #: bp-groups/bp-groups-admin.php:667
 msgid "You are about to delete the following groups:"
-msgstr "您要删除以下的圈子："
+msgstr "您要删除以下的群："
 
 #: bp-groups/bp-groups-admin.php:675 bp-members/bp-members-admin.php:1997
 msgid "This action cannot be undone."
@@ -3655,8 +3653,8 @@ msgstr "这个操作无法撤销。"
 #: bp-groups/bp-groups-admin.php:704
 msgid "%s group has been permanently deleted."
 msgid_plural "%s groups have been permanently deleted."
-msgstr[0] "%s个圈子已被永久删除。"
-msgstr[1] "%s个圈子已被永久删除。"
+msgstr[0] "%s个群已被永久删除。"
+msgstr[1] "%s个群已被永久删除。"
 
 #: bp-groups/bp-groups-admin.php:725 bp-groups/bp-groups-notifications.php:774
 #: bp-groups/bp-groups-notifications.php:863
@@ -3664,11 +3662,11 @@ msgstr[1] "%s个圈子已被永久删除。"
 #: bp-groups/bp-groups-notifications.php:1031
 #: bp-groups/bp-groups-widgets.php:61 bp-groups/bp-groups-widgets.php:151
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-admin.php:745
 msgid "Search all Groups"
-msgstr "搜索全部圈子"
+msgstr "搜索全部群"
 
 #: bp-groups/bp-groups-admin.php:768
 #: bp-templates/bp-legacy/buddypress/groups/create.php:159
@@ -3696,25 +3694,25 @@ msgstr "隐藏"
 
 #: bp-groups/bp-groups-admin.php:786
 msgid "Who can invite others to this group?"
-msgstr "谁可以邀请其他会员加入这个圈子？"
+msgstr "谁可以邀请其他会员加入这个群？"
 
 #: bp-groups/bp-groups-admin.php:789
 #: bp-templates/bp-legacy/buddypress/groups/create.php:136
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:134
 msgid "All group members"
-msgstr "所有圈子成员"
+msgstr "所有群成员"
 
 #: bp-groups/bp-groups-admin.php:790
 #: bp-templates/bp-legacy/buddypress/groups/create.php:141
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:139
 msgid "Group admins and mods only"
-msgstr "仅限圈子管理员和监管员"
+msgstr "仅限群管理员和监管员"
 
 #: bp-groups/bp-groups-admin.php:791
 #: bp-templates/bp-legacy/buddypress/groups/create.php:146
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:144
 msgid "Group admins only"
-msgstr "仅限圈子管理员"
+msgstr "仅限群管理员"
 
 #: bp-groups/bp-groups-admin.php:807
 msgid "Enter a comma-separated list of user logins."
@@ -3817,54 +3815,54 @@ msgstr "%1$s (%2$s)"
 
 #: bp-groups/bp-groups-admin.php:1307
 msgid "No groups found."
-msgstr "没有找到圈子。"
+msgstr "没有找到群。"
 
 #: bp-groups/bp-groups-admin.php:1386
 msgid "Public <span class=\"count\">(%s)</span>"
 msgid_plural "Public <span class=\"count\">(%s)</span>"
-msgstr[0] "公共圈子 <span class=\"count\">(%s)</span>"
-msgstr[1] "公共圈子 <span class=\"count\">(%s)</span>"
+msgstr[0] "公共群 <span class=\"count\">(%s)</span>"
+msgstr[1] "公共群 <span class=\"count\">(%s)</span>"
 
 #: bp-groups/bp-groups-admin.php:1387
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
-msgstr[0] "私人圈子 <span class=\"count\">（%s）</span>"
-msgstr[1] "私人圈子 <span class=\"count\">（%s）</span>"
+msgstr[0] "私人群 <span class=\"count\">（%s）</span>"
+msgstr[1] "私人群 <span class=\"count\">（%s）</span>"
 
 #: bp-groups/bp-groups-admin.php:1388
 msgid "Hidden <span class=\"count\">(%s)</span>"
 msgid_plural "Hidden <span class=\"count\">(%s)</span>"
-msgstr[0] "私密圈子 <span class=\"count\">(%s)</span>"
-msgstr[1] "私密圈子 <span class=\"count\">(%s)</span>"
+msgstr[0] "私密群 <span class=\"count\">(%s)</span>"
+msgstr[1] "私密群 <span class=\"count\">(%s)</span>"
 
 #: bp-groups/bp-groups-admin.php:1489
 msgid "Select group %1$d"
-msgstr "选择圈子%1$d"
+msgstr "选择群%1$d"
 
 #: bp-groups/bp-groups-forums.php:150 bp-groups/bp-groups-forums.php:449
 msgid "%1$s replied to the forum topic %2$s in the group %3$s"
-msgstr "%1$s在圈子%3$s中回复了论坛主题 %2$s"
+msgstr "%1$s在群%3$s中回复了论坛主题 %2$s"
 
 #: bp-groups/bp-groups-forums.php:278
 msgid "%1$s started the forum topic %2$s in the group %3$s"
-msgstr "%1$s在圈子%3$s中发了条新论坛主题 %2$s"
+msgstr "%1$s在群%3$s中发了条新论坛主题 %2$s"
 
 #: bp-groups/bp-groups-forums.php:377
 msgid "%1$s edited the forum topic %2$s in the group %3$s"
-msgstr "%1$s在圈子%3$s中更新了论坛主题 %2$s"
+msgstr "%1$s在群%3$s中更新了论坛主题 %2$s"
 
 #: bp-groups/bp-groups-functions.php:166
 #: bp-groups/classes/class-bp-groups-member.php:285
 msgid "Group Admin"
-msgstr "圈子管理员"
+msgstr "群管理员"
 
 #: bp-groups/bp-groups-functions.php:438
 msgid "As the only admin, you cannot leave the group."
-msgstr "作为唯一的管理员，您不能退出此圈子。"
+msgstr "作为唯一的管理员，您不能退出此群。"
 
 #: bp-groups/bp-groups-functions.php:951
 msgid "%1$s posted an update in the group %2$s"
-msgstr "%1$s在圈子%2$s中发了条消息"
+msgstr "%1$s在群%2$s中发了条消息"
 
 #: bp-groups/bp-groups-loader.php:427 bp-groups/bp-groups-loader.php:457
 msgid "Memberships"
@@ -3884,15 +3882,15 @@ msgstr "照片"
 
 #: bp-groups/bp-groups-loader.php:591
 msgid "Requests"
-msgstr "加入圈子申请"
+msgstr "入群申请"
 
 #: bp-groups/bp-groups-loader.php:722
 msgid "No Group Profile Photo"
-msgstr "没有圈子头像"
+msgstr "没有群头像"
 
 #: bp-groups/bp-groups-notifications.php:64
 msgid "Group Details Updated"
-msgstr "圈子详细信息已更新"
+msgstr "群详细信息已更新"
 
 #: bp-groups/bp-groups-notifications.php:83
 msgid ""
@@ -3902,15 +3900,15 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"圈子“%1$s”的详细信息已更新：%2$s\n"
+"群“%1$s”的详细信息已更新：%2$s\n"
 "\n"
-"查看圈子：%3$s\n"
+"查看群：%3$s\n"
 "\n"
 "---------------------\n"
 
 #: bp-groups/bp-groups-notifications.php:194
 msgid "Membership request for group: %s"
-msgstr "加入圈子的申请：%s"
+msgstr "入群的申请：%s"
 
 #: bp-groups/bp-groups-notifications.php:197
 msgid ""
@@ -3928,13 +3926,13 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"%1$s想要加入圈子“%2$s”。\n"
+"%1$s想要加入群“%2$s”。\n"
 "\n"
 "来自%1$s的消息：“%3$s”\n"
 "\n"
-"因为您是该圈子的管理员，所以您必须接受或者拒绝该入圈子申请。\n"
+"因为您是该群的管理员，所以您必须接受或者拒绝该入群申请。\n"
 "\n"
-"查看所有要加入该圈子的待处理申请，请访问：\n"
+"查看所有要加入该群的待处理申请，请访问：\n"
 "%4$s\n"
 "\n"
 "查看%5$s的资料：%6$s\n"
@@ -3955,11 +3953,11 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"%1$s想加入圈子“%2$s”。\n"
+"%1$s想加入群“%2$s”。\n"
 "\n"
-"因为您是该圈子的管理员，您必须接受或拒绝该入圈子申请。\n"
+"因为您是该群的管理员，您必须接受或拒绝该入群申请。\n"
 "\n"
-"查看该圈子所有待处理申请，请访问：\n"
+"查看该群所有待处理申请，请访问：\n"
 "%3$s\n"
 "\n"
 "查看%4$s的资料：%5$s\n"
@@ -3968,7 +3966,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-notifications.php:327
 msgid "Membership request for group \"%s\" accepted"
-msgstr "加入圈子“%s”的申请已接受"
+msgstr "加入群“%s”的申请已接受"
 
 #: bp-groups/bp-groups-notifications.php:328
 msgid ""
@@ -3978,15 +3976,15 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"您加入圈子“%1$s”的申请已被接受。\n"
+"您加入群“%1$s”的申请已被接受。\n"
 "\n"
-"查看圈子请登录并访问：%2$s\n"
+"查看群请登录并访问：%2$s\n"
 "\n"
 "---------------------\n"
 
 #: bp-groups/bp-groups-notifications.php:337
 msgid "Membership request for group \"%s\" rejected"
-msgstr "加入圈子“%s”的请求已拒绝"
+msgstr "加入群“%s”的请求已拒绝"
 
 #: bp-groups/bp-groups-notifications.php:338
 msgid ""
@@ -3996,7 +3994,7 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"您加入圈子\"%1$s\"的申请已被拒绝。\n"
+"您加入群\"%1$s\"的申请已被拒绝。\n"
 "\n"
 "再次提交申请请登录并访问：%2$s\n"
 "\n"
@@ -4012,7 +4010,7 @@ msgstr "监管员"
 
 #: bp-groups/bp-groups-notifications.php:444
 msgid "You have been promoted in the group: \"%s\""
-msgstr "您在圈子“%s”中已被提升。"
+msgstr "您在群“%s”中已被提升。"
 
 #: bp-groups/bp-groups-notifications.php:445
 msgid ""
@@ -4022,15 +4020,15 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"您已被提升为%1$s，所在圈子为：“%2$s”。\n"
+"您已被提升为%1$s，所在群为：“%2$s”。\n"
 "\n"
-"查看圈子请访问：%3$s\n"
+"查看群请访问：%3$s\n"
 "\n"
 "---------------------\n"
 
 #: bp-groups/bp-groups-notifications.php:556
 msgid "You have an invitation to the group: \"%s\""
-msgstr "您有一个来自圈子“%s”的邀请"
+msgstr "您有一个来自群“%s”的邀请"
 
 #: bp-groups/bp-groups-notifications.php:557
 msgid ""
@@ -4044,11 +4042,11 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"您的一位好友%1$s邀请您加入圈子：“%2$s”。\n"
+"您的一位好友%1$s邀请您加入群：“%2$s”。\n"
 "\n"
-"查看您的圈子邀请：%3$s\n"
+"查看您的群邀请：%3$s\n"
 "\n"
-"查看圈子：%4$s\n"
+"查看群：%4$s\n"
 "\n"
 "查看%5$s的资料：%6$s\n"
 "\n"
@@ -4056,76 +4054,76 @@ msgstr ""
 
 #: bp-groups/bp-groups-notifications.php:655
 msgid "%1$d new membership requests for the group \"%2$s\""
-msgstr "有%1$d个新请求要加入圈子“%2$s”"
+msgstr "有%1$d个新请求要加入群“%2$s”"
 
 #: bp-groups/bp-groups-notifications.php:676
 msgid "Group Membership Requests"
-msgstr "加入圈子请求"
+msgstr "入群请求"
 
 #: bp-groups/bp-groups-notifications.php:701
 #: bp-groups/bp-groups-notifications.php:721
 msgid "%s requests group membership"
-msgstr "%s请求加入圈子"
+msgstr "%s请求加入群"
 
 #: bp-groups/bp-groups-notifications.php:756
 msgid "%d accepted group membership requests"
-msgstr "已接受%d个申请加入圈子的请求"
+msgstr "已接受%d个入群请求"
 
 #: bp-groups/bp-groups-notifications.php:795
 msgid "Membership for group \"%s\" accepted"
-msgstr "加入圈子“%s”的请求已接受"
+msgstr "加入群“%s”的请求已接受"
 
 #: bp-groups/bp-groups-notifications.php:845
 msgid "%d rejected group membership requests"
-msgstr "已拒绝%d个申请加入圈子请求"
+msgstr "已拒绝%d个入群请求"
 
 #: bp-groups/bp-groups-notifications.php:884
 msgid "Membership for group \"%s\" rejected"
-msgstr "加入圈子“%s”的请求已拒绝"
+msgstr "加入群“%s”的请求已拒绝"
 
 #: bp-groups/bp-groups-notifications.php:933
 msgid "You were promoted to an admin in %d groups"
-msgstr "您已成为%d个圈子的管理员"
+msgstr "您已成为%d个群的管理员"
 
 #: bp-groups/bp-groups-notifications.php:968
 msgid "You were promoted to an admin in the group \"%s\""
-msgstr "您已成为圈子“%s”的管理员"
+msgstr "您已成为群“%s”的管理员"
 
 #: bp-groups/bp-groups-notifications.php:1015
 msgid "You were promoted to a mod in %d groups"
-msgstr "您已经成为%d个圈子的监管员"
+msgstr "您已经成为%d个群的监管员"
 
 #: bp-groups/bp-groups-notifications.php:1050
 msgid "You were promoted to a mod in the group \"%s\""
-msgstr "您已经成为圈子“%s”的监管员"
+msgstr "您已经成为群“%s”的监管员"
 
 #: bp-groups/bp-groups-notifications.php:1098
 msgid "You have %d new group invitations"
-msgstr "您有%d个新圈子邀请"
+msgstr "您有%d个新群邀请"
 
 #: bp-groups/bp-groups-notifications.php:1113
 msgid "Group Invites"
-msgstr "圈子邀请"
+msgstr "群邀请"
 
 #: bp-groups/bp-groups-notifications.php:1132
 msgid "You have an invitation to the group: %s"
-msgstr "您有一个来自圈子%s的邀请"
+msgstr "您有一个来自群%s的邀请"
 
 #: bp-groups/bp-groups-screens.php:77
 msgid "Group invite could not be accepted"
-msgstr "圈子邀请无法接受"
+msgstr "群邀请无法接受"
 
 #: bp-groups/bp-groups-screens.php:79 bp-groups/bp-groups-screens.php:704
 msgid "Group invite accepted"
-msgstr "圈子邀请已接受"
+msgstr "群邀请已接受"
 
 #: bp-groups/bp-groups-screens.php:104
 msgid "Group invite could not be rejected"
-msgstr "圈子邀请无法拒绝"
+msgstr "群邀请无法拒绝"
 
 #: bp-groups/bp-groups-screens.php:106
 msgid "Group invite rejected"
-msgstr "圈子邀请已拒绝"
+msgstr "群邀请已拒绝"
 
 #: bp-groups/bp-groups-screens.php:211
 msgid "It looks like you've already said that!"
@@ -4205,15 +4203,15 @@ msgstr "该帖子已成功更新"
 
 #: bp-groups/bp-groups-screens.php:482 bp-groups/bp-groups-screens.php:508
 msgid "You have been banned from this group."
-msgstr "您已被该圈子屏蔽。"
+msgstr "您已被该群屏蔽。"
 
 #: bp-groups/bp-groups-screens.php:522
 msgid "This group does not have a forum setup yet."
-msgstr "该圈子还没有相配套的论坛。"
+msgstr "该群还没有相配套的论坛。"
 
 #: bp-groups/bp-groups-screens.php:617
 msgid "Group invites sent."
-msgstr "圈子邀请已发送。"
+msgstr "群邀请已发送。"
 
 #: bp-groups/bp-groups-screens.php:673
 msgid "You are not allowed to send or remove invites"
@@ -4221,43 +4219,42 @@ msgstr "您没有权限发送或删除邀请。"
 
 #: bp-groups/bp-groups-screens.php:676
 msgid "The member requested to join the group"
-msgstr "申请加入圈子的会员"
+msgstr "入申请群的会员"
 
 #: bp-groups/bp-groups-screens.php:706
 msgid "There was an error accepting the group invitation. Please try again."
-msgstr "接受圈子邀请时出现错误。请再尝试一次。"
+msgstr "接受群邀请时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:718
 msgid ""
 "There was an error sending your group membership request. Please try again."
-msgstr "发送您的加入圈子请求时出现错误。请再尝试一次。"
+msgstr "发送您的入群请求时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:720
 msgid ""
 "Your membership request was sent to the group administrator successfully. "
 "You will be notified when the group administrator responds to your request."
-msgstr ""
-"您的加入圈子请求已成功发送给圈子管理员。当圈子管理员回复时，您将收到通知。"
+msgstr "您的入群请求已成功发送给群管理员。当群管理员回复时，您将收到通知。"
 
 #: bp-groups/bp-groups-screens.php:793
 msgid "There was an error updating group details. Please try again."
-msgstr "更新圈子详细信息时出现错误。请再尝试一次。"
+msgstr "更新群详细信息时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:795
 msgid "Group details were successfully updated."
-msgstr "圈子详细信息已成功更新。"
+msgstr "群详细信息已成功更新。"
 
 #: bp-groups/bp-groups-screens.php:863
 msgid "There was an error updating group settings. Please try again."
-msgstr "更新圈子设置时出现错误。请再尝试一次。"
+msgstr "更新群设置时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:865
 msgid "Group settings were successfully updated."
-msgstr "圈子设置已成功更新。"
+msgstr "群设置已成功更新。"
 
 #: bp-groups/bp-groups-screens.php:968
 msgid "The new group profile photo was uploaded successfully."
-msgstr "新的圈子头像已上传成功。"
+msgstr "新的群头像已上传成功。"
 
 #: bp-groups/bp-groups-screens.php:1016
 msgid "There was an error when promoting that user. Please try again."
@@ -4293,7 +4290,7 @@ msgstr "用户已成功解除屏蔽"
 
 #: bp-groups/bp-groups-screens.php:1127
 msgid "There was an error removing that user from the group. Please try again."
-msgstr "从圈子中移除成员时出现错误。请再尝试一次。"
+msgstr "从群中移除成员时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:1129
 msgid "User removed successfully"
@@ -4301,43 +4298,43 @@ msgstr "用户已成功移除"
 
 #: bp-groups/bp-groups-screens.php:1191
 msgid "There was an error accepting the membership request. Please try again."
-msgstr "接受加入圈子请求时出现错误。请再尝试一次。"
+msgstr "接受入群请求时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:1193
 msgid "Group membership request accepted"
-msgstr "加入圈子请求已接受"
+msgstr "入群请求已接受"
 
 #: bp-groups/bp-groups-screens.php:1202
 msgid "There was an error rejecting the membership request. Please try again."
-msgstr "拒绝加入圈子请求时出现错误。请再尝试一次。"
+msgstr "拒绝入群请求时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:1204
 msgid "Group membership request rejected"
-msgstr "加入圈子请求已拒绝"
+msgstr "入群请求已拒绝"
 
 #: bp-groups/bp-groups-screens.php:1271 bp-xprofile/bp-xprofile-admin.php:295
 msgid "There was an error deleting the group. Please try again."
-msgstr "删除圈子时出现错误。请再尝试一次。"
+msgstr "删除群时出现错误。请再尝试一次。"
 
 #: bp-groups/bp-groups-screens.php:1273
 msgid "The group was deleted successfully"
-msgstr "圈子已成功删除"
+msgstr "群已成功删除"
 
 #: bp-groups/bp-groups-template.php:804
 msgid "Public Group"
-msgstr "公共圈子"
+msgstr "公共群"
 
 #: bp-groups/bp-groups-template.php:806
 msgid "Hidden Group"
-msgstr "私密圈子"
+msgstr "私密群"
 
 #: bp-groups/bp-groups-template.php:808
 msgid "Private Group"
-msgstr "私人圈子"
+msgstr "私人群"
 
 #: bp-groups/bp-groups-template.php:810
 msgid "Group"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-template.php:1017
 msgid "not yet active"
@@ -4345,7 +4342,7 @@ msgstr "还没有任何更新"
 
 #: bp-groups/bp-groups-template.php:1502
 msgid "Group creator profile photo of %s"
-msgstr "圈子建立者%s的头像"
+msgstr "群主%s的头像"
 
 #: bp-groups/bp-groups-template.php:1577
 msgid "No Admins"
@@ -4357,18 +4354,18 @@ msgstr "没有监管员"
 
 #: bp-groups/bp-groups-template.php:1750
 msgid "Filter Groups"
-msgstr "筛选圈子"
+msgstr "筛选群"
 
 #: bp-groups/bp-groups-template.php:1840
 msgid "Viewing 1 group"
-msgstr "显示1个圈子"
+msgstr "显示1个群"
 
 #: bp-groups/bp-groups-template.php:1586
 #, c-format
 msgid "Viewing %1$s - %2$s of %3$s group"
 msgid_plural "Viewing %1$s - %2$s of %3$s groups"
-msgstr[0] "显示%3$s个圈子中的%1$s - %2$s个"
-msgstr[1] "显示%3$s个圈子中的%1$s - %2$s个"
+msgstr[0] "显示%3$s个群中的%1$s - %2$s个"
+msgstr[1] "显示%3$s个群中的%1$s - %2$s个"
 
 #: bp-groups/bp-groups-template.php:1930
 msgid "%s member"
@@ -4397,7 +4394,7 @@ msgstr "加入的时间 %s"
 
 #: bp-groups/bp-groups-template.php:2355
 msgid "This group has no administrators"
-msgstr "该圈子没有管理员"
+msgstr "该群没有管理员"
 
 #: bp-groups/bp-groups-template.php:2393
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:273
@@ -4407,26 +4404,26 @@ msgstr "晋升为管理员"
 
 #: bp-groups/bp-groups-template.php:2427
 msgid "This group has no moderators"
-msgstr "该圈子没有监管员"
+msgstr "该群没有监管员"
 
 #: bp-groups/bp-groups-template.php:2747
 msgid ""
 "This action should not be used directly. Please use the BuddyPress Group "
 "Extension API to generate Manage tabs."
 msgstr ""
-"这个操作不能直接执行。请使用BuddyPress圈子扩展应用程序接口（BuddyPress Group "
+"这个操作不能直接执行。请使用BuddyPress群扩展应用程序接口（BuddyPress Group "
 "Extension API）生成“管理”标签。"
 
 #: bp-groups/bp-groups-template.php:3270 bp-groups/bp-groups-template.php:3271
 #: bp-templates/bp-legacy/buddypress-functions.php:1441
 #: bp-templates/bp-legacy/buddypress-functions.php:1454
 msgid "Leave Group"
-msgstr "退出圈子"
+msgstr "退出群"
 
 #: bp-groups/bp-groups-template.php:3292 bp-groups/bp-groups-template.php:3293
 #: bp-templates/bp-legacy/buddypress-functions.php:1475
 msgid "Join Group"
-msgstr "加入圈子"
+msgstr "加入群"
 
 #: bp-groups/bp-groups-template.php:3311 bp-groups/bp-groups-template.php:3312
 msgid "Accept Invitation"
@@ -4439,39 +4436,39 @@ msgstr "请求已发送"
 #: bp-groups/bp-groups-template.php:3343 bp-groups/bp-groups-template.php:3344
 #: bp-templates/bp-legacy/buddypress-functions.php:1477
 msgid "Request Membership"
-msgstr "请求加入圈子"
+msgstr "请求加群"
 
 #: bp-groups/bp-groups-template.php:3488
 msgid "This group is not currently accessible."
-msgstr "该圈子现在还无法访问。"
+msgstr "该群现在还无法访问。"
 
 #: bp-groups/bp-groups-template.php:3499
 msgid ""
 "You must accept your pending invitation before you can access this private "
 "group."
-msgstr "在您能加入该私人圈子之前，您必须接受邀请。"
+msgstr "在您能加入该私人群之前，您必须接受邀请。"
 
 #: bp-groups/bp-groups-template.php:3501
 msgid ""
 "This is a private group and you must request group membership in order to "
 "join."
-msgstr "这是一个私人圈子而且您必须要先申请加入才能进入该圈子。"
+msgstr "这是一个私人群而且您必须要先申请加入才能入群。"
 
 #: bp-groups/bp-groups-template.php:3504
 msgid ""
 "This is a private group. To join you must be a registered site member and "
 "request group membership."
-msgstr "这是一个私人圈子。想要加入的话，您必须是已注册用户并申请加入该圈子。"
+msgstr "这是一个私人群。想要加入的话，您必须是已注册用户并申请加入该群。"
 
 #: bp-groups/bp-groups-template.php:3507
 msgid ""
 "This is a private group. Your membership request is awaiting approval from "
 "the group administrator."
-msgstr "这是一个私人圈子。您的加入申请正在等待圈子管理员审核。"
+msgstr "这是一个私人群。您的加入申请正在等待群管理员审核。"
 
 #: bp-groups/bp-groups-template.php:3515
 msgid "This is a hidden group and only invited members can join."
-msgstr "这是一个私密圈子，只有被邀请的成员才能加入。"
+msgstr "这是一个隐藏的群，只有被邀请的成员才能加入。"
 
 #: bp-groups/bp-groups-template.php:4289
 #: bp-notifications/bp-notifications-template.php:1252
@@ -4493,7 +4490,7 @@ msgstr "最早的"
 
 #: bp-groups/bp-groups-template.php:4295
 msgid "Group Activity"
-msgstr "圈子动态"
+msgstr "群动态"
 
 #: bp-groups/bp-groups-template.php:4298
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:85
@@ -4507,7 +4504,7 @@ msgstr "按字母顺序"
 
 #: bp-groups/bp-groups-template.php:4612 bp-groups/bp-groups-template.php:4914
 msgid "Group avatar"
-msgstr "圈子头像"
+msgstr "群头像"
 
 #: bp-groups/bp-groups-template.php:4799 bp-groups/bp-groups-template.php:4822
 msgid "Recently Joined"
@@ -4551,17 +4548,17 @@ msgstr[1] "显示%3$s个邀请中的%1$s - %2$s个"
 
 #: bp-groups/bp-groups-template.php:5748
 msgid "Group Activity RSS Feed"
-msgstr "圈子动态RSS信息"
+msgstr "群动态RSS信息"
 
 #: bp-groups/bp-groups-template.php:6039
 msgid "%s group"
 msgid_plural "%s groups"
-msgstr[0] "%s个圈子"
-msgstr[1] "%s个圈子"
+msgstr[0] "%s个群"
+msgstr[1] "%s个群"
 
 #: bp-groups/bp-groups-widgets.php:24
 msgid "A dynamic list of recently active, popular, and newest groups"
-msgstr "最近建立的、热门的和最新圈子的动态列表"
+msgstr "最近建立的、热门的和最新群的动态列表"
 
 #: bp-groups/bp-groups-widgets.php:110 bp-groups/bp-groups-widgets.php:222
 msgid "created %s"
@@ -4569,23 +4566,23 @@ msgstr "建立时间 %s"
 
 #: bp-groups/bp-groups-widgets.php:129
 msgid "There are no groups to display."
-msgstr "没有可供显示的圈子。"
+msgstr "没有可供显示的群。"
 
 #: bp-groups/bp-groups-widgets.php:166
 msgid "Link widget title to Groups directory"
-msgstr "把小工具标题链接到圈子目录"
+msgstr "把小工具标题链接到群目录"
 
 #: bp-groups/bp-groups-widgets.php:168
 msgid "Max groups to show:"
-msgstr "最多显示的圈子数："
+msgstr "最多显示的群数："
 
 #: bp-groups/bp-groups-widgets.php:171
 msgid "Default groups to show:"
-msgstr "默认显示的圈子数："
+msgstr "默认显示的群数："
 
 #: bp-groups/bp-groups-widgets.php:240
 msgid "No groups matched the current filter."
-msgstr "没有圈子符合搜索条件。"
+msgstr "没有群符合搜索条件。"
 
 #: bp-groups/classes/class-bp-group-extension.php:851
 msgid "You do not have access to this content."
@@ -4593,7 +4590,7 @@ msgstr "您无法访问这个内容。"
 
 #: bp-groups/classes/class-bp-groups-member.php:279
 msgid "Group Mod"
-msgstr "圈子监管员"
+msgstr "群监管员"
 
 #: bp-loader.php:171 bp-loader.php:178
 msgid "Cheatin&#8217; huh?"
@@ -5827,12 +5824,12 @@ msgstr "我的好友 <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:83
 msgid "The activity of groups I am a member of."
-msgstr "我所在圈子的动态。"
+msgstr "我所在群的动态。"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:83
 #: bp-templates/bp-legacy/buddypress/groups/index.php:46
 msgid "My Groups <span>%s</span>"
-msgstr "我的圈子 <span>%s</span>"
+msgstr "我的群 <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:100
 msgid "The activity I've marked as a favorite."
@@ -5934,12 +5931,12 @@ msgid ""
 "If you'd like to remove the existing group profile photo but not upload a "
 "new one, please use the delete group profile photo button."
 msgstr ""
-"如果您想要删除现有的圈子头像但又不想上传一个新的，请使用“删除圈子头像”按钮。"
+"如果您想要删除现有的群头像但又不想上传一个新的，请使用“删除群头像”按钮。"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:41
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:181
 msgid "Delete Group Profile Photo"
-msgstr "删除圈子头像"
+msgstr "删除群头像"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/uploader.php:15
 msgid "The web browser on your device cannot be used to upload files."
@@ -6050,7 +6047,7 @@ msgstr "标签（用英文逗号分隔）："
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:168
 msgid "Post In Group Forum:"
-msgstr "发布在圈子论坛中："
+msgstr "发布在群论坛中："
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:195
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:119
@@ -6065,19 +6062,19 @@ msgid ""
 "href='%s'>create a new group</a>? Once you have joined or created the group "
 "you can post your topic in that group's forum."
 msgstr ""
-"您不是任何一个圈子的成员，所以您不能在任何圈子论坛中发布主题。开始发帖前，请"
-"搜索一个您喜欢的主题标题。如果该圈子没有建立，为什么不<a href='%s'>建立一个圈"
-"子</a>呢？一旦您加入或建立了一个圈子，您便可以在圈子论坛中发布主题了。"
+"您不是任何一个群的成员，所以您不能在任何群论坛中发布主题。开始发帖前，请搜索"
+"一个您喜欢的主题标题。如果该群没有建立，为什么不<a href='%s'>建立一个群</a>"
+"呢？一旦您加入或建立了一个群，您便可以在群论坛中发布主题了。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:60
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:30
 msgid "Group Name (required)"
-msgstr "圈子名称（必填）"
+msgstr "群名称（必填）"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:65
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:33
 msgid "Group Description (required)"
-msgstr "圈子描述（必填）"
+msgstr "群描述（必填）"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:95
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:91
@@ -6087,12 +6084,12 @@ msgstr "隐私选项"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:98
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:96
 msgid "This is a public group"
-msgstr "这是一个公共圈子"
+msgstr "这是一个公共群"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:100
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:98
 msgid "Any site member can join this group."
-msgstr "任意会员都可以加入该圈子。"
+msgstr "任意会员都可以加入该群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:101
 #: bp-templates/bp-legacy/buddypress/groups/create.php:112
@@ -6100,22 +6097,22 @@ msgstr "任意会员都可以加入该圈子。"
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:109
 msgid ""
 "This group will be listed in the groups directory and in search results."
-msgstr "该圈子会在圈子目录和搜索结果中显示。"
+msgstr "该群会在群目录和搜索结果中显示。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:102
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:100
 msgid "Group content and activity will be visible to any site member."
-msgstr "圈子内容和圈子动态将对任何会员可见。"
+msgstr "群内容和群动态将对任何会员可见。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:108
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:106
 msgid "This is a private group"
-msgstr "这是一个私人圈子"
+msgstr "这是一个私人群"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:111
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:108
 msgid "Only users who request membership and are accepted can join the group."
-msgstr "只有发送好友请求并被接受的用户才可以加入圈子。"
+msgstr "只有发送好友请求并被接受的用户才可以加入群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:113
 #: bp-templates/bp-legacy/buddypress/groups/create.php:124
@@ -6123,45 +6120,45 @@ msgstr "只有发送好友请求并被接受的用户才可以加入圈子。"
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:120
 msgid ""
 "Group content and activity will only be visible to members of the group."
-msgstr "圈子内容和圈子动态只对圈子成员可见。"
+msgstr "群内容和群动态只对群成员可见。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:119
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:116
 msgid "This is a hidden group"
-msgstr "这是一个私密圈子"
+msgstr "这是一个私密群"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:122
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:118
 msgid "Only users who are invited can join the group."
-msgstr "只有被邀请的用户才可以加入该圈子。"
+msgstr "只有被邀请的用户才可以加入该群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:123
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:119
 msgid ""
 "This group will not be listed in the groups directory or search results."
-msgstr "该圈子不会在圈子目录或搜索结果中显示。"
+msgstr "该群不会在群目录或搜索结果中显示。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:129
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:127
 msgid "Group Invitations"
-msgstr "圈子邀请"
+msgstr "群邀请"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:131
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:129
 msgid "Which members of this group are allowed to invite others?"
-msgstr "圈子中的哪些成员可以邀请其他人？"
+msgstr "群中的哪些成员可以邀请其他人？"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:156
 msgid "Should this group have a forum?"
-msgstr "这个圈子应该有个论坛吗？"
+msgstr "这个群应该有个论坛吗？"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:163
 msgid ""
 "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
 "\">correct setup and configuration</a> of a bbPress installation."
 msgstr ""
-"<strong>站点管理员请注意：</strong>圈子论坛需要您先<a href=\"%s\">正确安装并"
-"设置</a>bbPress。"
+"<strong>站点管理员请注意：</strong>群论坛需要您先<a href=\"%s\">正确安装并设"
+"置</a>bbPress。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:203
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:169
@@ -6169,8 +6166,7 @@ msgid ""
 "Upload an image to use as a profile photo for this group. The image will be "
 "shown on the main group page, and in search results."
 msgstr ""
-"为该圈子上传一张照片作为圈子的头像。该照片将会显示在圈子首页以及圈子搜索结果"
-"中。"
+"为该群上传一张照片作为群的头像。该照片将会显示在群首页以及群搜索结果中。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:207
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:173
@@ -6181,11 +6177,11 @@ msgstr "上传照片"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:211
 msgid ""
 "To skip the group profile photo upload process, hit the \"Next Step\" button."
-msgstr "按“下一步”按钮跳过圈子头像上传操作。"
+msgstr "按“下一步”按钮跳过群头像上传操作。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:226
 msgid "Crop Group Profile Photo"
-msgstr "裁剪圈子头像"
+msgstr "裁剪群头像"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:228
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:201
@@ -6211,7 +6207,7 @@ msgstr "删除邀请"
 msgid ""
 "Once you have built up friend connections you will be able to invite others "
 "to your group."
-msgstr "一旦您加了好友，您就能把他们邀请到您的圈子里。"
+msgstr "一旦您加了好友，您就能把他们邀请到您的群里。"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:367
 msgid "Back to Previous Step"
@@ -6223,7 +6219,7 @@ msgstr "下一步"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:381
 msgid "Create Group and Continue"
-msgstr "建立圈子并继续"
+msgstr "建立群并继续"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:388
 msgid "Finish"
@@ -6231,11 +6227,11 @@ msgstr "完成"
 
 #: bp-templates/bp-legacy/buddypress/groups/groups-loop.php:132
 msgid "There were no groups found."
-msgstr "没有找到圈子。"
+msgstr "没有找到群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:43
 msgid "All Groups <span>%s</span>"
-msgstr "所有圈子 <span>%s</span>"
+msgstr "所有群 <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:78
 #: bp-templates/bp-legacy/buddypress/members/single/groups.php:23
@@ -6249,7 +6245,7 @@ msgstr "按最新建立的"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:47
 msgid "Notify group members of these changes via email"
-msgstr "这些修改会通过邮件通知圈子中的成员。"
+msgstr "这些修改会通过邮件通知群中的成员。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:199
 msgid "Crop Profile Photo"
@@ -6285,22 +6281,21 @@ msgstr "移除该成员"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:333
 msgid "Remove from group"
-msgstr "从圈子中移除"
+msgstr "从群中移除"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:354
 msgid "This group has no members."
-msgstr "该圈子没有成员。"
+msgstr "该群没有成员。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:425
 msgid ""
 "WARNING: Deleting this group will completely remove ALL content associated "
 "with it. There is no way back, please be careful with this option."
-msgstr ""
-"警告：删除圈子将连带删除所有相关的圈子信息。该步骤无法恢复，请谨慎行事。"
+msgstr "警告：删除群将连带删除所有相关的群信息。该步骤无法恢复，请谨慎行事。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:428
 msgid "I understand the consequences of deleting this group."
-msgstr "我知道删除这个圈子的后果。"
+msgstr "我知道删除这个群的后果。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:23
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:24
@@ -6334,7 +6329,7 @@ msgstr "该主题没有回复。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:169
 msgid "You will auto join this group when you reply to this topic."
-msgstr "在回复该主题的时候，您会自动加入该圈子。"
+msgstr "在回复该主题的时候，您会自动加入该群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:181
 msgid "Add a reply:"
@@ -6350,7 +6345,7 @@ msgstr "该主题已关闭，不再接受回复。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:94
 msgid "You will auto join this group when you start a new topic."
-msgstr "在新建主题的时候，您会自动加入该圈子。"
+msgstr "在新建主题的时候，您会自动加入该群。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:98
 msgid "Post a New Topic:"
@@ -6358,11 +6353,11 @@ msgstr "新建一个主题："
 
 #: bp-templates/bp-legacy/buddypress/groups/single/group-header.php:16
 msgid "Group Admins"
-msgstr "圈子管理员"
+msgstr "群管理员"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/group-header.php:36
 msgid "Group Mods"
-msgstr "圈子监管员"
+msgstr "群监管员"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:102
 msgid "Select friends to invite."
@@ -6374,7 +6369,7 @@ msgstr "没有找到成员"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:11
 msgid "You are requesting to become a member of the group '%s'."
-msgstr "您请求成为圈子'%s'的成员。"
+msgstr "您请求成为群'%s'的成员。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:14
 msgid "Comments (optional)"
@@ -6398,7 +6393,7 @@ msgstr "拒绝"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/requests-loop.php:76
 msgid "There are no pending membership requests."
-msgstr "目前没有待处理的入圈子请求。"
+msgstr "目前没有待处理的入群请求。"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:22
 msgid "Send Invites"
@@ -6406,17 +6401,17 @@ msgstr "发送邀请"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:37
 msgid "Group invitations can only be extended to friends."
-msgstr "圈子邀请仅限于好友"
+msgstr "群邀请仅限于好友"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:38
 msgid ""
 "Once you've made some friendships, you'll be able to invite those members to "
 "this group."
-msgstr "一旦您加了好友，您就能够把他们邀请到这个圈子来"
+msgstr "一旦您加了好友，您就能够把他们邀请到这个群来"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:46
 msgid "All of your friends already belong to this group."
-msgstr "您所有的好友都已经在这个圈子里了。"
+msgstr "您所有的好友都已经在这个群里了。"
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:31
 msgid ""
@@ -6526,7 +6521,7 @@ msgstr "站点标题"
 msgid ""
 "You have successfully created your account! Please log in using the username "
 "and password you have just created."
-msgstr "您的账户已新建成功！请使用您新建的用户名和密码进行登录。"
+msgstr "您的账户已经建立成功！请使用您建立的用户名和密码进行登录。"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:323
 msgid "Complete Sign Up"
@@ -6538,8 +6533,8 @@ msgid ""
 "will need to activate your account via the email we have just sent to your "
 "address."
 msgstr ""
-"您已成功新建了您的帐户！使用该站点之前，您需要激活您的帐户。该信息是通过邮件"
-"发送到您的邮箱里的。"
+"您已成功建立您的帐户！使用该站点之前，您需要激活您的帐户。该信息是通过邮件发"
+"送到您的邮箱里的。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:96
 msgid "You have no pending friendship requests."
@@ -6547,7 +6542,7 @@ msgstr "您没有待处理的好友请求。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:60
 msgid "You have no outstanding group invites."
-msgstr "您没有未处理的圈子邀请。"
+msgstr "您没有未处理的群邀请。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:12
 msgid "Send To (Username or Friend's Name)"
@@ -6727,7 +6722,7 @@ msgstr "该用户是个垃圾信息发送者。"
 msgid ""
 "Deleting your account will delete all of the content you have created. It "
 "will be completely irrecoverable."
-msgstr "删除您的账号会同时删除该账号的所有内容。删除后不可恢复。"
+msgstr "删除您的账号会同时删除该账号所有内容。删除后不可恢复。"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:14
 msgid ""
@@ -6792,7 +6787,7 @@ msgstr "评论"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:302
 msgid "Are you sure you want to leave this group?"
-msgstr "您确定要退出该圈子吗？"
+msgstr "您确定要退出该群吗？"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:304
 msgid "My Favorites"
@@ -6833,7 +6828,7 @@ msgstr "删除时发生错误。请再尝试一次。"
 msgid ""
 "%s has previously requested to join this group. Sending an invitation will "
 "automatically add the member to the group."
-msgstr "%s之前申请过加入此圈子。发送邀请后将自动将该成员加入。"
+msgstr "%s之前申请过加入此群。发送邀请后将自动将该成员加入。"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1353
 msgid " Friendship could not be requested."
@@ -6857,20 +6852,20 @@ msgstr "拒绝该请求时发生错误。请再尝试一次。"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1439
 msgid "Error joining group"
-msgstr "加入圈子时出错"
+msgstr "加入群时出错"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1452
 #: bp-templates/bp-legacy/buddypress-functions.php:1462
 msgid "Error requesting membership"
-msgstr "请求加入圈子时出错"
+msgstr "请求入群时出错"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1464
 msgid "Membership Requested"
-msgstr "加入圈子请求已发"
+msgstr "入群请求已发"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1473
 msgid "Error leaving group"
-msgstr "退出圈子时出错"
+msgstr "退出群时出错"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1496
 msgid "There was a problem closing the notice."
@@ -7188,8 +7183,8 @@ msgid ""
 "BuddyPress helps you run any kind of social network on your WordPress, with "
 "member profiles, activity streams, user groups, messaging, and more."
 msgstr ""
-"Buddypress 拥有成员个人资料、动态流、用户圈子、消息以及更多的功能，帮助您在您"
-"的Wordpress上运行各式各样的社交网站。"
+"Buddypress 拥有成员个人资料、动态流、用户群、消息以及更多的功能，帮助您在您的"
+"Wordpress上运行各式各样的社交网站。"
 
 #. Author of the plugin/theme
 msgid "The BuddyPress Community"
@@ -7298,7 +7293,7 @@ msgstr "目录"
 #: bp-groups/bp-groups-loader.php:166
 msgctxt "component directory title"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-members/bp-members-loader.php:103
 msgctxt "component directory title"
@@ -7333,7 +7328,7 @@ msgstr "好友"
 #: bp-activity/bp-activity-loader.php:216
 msgctxt "Profile activity screen sub nav"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-activity/bp-activity-loader.php:261
 msgctxt "Toolbar Mention logged in user"
@@ -7368,7 +7363,7 @@ msgstr "好友"
 #: bp-activity/bp-activity-loader.php:319
 msgctxt "My Account Activity sub nav"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-activity/bp-activity-loader.php:343
 msgctxt "Page and <title>"
@@ -7408,7 +7403,7 @@ msgstr "(BuddyPress) 好友"
 #: bp-groups/bp-groups-widgets.php:27
 msgctxt "widget name"
 msgid "(BuddyPress) Groups"
-msgstr "(BuddyPress) 圈子"
+msgstr "(BuddyPress) 群"
 
 #: bp-members/bp-members-widgets.php:38
 msgctxt "widget name"
@@ -7515,7 +7510,7 @@ msgstr "动态"
 #: bp-core/bp-core-functions.php:641
 msgctxt "Page title for the Groups directory."
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-core/bp-core-functions.php:642
 msgctxt "Page title for the Sites directory."
@@ -7560,7 +7555,7 @@ msgstr "会员"
 #: bp-core/bp-core-template.php:505
 msgctxt "search form"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-core/bp-core-template.php:509
 msgctxt "search form"
@@ -7680,12 +7675,12 @@ msgstr "有会员接受了您的好友请求"
 #: bp-groups/bp-groups-admin.php:32
 msgctxt "Admin Groups page title"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-admin.php:33
 msgctxt "Admin Groups menu"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-admin.php:131
 msgctxt "group admin edit screen"
@@ -7710,7 +7705,7 @@ msgstr "管理成员"
 #: bp-groups/bp-groups-admin.php:153
 msgctxt "Groups per page (screen options)"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-admin.php:877
 msgctxt "Group member user_id in group admin"
@@ -7725,7 +7720,7 @@ msgstr "名字"
 #: bp-groups/bp-groups-admin.php:879
 msgctxt "Group member role in group admin"
 msgid "Group Role"
-msgstr "圈子角色"
+msgstr "群角色"
 
 #: bp-groups/bp-groups-admin.php:1446
 msgctxt "Groups admin Group Name column header"
@@ -7755,22 +7750,22 @@ msgstr "最后更新"
 #: bp-groups/bp-groups-adminbar.php:67
 msgctxt "Group WP Admin Bar manage links"
 msgid "Edit Group %s"
-msgstr "编辑圈子%s"
+msgstr "编辑群%s"
 
 #: bp-groups/bp-groups-adminbar.php:71
 msgctxt "Group WP Admin Bar delete link"
 msgid "%s Group"
-msgstr "%s圈子"
+msgstr "%s群"
 
 #: bp-groups/bp-groups-loader.php:90
 msgctxt "Group screen page <title>"
 msgid "User Groups"
-msgstr "用户圈子"
+msgstr "用户群"
 
 #: bp-groups/bp-groups-loader.php:168
 msgctxt "Component directory search"
 msgid "Search Groups..."
-msgstr "搜索圈子..."
+msgstr "搜索群..."
 
 #: bp-groups/bp-groups-loader.php:291
 msgctxt "Group screen nav"
@@ -7795,17 +7790,17 @@ msgstr "邀请"
 #: bp-groups/bp-groups-loader.php:489
 msgctxt "Group screen nav"
 msgid "Request Membership"
-msgstr "加入圈子请求"
+msgstr "入群请求"
 
 #: bp-groups/bp-groups-loader.php:398
 msgctxt "Group screen nav with counter"
 msgid "Groups <span class=\"%s\">%s</span>"
-msgstr "圈子 <span class=\"%s\">%s</span>"
+msgstr "群 <span class=\"%s\">%s</span>"
 
 #: bp-groups/bp-groups-loader.php:400
 msgctxt "Group screen nav without counter"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-loader.php:469
 msgctxt "Group screen navigation title"
@@ -7835,7 +7830,7 @@ msgstr "管理"
 #: bp-groups/bp-groups-loader.php:644
 msgctxt "My Account Groups"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-loader.php:645
 msgctxt "My Account Groups sub nav"
@@ -7855,12 +7850,12 @@ msgstr "成员列表"
 #: bp-groups/bp-groups-loader.php:681
 msgctxt "My Account Groups sub nav"
 msgid "Create a Group"
-msgstr "建立一个圈子"
+msgstr "建立一个群"
 
 #: bp-groups/bp-groups-loader.php:648
 msgctxt "My Account Groups nav"
 msgid "Groups <span class=\"count\">%s</span>"
-msgstr "圈子 <span class=\"count\">%s</span>"
+msgstr "群 <span class=\"count\">%s</span>"
 
 #: bp-groups/bp-groups-loader.php:699
 msgctxt "My Groups page <title>"
@@ -7880,32 +7875,32 @@ msgstr "* 描述由“%s”改为了“%s”"
 #: bp-groups/bp-groups-screens.php:1331
 msgctxt "Group settings on notification settings page"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-screens.php:1340
 msgctxt "group settings on notification settings page"
 msgid "A member invites you to join a group"
-msgstr "有成员邀请您加入一个圈子"
+msgstr "有成员邀请您加入一个群"
 
 #: bp-groups/bp-groups-screens.php:1346
 msgctxt "group settings on notification settings page"
 msgid "Group information is updated"
-msgstr "圈子信息已更新"
+msgstr "群信息已更新"
 
 #: bp-groups/bp-groups-screens.php:1352
 msgctxt "group settings on notification settings page"
 msgid "You are promoted to a group administrator or moderator"
-msgstr "您已被提升为圈子管理员或是监管员"
+msgstr "您已晋升为群管理员或是监管员"
 
 #: bp-groups/bp-groups-screens.php:1358
 msgctxt "group settings on notification settings page"
 msgid "A member requests to join a private group for which you are an admin"
-msgstr "有会员申请加入您所管理的私人圈子"
+msgstr "有会员申请加入您所管理的私人群"
 
 #: bp-groups/bp-groups-screens.php:1543
 msgctxt "Group creation page"
 msgid "Groups"
-msgstr "圈子"
+msgstr "群"
 
 #: bp-groups/bp-groups-template.php:364
 msgctxt "Group pagination previous text"
