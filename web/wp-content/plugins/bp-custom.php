@@ -124,25 +124,3 @@ function custom_upload_mimes ( $existing_mimes = array() ) {
 }
 add_filter('upload_mimes', 'custom_upload_mimes');
 /** END - restrict mime types */
-
-//function my_counter_nav_menu($menu) {
-
-//    var_dump(explode("\n", $menu));
-//    throw new \Exception(var_export($menu));
-
-//    $notif_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'notifications/';
-//    $friends_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'friends/';
-//    $msg_url = bp_core_get_user_domain(bp_loggedin_user_id()) .'messages/';
-//
-//    if (!is_user_logged_in())
-//        return $menu;
-//    else
-//        $notif = '<ul><li><a href=" ' .$notif_url. ' ">Notif ['. bp_notifications_get_unread_notification_count( bp_loggedin_user_id() ) .']</a></li>
-//        <li><a href=" ' .$friends_url. ' ">Friends ['. friends_get_friend_count_for_user( bp_loggedin_user_id() ) .']</a></li>
-//        <li><a href=" ' .$msg_url. ' ">Messages ['.  bp_get_total_unread_messages_count( bp_loggedin_user_id() ) .']</a></li></ul>
-//        ';
-//
-//    $menu = $menu . $notif;
-//    return $menu;
-//}
-//add_filter( 'wp_nav_menu_items', 'my_counter_nav_menu' );
