@@ -147,6 +147,11 @@ article .article-meta {
 	}
 }
 
+/* fix the article font-size */
+article .article-meta .entry-date {
+	font-size: 11px;
+}
+
 /* re-styling kleo drop-down arrow */
 .kleo-toggle-menu .kleo-toggle-submenu:before {
 	position: absolute;
