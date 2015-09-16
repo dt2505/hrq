@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress 2.3.0\n"
 "Report-Msgid-Bugs-To: https://buddypress.trac.wordpress.org\n"
 "POT-Creation-Date: 2015-06-05 13:48:17+00:00\n"
-"PO-Revision-Date: 2015-09-01 21:58+1000\n"
+"PO-Revision-Date: 2015-09-14 22:31+1000\n"
 "Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "Language: Chinese (China)\n"
@@ -7174,6 +7174,10 @@ msgstr "编辑资料组"
 #: bp-xprofile/classes/class-bp-xprofile-group.php:686
 msgid "Field Group Name"
 msgstr "资料组名称"
+
+#: bp-xprofile/classes/class-bp-xprofile-group.php:691
+msgid "Field Group Description"
+msgstr "资料组描述"
 
 #: bp-xprofile/classes/class-bp-xprofile-group.php:691
 msgid "Field Description"
